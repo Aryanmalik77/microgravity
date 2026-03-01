@@ -31,11 +31,17 @@ class CustomProvider(LLMProvider):
     def _parse(self, response: Any) -> LLMResponse:
         choice = response.choices[0]
         msg = choice.message
-        tool_calls = [
-            ToolCallRequest(id=tc.id, name=tc.function.name,
-                            arguments=json_repair.loads(tc.function.arguments) if isinstance(tc.function.arguments, str) else tc.function.arguments)
-            for tc in (msg.tool_calls or [])
-        ]
+        tool_calls = []
+        for tc in (msg.tool_calls or []):
+            args = tc.function.arguments
+            if isinstance(args, str):
+                try:
+                    args = json_repair.loads(args)
+                    if not isinstance(args, dict):
+                        args = {}
+                except Exception:
+                    args = {}
+            tool_calls.append(ToolCallRequest(id=tc.id, name=tc.function.name, arguments=args))
         u = response.usage
         return LLMResponse(
             content=msg.content, tool_calls=tool_calls, finish_reason=choice.finish_reason or "stop",

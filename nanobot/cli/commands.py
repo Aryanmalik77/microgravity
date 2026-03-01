@@ -169,21 +169,21 @@ def onboard():
         if typer.confirm("Overwrite?"):
             config = Config()
             save_config(config)
-            console.print(f"[green]✓[/green] Config reset to defaults at {config_path}")
+            console.print(f"[green]OK[/green] Config reset to defaults at {config_path}")
         else:
             config = load_config()
             save_config(config)
-            console.print(f"[green]✓[/green] Config refreshed at {config_path} (existing values preserved)")
+            console.print(f"[green]OK[/green] Config refreshed at {config_path} (existing values preserved)")
     else:
         save_config(Config())
-        console.print(f"[green]✓[/green] Created config at {config_path}")
+        console.print(f"[green]OK[/green] Created config at {config_path}")
     
     # Create workspace
     workspace = get_workspace_path()
     
     if not workspace.exists():
         workspace.mkdir(parents=True, exist_ok=True)
-        console.print(f"[green]✓[/green] Created workspace at {workspace}")
+        console.print(f"[green]OK[/green] Created workspace at {workspace}")
     
     # Create default bootstrap files
     _create_workspace_templates(workspace)
@@ -210,7 +210,7 @@ You are a helpful AI assistant. Be concise, accurate, and friendly.
 - Always explain what you're doing before taking actions
 - Ask for clarification when the request is ambiguous
 - Use tools to help accomplish tasks
-- Remember important information in memory/MEMORY.md; past events are logged in memory/HISTORY.md
+- Remember important information using the `update_memory` tool; search past events with the `search_history` tool.
 """,
         "SOUL.md": """# Soul
 
@@ -246,33 +246,9 @@ Information about the user goes here.
             file_path.write_text(content, encoding="utf-8")
             console.print(f"  [dim]Created {filename}[/dim]")
     
-    # Create memory directory and MEMORY.md
+    # Create memory directory
     memory_dir = workspace / "memory"
     memory_dir.mkdir(exist_ok=True)
-    memory_file = memory_dir / "MEMORY.md"
-    if not memory_file.exists():
-        memory_file.write_text("""# Long-term Memory
-
-This file stores important information that should persist across sessions.
-
-## User Information
-
-(Important facts about the user)
-
-## Preferences
-
-(User preferences learned over time)
-
-## Important Notes
-
-(Things to remember)
-""", encoding="utf-8")
-        console.print("  [dim]Created memory/MEMORY.md[/dim]")
-    
-    history_file = memory_dir / "HISTORY.md"
-    if not history_file.exists():
-        history_file.write_text("", encoding="utf-8")
-        console.print("  [dim]Created memory/HISTORY.md[/dim]")
 
     # Create skills directory for custom user skills
     skills_dir = workspace / "skills"
@@ -314,6 +290,7 @@ def _make_provider(config: Config):
         default_model=model,
         extra_headers=p.extra_headers if p else None,
         provider_name=provider_name,
+        max_concurrent_calls=config.agents.defaults.max_concurrent_calls,
     )
 
 
@@ -405,15 +382,15 @@ def gateway(
     channels = ChannelManager(config, bus)
     
     if channels.enabled_channels:
-        console.print(f"[green]✓[/green] Channels enabled: {', '.join(channels.enabled_channels)}")
+        console.print(f"[green]OK[/green] Channels enabled: {', '.join(channels.enabled_channels)}")
     else:
         console.print("[yellow]Warning: No channels enabled[/yellow]")
     
     cron_status = cron.status()
     if cron_status["jobs"] > 0:
-        console.print(f"[green]✓[/green] Cron: {cron_status['jobs']} scheduled jobs")
+        console.print(f"[green]OK[/green] Cron: {cron_status['jobs']} scheduled jobs")
     
-    console.print(f"[green]✓[/green] Heartbeat: every 30m")
+    console.print(f"[green]OK[/green] Heartbeat: every 30m")
     
     async def run():
         try:
@@ -621,14 +598,14 @@ def channels_status():
     wa = config.channels.whatsapp
     table.add_row(
         "WhatsApp",
-        "✓" if wa.enabled else "✗",
+        "OK" if wa.enabled else "X",
         wa.bridge_url
     )
 
     dc = config.channels.discord
     table.add_row(
         "Discord",
-        "✓" if dc.enabled else "✗",
+        "OK" if dc.enabled else "X",
         dc.gateway_url
     )
 
@@ -637,7 +614,7 @@ def channels_status():
     fs_config = f"app_id: {fs.app_id[:10]}..." if fs.app_id else "[dim]not configured[/dim]"
     table.add_row(
         "Feishu",
-        "✓" if fs.enabled else "✗",
+        "OK" if fs.enabled else "X",
         fs_config
     )
 
@@ -646,7 +623,7 @@ def channels_status():
     mc_base = mc.base_url or "[dim]not configured[/dim]"
     table.add_row(
         "Mochat",
-        "✓" if mc.enabled else "✗",
+        "OK" if mc.enabled else "X",
         mc_base
     )
     
@@ -655,7 +632,7 @@ def channels_status():
     tg_config = f"token: {tg.token[:10]}..." if tg.token else "[dim]not configured[/dim]"
     table.add_row(
         "Telegram",
-        "✓" if tg.enabled else "✗",
+        "OK" if tg.enabled else "X",
         tg_config
     )
 
@@ -664,7 +641,7 @@ def channels_status():
     slack_config = "socket" if slack.app_token and slack.bot_token else "[dim]not configured[/dim]"
     table.add_row(
         "Slack",
-        "✓" if slack.enabled else "✗",
+        "OK" if slack.enabled else "X",
         slack_config
     )
 
@@ -719,7 +696,7 @@ def _get_bridge_dir() -> Path:
         console.print("  Building...")
         subprocess.run(["npm", "run", "build"], cwd=user_bridge, check=True, capture_output=True)
         
-        console.print("[green]✓[/green] Bridge ready\n")
+        console.print("[green]OK[/green] Bridge ready\n")
     except subprocess.CalledProcessError as e:
         console.print(f"[red]Build failed: {e}[/red]")
         if e.stderr:
@@ -864,7 +841,7 @@ def cron_add(
         console.print(f"[red]Error: {e}[/red]")
         raise typer.Exit(1) from e
 
-    console.print(f"[green]✓[/green] Added job '{job.name}' ({job.id})")
+    console.print(f"[green]OK[/green] Added job '{job.name}' ({job.id})")
 
 
 @cron_app.command("remove")
@@ -879,7 +856,7 @@ def cron_remove(
     service = CronService(store_path)
     
     if service.remove_job(job_id):
-        console.print(f"[green]✓[/green] Removed job {job_id}")
+        console.print(f"[green]OK[/green] Removed job {job_id}")
     else:
         console.print(f"[red]Job {job_id} not found[/red]")
 
@@ -899,7 +876,7 @@ def cron_enable(
     job = service.enable_job(job_id, enabled=not disable)
     if job:
         status = "disabled" if disable else "enabled"
-        console.print(f"[green]✓[/green] Job '{job.name}' {status}")
+        console.print(f"[green]OK[/green] Job '{job.name}' {status}")
     else:
         console.print(f"[red]Job {job_id} not found[/red]")
 
@@ -957,7 +934,7 @@ def cron_run(
         return await service.run_job(job_id, force=force)
 
     if asyncio.run(run()):
-        console.print("[green]✓[/green] Job executed")
+        console.print("[green]OK[/green] Job executed")
         if result_holder:
             _print_agent_response(result_holder[0], render_markdown=True)
     else:
@@ -980,8 +957,8 @@ def status():
 
     console.print(f"{__logo__} nanobot Status\n")
 
-    console.print(f"Config: {config_path} {'[green]✓[/green]' if config_path.exists() else '[red]✗[/red]'}")
-    console.print(f"Workspace: {workspace} {'[green]✓[/green]' if workspace.exists() else '[red]✗[/red]'}")
+    console.print(f"Config: {config_path} {'[green]OK[/green]' if config_path.exists() else '[red]X[/red]'}")
+    console.print(f"Workspace: {workspace} {'[green]OK[/green]' if workspace.exists() else '[red]X[/red]'}")
 
     if config_path.exists():
         from nanobot.providers.registry import PROVIDERS
@@ -994,16 +971,16 @@ def status():
             if p is None:
                 continue
             if spec.is_oauth:
-                console.print(f"{spec.label}: [green]✓ (OAuth)[/green]")
+                console.print(f"{spec.label}: [green]OK (OAuth)[/green]")
             elif spec.is_local:
                 # Local deployments show api_base instead of api_key
                 if p.api_base:
-                    console.print(f"{spec.label}: [green]✓ {p.api_base}[/green]")
+                    console.print(f"{spec.label}: [green]OK {p.api_base}[/green]")
                 else:
                     console.print(f"{spec.label}: [dim]not set[/dim]")
             else:
                 has_key = bool(p.api_key)
-                console.print(f"{spec.label}: {'[green]✓[/green]' if has_key else '[dim]not set[/dim]'}")
+                console.print(f"{spec.label}: {'[green]OK[/green]' if has_key else '[dim]not set[/dim]'}")
 
 
 # ============================================================================
@@ -1063,9 +1040,9 @@ def _login_openai_codex() -> None:
                 prompt_fn=lambda s: typer.prompt(s),
             )
         if not (token and token.access):
-            console.print("[red]✗ Authentication failed[/red]")
+            console.print("[red]X Authentication failed[/red]")
             raise typer.Exit(1)
-        console.print(f"[green]✓ Authenticated with OpenAI Codex[/green]  [dim]{token.account_id}[/dim]")
+        console.print(f"[green]OK Authenticated with OpenAI Codex[/green]  [dim]{token.account_id}[/dim]")
     except ImportError:
         console.print("[red]oauth_cli_kit not installed. Run: pip install oauth-cli-kit[/red]")
         raise typer.Exit(1)
@@ -1083,7 +1060,7 @@ def _login_github_copilot() -> None:
 
     try:
         asyncio.run(_trigger())
-        console.print("[green]✓ Authenticated with GitHub Copilot[/green]")
+        console.print("[green]OK Authenticated with GitHub Copilot[/green]")
     except Exception as e:
         console.print(f"[red]Authentication error: {e}[/red]")
         raise typer.Exit(1)

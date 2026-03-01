@@ -33,9 +33,9 @@ class SpawnTool(Tool):
     @property
     def description(self) -> str:
         return (
-            "Spawn a subagent to handle a task in the background. "
-            "Use this for complex or time-consuming tasks that can run independently. "
-            "The subagent will complete the task and report back when done."
+            "Spawner tool to manage background subagents. "
+            "Action 'spawn': Spawn a subagent to handle a complex/time-consuming task independently. "
+            "Action 'cancel': Cancel a currently running subagent by its task_id if the user requests it."
         )
     
     @property
@@ -43,20 +43,36 @@ class SpawnTool(Tool):
         return {
             "type": "object",
             "properties": {
+                "action": {
+                    "type": "string",
+                    "description": "The action to perform: 'spawn' or 'cancel'. Defaults to 'spawn'.",
+                    "default": "spawn",
+                },
                 "task": {
                     "type": "string",
-                    "description": "The task for the subagent to complete",
+                    "description": "The task for the subagent to complete (required for 'spawn')",
                 },
                 "label": {
                     "type": "string",
                     "description": "Optional short label for the task (for display)",
                 },
+                "task_id": {
+                    "type": "string",
+                    "description": "The ID of the subagent to cancel (required for 'cancel')",
+                }
             },
-            "required": ["task"],
         }
     
-    async def execute(self, task: str, label: str | None = None, **kwargs: Any) -> str:
-        """Spawn a subagent to execute the given task."""
+    async def execute(self, action: str = "spawn", task: str | None = None, label: str | None = None, task_id: str | None = None, **kwargs: Any) -> str:
+        """Spawn or cancel a subagent."""
+        if action == "cancel":
+            if not task_id:
+                return "Error: 'task_id' is required to cancel a subagent."
+            return await self._manager.cancel(task_id)
+            
+        if not task:
+            return "Error: 'task' is required to spawn a subagent."
+            
         return await self._manager.spawn(
             task=task,
             label=label,

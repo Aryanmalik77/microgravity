@@ -8,24 +8,29 @@ always: true
 
 ## Structure
 
-- `memory/MEMORY.md` — Long-term facts (preferences, project context, relationships). Always loaded into your context.
-- `memory/HISTORY.md` — Append-only event log. NOT loaded into context. Search it with grep.
+- **Long-term memory**: Stores facts, preferences, project context, and relationships. It is always loaded into your context.
+- **History log**: An append-only event log. NOT loaded into context. Search it when you need to recall past events.
 
 ## Search Past Events
 
-```bash
-grep -i "keyword" memory/HISTORY.md
-```
+Use the `search_history` tool to query the log:
+- Search for specific keywords or phrases: `search_history(query="deadline")`
 
-Use the `exec` tool to run grep. Combine patterns: `grep -iE "meeting|deadline" memory/HISTORY.md`
+## Semantic Search (Vector Similarity)
 
-## When to Update MEMORY.md
+Use the `semantic_search` tool for **conceptual** searches that go beyond exact keyword matching:
+- `semantic_search(query="conversations about performance", collection="history")` — finds related history entries
+- `semantic_search(query="user preferences", collection="memory")` — finds related long-term memory chunks
 
-Write important facts immediately using `edit_file` or `write_file`:
+Semantic search is best when you need to find related content that may not use the exact same words.
+
+## When to Update Memory
+
+Write important facts immediately using the `update_memory` tool. Ensure you keep existing facts when updating!
 - User preferences ("I prefer dark mode")
 - Project context ("The API uses OAuth2")
 - Relationships ("Alice is the project lead")
 
 ## Auto-consolidation
 
-Old conversations are automatically summarized and appended to HISTORY.md when the session grows large. Long-term facts are extracted to MEMORY.md. You don't need to manage this.
+Old conversations are automatically summarized and appended to the history log when the session grows large. Long-term facts are extracted to the long-term memory. You don't need to manage this consolidation process.

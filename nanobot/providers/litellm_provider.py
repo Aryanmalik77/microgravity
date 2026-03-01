@@ -1,5 +1,6 @@
 """LiteLLM provider implementation for multi-provider support."""
 
+import asyncio
 import json
 import json_repair
 import os
@@ -10,6 +11,21 @@ from litellm import acompletion
 
 from nanobot.providers.base import LLMProvider, LLMResponse, ToolCallRequest
 from nanobot.providers.registry import find_by_model, find_gateway
+
+from loguru import logger
+
+# ── Global concurrency gate ──
+# Shared across ALL provider instances (main agent, subagents, introspection,
+# capability analyzer, failure handler). Prevents overwhelming the Gemini API.
+_llm_semaphore: asyncio.Semaphore | None = None
+_max_concurrent: int = 30
+
+def _get_semaphore() -> asyncio.Semaphore:
+    """Lazily initialize the semaphore in the current event loop."""
+    global _llm_semaphore
+    if _llm_semaphore is None:
+        _llm_semaphore = asyncio.Semaphore(_max_concurrent)
+    return _llm_semaphore
 
 
 # Standard OpenAI chat-completion message keys; extras (e.g. reasoning_content) are stripped for strict providers.
@@ -32,6 +48,7 @@ class LiteLLMProvider(LLMProvider):
         default_model: str = "anthropic/claude-opus-4-5",
         extra_headers: dict[str, str] | None = None,
         provider_name: str | None = None,
+        max_concurrent_calls: int = 30,
     ):
         super().__init__(api_key, api_base)
         self.default_model = default_model
@@ -53,6 +70,13 @@ class LiteLLMProvider(LLMProvider):
         litellm.suppress_debug_info = True
         # Drop unsupported parameters for providers (e.g., gpt-5 rejects some params)
         litellm.drop_params = True
+        
+        # Configure global concurrency limit
+        global _max_concurrent, _llm_semaphore
+        if max_concurrent_calls != _max_concurrent:
+            _max_concurrent = max_concurrent_calls
+            _llm_semaphore = None  # Force re-creation with new limit
+            logger.info("LLM concurrency limit set to {}", max_concurrent_calls)
     
     def _setup_env(self, api_key: str, api_base: str | None, model: str) -> None:
         """Set environment variables based on detected provider."""
@@ -221,7 +245,9 @@ class LiteLLMProvider(LLMProvider):
             kwargs["tool_choice"] = "auto"
         
         try:
-            response = await acompletion(**kwargs)
+            sem = _get_semaphore()
+            async with sem:
+                response = await acompletion(**kwargs)
             return self._parse_response(response)
         except Exception as e:
             # Return error as content for graceful handling
@@ -241,7 +267,12 @@ class LiteLLMProvider(LLMProvider):
                 # Parse arguments from JSON string if needed
                 args = tc.function.arguments
                 if isinstance(args, str):
-                    args = json_repair.loads(args)
+                    try:
+                        args = json_repair.loads(args)
+                        if not isinstance(args, dict):
+                            args = {}
+                    except Exception:
+                        args = {}
                 
                 tool_calls.append(ToolCallRequest(
                     id=tc.id,

@@ -67,6 +67,8 @@ class ExecTool(Tool):
         if guard_error:
             return guard_error
         
+        start_time = asyncio.get_event_loop().time()
+        
         try:
             process = await asyncio.create_subprocess_shell(
                 command,
@@ -90,7 +92,10 @@ class ExecTool(Tool):
                     pass
                 return f"Error: Command timed out after {self.timeout} seconds"
             
-            output_parts = []
+            end_time = asyncio.get_event_loop().time()
+            exec_duration = end_time - start_time
+            
+            output_parts = [f"--- Execution Time: {exec_duration:.2f} seconds ---"]
             
             if stdout:
                 output_parts.append(stdout.decode("utf-8", errors="replace"))
@@ -103,7 +108,7 @@ class ExecTool(Tool):
             if process.returncode != 0:
                 output_parts.append(f"\nExit code: {process.returncode}")
             
-            result = "\n".join(output_parts) if output_parts else "(no output)"
+            result = "\n".join(output_parts) if len(output_parts) > 1 else f"--- Execution Time: {exec_duration:.2f} seconds ---\n(no output)"
             
             # Truncate very long output
             max_len = 10000

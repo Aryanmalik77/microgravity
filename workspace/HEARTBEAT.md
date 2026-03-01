@@ -7,8 +7,10 @@ If this file has no tasks (only headers and comments), the agent will skip the h
 
 ## Active Tasks
 
-<!-- Add your periodic tasks below this line -->
+- [ ] Execute `python nanobot/agent/machine_scanner.py` to continuously index the local OS and update MACHINE_ENV and REPO_CATALOG.
+- [ ] Execute `python nanobot/agent/desktop_calibrator.py` to occasionally scan the desktop UI and cache stable icon X/Y coordinates to UI_ATLAS.
 
+<!-- Add your periodic tasks below this line -->
 
 ## Completed
 

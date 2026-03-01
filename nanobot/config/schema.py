@@ -188,6 +188,7 @@ class AgentDefaults(Base):
     temperature: float = 0.7
     max_tool_iterations: int = 20
     memory_window: int = 50
+    max_concurrent_calls: int = 30  # Max parallel LLM API calls across all agents
 
 
 class AgentsConfig(Base):
