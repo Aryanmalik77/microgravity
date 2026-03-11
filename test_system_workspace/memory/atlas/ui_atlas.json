@@ -1,0 +1,33 @@
+{
+  "contexts": {
+    "Desktop": {
+      "type": "FIXED",
+      "elements": {}
+    },
+    "Taskbar": {
+      "type": "FIXED",
+      "elements": {}
+    },
+    "Chrome": {
+      "elements": {
+        "search bar": {
+          "coords": [
+            400,
+            200,
+            300,
+            40
+          ],
+          "type": "input",
+          "is_invariant": false,
+          "is_permanent": true,
+          "last_verified": 1773171802.5664148
+        }
+      },
+      "type": "DYNAMIC"
+    }
+  },
+  "global_elements": {},
+  "app_profiles": {},
+  "learned_chrome_boundaries": {},
+  "version": "4.0"
+}

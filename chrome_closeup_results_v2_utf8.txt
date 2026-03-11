@@ -1,0 +1,125 @@
+﻿python : 2026-03-10 23:04:55.546 | INFO    
+ | __main__:run_chrome_closeup:20 - --- 
+Starting Live Chrome Closeup ---
+At line:1 char:1
++ python scripts/execute_chrome_closeup.py 
+> chrome_closeup_results_v2. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : (2026-03-10 23:0...ome Closeup ---:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+2026-03-10 23:04:57.633 | INFO     | src.in
+telligence.perception.engine:__init__:23 - 
+[VisionEngine] Initialized with model 
+gemini-2.0-flash-exp
+2026-03-10 23:05:00.194 | INFO     | src.in
+telligence.perception.engine:attach_live_st
+reamer:27 - [VisionEngine] Live Streamer 
+attached.
+2026-03-10 23:05:00.195 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:62 - [LiveStreamer] Attempting 
+connection with models: 
+['gemini-2.0-flash-exp', 
+'gemini-2.5-flash-native-audio-latest', 
+'gemini-2.0-flash-live-001']
+2026-03-10 23:05:00.285 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.0-flash-exp...
+2026-03-10 23:05:00.660 | ERROR    | src.in
+telligence.perception.live_streamer:start_s
+ession:97 - [LiveStreamer] Failed during 
+session for gemini-2.0-flash-exp: 1008 
+None. models/gemini-2.0-flash-exp is not 
+found for API version v1alpha, or is not 
+supported for bidiGenerateContent. Call 
+ListMod
+2026-03-10 23:05:00.878 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.5-flash-native-audio-latest...
+2026-03-10 23:05:01.485 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:81 - [LiveStreamer] Connected with 
+'gemini-2.5-flash-native-audio-latest'
+2026-03-10 23:05:02.215 | INFO     | 
+__main__:run_chrome_closeup:49 - Resolving 
+'Google Search Button' with closeup 
+resolution...
+2026-03-10 23:05:02.216 | INFO     | src.in
+telligence.perception.engine:resolve_target
+_with_zoom:97 - [VisionEngine] Resolving 
+'Google Search Button' (zoom=True, 
+hint=[50, 500])
+2026-03-10 23:05:02.216 | INFO     | src.in
+telligence.perception.engine:resolve_target
+_with_zoom:116 - [VisionEngine] Triggering 
+PASS 2 (Closeup/Zoom)
+2026-03-10 23:05:02.216 | INFO     | src.in
+telligence.perception.live_streamer:set_roi
+:134 - [LiveStreamer] ROI set to (640, 0, 
+1280, 360)
+2026-03-10 23:05:03.814 | INFO     | src.in
+telligence.perception.engine:_zoom_resolve:
+183 - [VisionEngine] Setting callback and 
+sending prompt...
+2026-03-10 23:05:06.027 | INFO     | src.in
+telligence.perception.engine:_callback:168 
+- [VisionEngine] Callback received: 
+dict_keys(['text_response'])
+2026-03-10 23:05:13.815 | ERROR    | src.in
+telligence.perception.engine:_zoom_resolve:
+203 - [VisionEngine] Internal error in 
+_zoom_resolve: 
+2026-03-10 23:05:13.819 | ERROR    | src.in
+telligence.perception.engine:_zoom_resolve:
+205 - Traceback (most recent call last):
+  File 
+"C:\Python314\Lib\asyncio\tasks.py", line 
+488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File 
+"C:\Python314\Lib\asyncio\locks.py", line 
+213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause 
+of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\micro 
+gravity - Copy\src\intelligence\perception\
+engine.py", line 190, in _zoom_resolve
+    await 
+asyncio.wait_for(response_event.wait(), 
+timeout=10.0)
+  File 
+"C:\Python314\Lib\asyncio\tasks.py", line 
+487, in wait_for
+    async with timeouts.timeout(timeout):
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Python314\Lib\asyncio\timeouts.py", 
+line 114, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+2026-03-10 23:05:13.819 | INFO     | src.in
+telligence.perception.live_streamer:reset_r
+oi:138 - [LiveStreamer] ROI reset.
+2026-03-10 23:05:13.819 | SUCCESS  | 
+__main__:run_chrome_closeup:54 - 
+Resolution Result: {'x': 960, 'y': 540}
+2026-03-10 23:05:13.819 | ERROR    | 
+__main__:run_chrome_closeup:61 - Metadata 
+was not stored in UI Atlas.
+2026-03-10 23:05:13.896 | INFO     | 
+__main__:run_chrome_closeup:69 - Closeup 
+task finished.

@@ -1,0 +1,80 @@
+[
+  {
+    "timestamp": 1773171168.9689758,
+    "all_passed": true,
+    "rules_checked": [
+      "R1_NO_REFUSAL",
+      "R2_PREMATURE_STOP",
+      "R6_OBJECTIVE_ALIGNMENT"
+    ],
+    "findings": [
+      {
+        "rule_id": "R1_NO_REFUSAL",
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "rule_id": "R2_PREMATURE_STOP",
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "rule_id": "R6_OBJECTIVE_ALIGNMENT",
+        "passed": true,
+        "reason": "Objective alignment verified."
+      }
+    ]
+  },
+  {
+    "timestamp": 1773171725.7800145,
+    "all_passed": true,
+    "rules_checked": [
+      "R1_NO_REFUSAL",
+      "R2_PREMATURE_STOP",
+      "R6_OBJECTIVE_ALIGNMENT"
+    ],
+    "findings": [
+      {
+        "rule_id": "R1_NO_REFUSAL",
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "rule_id": "R2_PREMATURE_STOP",
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "rule_id": "R6_OBJECTIVE_ALIGNMENT",
+        "passed": true,
+        "reason": "Objective alignment verified."
+      }
+    ]
+  },
+  {
+    "timestamp": 1773171802.584625,
+    "all_passed": true,
+    "rules_checked": [
+      "R1_NO_REFUSAL",
+      "R2_PREMATURE_STOP",
+      "R6_OBJECTIVE_ALIGNMENT"
+    ],
+    "findings": [
+      {
+        "rule_id": "R1_NO_REFUSAL",
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "rule_id": "R2_PREMATURE_STOP",
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "rule_id": "R6_OBJECTIVE_ALIGNMENT",
+        "passed": true,
+        "reason": "Objective alignment verified."
+      }
+    ]
+  }
+]

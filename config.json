@@ -1,0 +1,12 @@
+{
+  "providers": {
+    "gemini": {
+      "api_key": "YOUR_GEMINI_API_KEY_HERE"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "gemini-2.0-flash-exp"
+    }
+  }
+}

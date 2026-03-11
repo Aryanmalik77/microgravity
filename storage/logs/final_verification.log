@@ -1,0 +1,10 @@
+2026-03-10 18:10:31.881 | INFO     | __main__:verify_agentic_loop:18 - --- Starting UI Agent Integration Verification ---
+2026-03-10 18:10:31.882 | WARNING  | __main__:verify_agentic_loop:22 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-10 18:10:31.883 | INFO     | __main__:verify_agentic_loop:27 - [Verify] Initializing components...
+2026-03-10 18:10:31.888 | ERROR    | __main__:verify_agentic_loop:55 - [Verify] Failed: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-03-10 18:10:31.897 | WARNING  | __main__:verify_agentic_loop:64 - [Verify] Kernel was never initialized.
+2026-03-10 22:55:15.018 | INFO     | __main__:verify_agentic_loop:18 - --- Starting UI Agent Integration Verification ---
+2026-03-10 22:55:15.019 | WARNING  | __main__:verify_agentic_loop:22 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-10 22:55:15.020 | INFO     | __main__:verify_agentic_loop:27 - [Verify] Initializing components...
+2026-03-10 22:55:15.025 | ERROR    | __main__:verify_agentic_loop:55 - [Verify] Failed: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-03-10 22:55:15.035 | WARNING  | __main__:verify_agentic_loop:64 - [Verify] Kernel was never initialized.

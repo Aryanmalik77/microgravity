@@ -1,0 +1,185 @@
+2026-03-07 02:49:46.621 | INFO     | __main__:verify_agentic_loop:13 - --- Starting UI Agent Integration Verification ---
+2026-03-07 02:49:46.758 | WARNING  | __main__:verify_agentic_loop:18 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-07 02:58:18.542 | INFO     | __main__:verify_agentic_loop:13 - --- Starting UI Agent Integration Verification ---
+2026-03-07 02:58:18.554 | WARNING  | __main__:verify_agentic_loop:18 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-07 02:59:03.529 | INFO     | __main__:verify_agentic_loop:13 - --- Starting UI Agent Integration Verification ---
+2026-03-07 02:59:03.531 | INFO     | __main__:verify_agentic_loop:22 - [Verify] Initializing components...
+2026-03-07 02:59:06.379 | INFO     | src.intelligence.perception.engine:__init__:21 - [VisionEngine] Initialized with model gemini-2.0-flash-exp
+2026-03-07 02:59:06.382 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-07 02:59:08.814 | INFO     | src.intelligence.perception.engine:attach_live_streamer:25 - [VisionEngine] Live Streamer attached.
+2026-03-07 02:59:09.767 | INFO     | src.kernel.loop:__init__:58 - [KernelLoop] Initialized with Full Agentic Stack
+2026-03-07 02:59:09.768 | INFO     | __main__:verify_agentic_loop:42 - [Verify] Dispatched Task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 02:59:09.768 | INFO     | src.kernel.loop:run_task:83 - [KernelLoop] Starting task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 02:59:09.769 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-07 02:59:09.769 | INFO     | src.kernel.loop:run_task:91 - [KernelLoop] Establishing Live API session...
+2026-03-07 02:59:09.995 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-07 02:59:10.015 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-07 02:59:11.414 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-07 02:59:11.653 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-07 02:59:12.492 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-07 02:59:14.895 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 02:59:14.896 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 02:59:15.515 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 02:59:15.516 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-07 02:59:15.516 | DEBUG    | src.kernel.loop:run_task:124 - [KernelLoop] Acting...
+2026-03-07 02:59:17.609 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 02:59:17.610 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 02:59:18.101 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 02:59:18.101 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-07 02:59:18.102 | DEBUG    | src.kernel.loop:run_task:124 - [KernelLoop] Acting...
+2026-03-07 02:59:20.181 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 02:59:20.183 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 02:59:20.665 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 02:59:20.666 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-07 02:59:20.666 | DEBUG    | src.kernel.loop:run_task:124 - [KernelLoop] Acting...
+2026-03-07 02:59:22.681 | INFO     | src.kernel.loop:run_task:131 - [KernelLoop] Task finished.
+2026-03-07 02:59:22.682 | INFO     | src.kernel.loop:stop:141 - [KernelLoop] Shutdown complete.
+2026-03-07 02:59:22.683 | INFO     | __main__:verify_agentic_loop:47 - --- Verification Cycle Completed ---
+2026-03-07 02:59:22.682 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 02:59:22.684 | INFO     | src.kernel.loop:stop:141 - [KernelLoop] Shutdown complete.
+2026-03-07 02:59:22.685 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 02:59:22.685 | INFO     | __main__:verify_agentic_loop:58 - [Verify] HUD and background services stopped.
+2026-03-07 02:59:38.156 | INFO     | __main__:verify_agentic_loop:13 - --- Starting UI Agent Integration Verification ---
+2026-03-07 02:59:38.156 | INFO     | __main__:verify_agentic_loop:22 - [Verify] Initializing components...
+2026-03-07 02:59:40.862 | INFO     | src.intelligence.perception.engine:__init__:21 - [VisionEngine] Initialized with model gemini-2.0-flash-exp
+2026-03-07 02:59:40.867 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-07 02:59:40.869 | DEBUG    | src.kernel.loop:__init__:42 - [KernelLoop] EventBus ready.
+2026-03-07 02:59:40.870 | DEBUG    | src.kernel.loop:__init__:44 - [KernelLoop] Supervisor ready.
+2026-03-07 02:59:40.872 | DEBUG    | src.kernel.loop:__init__:47 - [KernelLoop] Initializing ScreenObserver...
+2026-03-07 02:59:40.876 | DEBUG    | src.kernel.loop:__init__:49 - [KernelLoop] Initializing WindowObserver...
+2026-03-07 02:59:40.876 | DEBUG    | src.kernel.loop:__init__:51 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-07 02:59:43.134 | INFO     | src.intelligence.perception.engine:attach_live_streamer:25 - [VisionEngine] Live Streamer attached.
+2026-03-07 02:59:43.134 | DEBUG    | src.kernel.loop:__init__:55 - [KernelLoop] Perception stack ready.
+2026-03-07 02:59:43.134 | DEBUG    | src.kernel.loop:__init__:58 - [KernelLoop] Initializing HUD...
+2026-03-07 02:59:43.225 | INFO     | src.kernel.loop:__init__:65 - [KernelLoop] Initialized with Full Agentic Stack
+2026-03-07 02:59:43.226 | INFO     | __main__:verify_agentic_loop:42 - [Verify] Dispatched Task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 02:59:43.226 | INFO     | src.kernel.loop:run_task:90 - [KernelLoop] Starting task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 02:59:43.227 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-07 02:59:43.227 | INFO     | src.kernel.loop:run_task:98 - [KernelLoop] Establishing Live API session...
+2026-03-07 02:59:43.361 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-07 02:59:43.371 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-07 02:59:44.036 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-07 02:59:44.275 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-07 02:59:44.562 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-07 02:59:48.324 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 02:59:48.325 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 02:59:48.864 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 02:59:48.865 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-07 02:59:48.865 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 02:59:50.959 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 02:59:50.960 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 02:59:51.453 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 02:59:51.453 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-07 02:59:51.454 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 02:59:53.559 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 02:59:53.560 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 02:59:54.070 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 02:59:54.070 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-07 02:59:54.070 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 02:59:56.082 | INFO     | src.kernel.loop:run_task:138 - [KernelLoop] Task finished.
+2026-03-07 02:59:56.082 | INFO     | src.kernel.loop:stop:148 - [KernelLoop] Shutdown complete.
+2026-03-07 02:59:56.083 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 02:59:56.083 | INFO     | __main__:verify_agentic_loop:47 - --- Verification Cycle Completed ---
+2026-03-07 02:59:56.084 | INFO     | src.kernel.loop:stop:148 - [KernelLoop] Shutdown complete.
+2026-03-07 02:59:56.084 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 02:59:56.084 | INFO     | __main__:verify_agentic_loop:58 - [Verify] HUD and background services stopped.
+2026-03-07 03:00:10.011 | INFO     | __main__:verify_agentic_loop:13 - --- Starting UI Agent Integration Verification ---
+2026-03-07 03:00:10.012 | INFO     | __main__:verify_agentic_loop:22 - [Verify] Initializing components...
+2026-03-07 03:00:12.338 | INFO     | src.intelligence.perception.engine:__init__:21 - [VisionEngine] Initialized with model gemini-1.5-flash
+2026-03-07 03:00:12.339 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-07 03:00:12.339 | DEBUG    | src.kernel.loop:__init__:42 - [KernelLoop] EventBus ready.
+2026-03-07 03:00:12.340 | DEBUG    | src.kernel.loop:__init__:44 - [KernelLoop] Supervisor ready.
+2026-03-07 03:00:12.340 | DEBUG    | src.kernel.loop:__init__:47 - [KernelLoop] Initializing ScreenObserver...
+2026-03-07 03:00:12.340 | DEBUG    | src.kernel.loop:__init__:49 - [KernelLoop] Initializing WindowObserver...
+2026-03-07 03:00:12.341 | DEBUG    | src.kernel.loop:__init__:51 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-07 03:00:14.982 | INFO     | src.intelligence.perception.engine:attach_live_streamer:25 - [VisionEngine] Live Streamer attached.
+2026-03-07 03:00:14.983 | DEBUG    | src.kernel.loop:__init__:55 - [KernelLoop] Perception stack ready.
+2026-03-07 03:00:14.983 | DEBUG    | src.kernel.loop:__init__:58 - [KernelLoop] Initializing HUD...
+2026-03-07 03:00:15.077 | INFO     | src.kernel.loop:__init__:65 - [KernelLoop] Initialized with Full Agentic Stack
+2026-03-07 03:00:15.077 | INFO     | __main__:verify_agentic_loop:42 - [Verify] Dispatched Task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 03:00:15.077 | INFO     | src.kernel.loop:run_task:90 - [KernelLoop] Starting task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 03:00:15.078 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-07 03:00:15.078 | INFO     | src.kernel.loop:run_task:98 - [KernelLoop] Establishing Live API session...
+2026-03-07 03:00:15.232 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-07 03:00:15.243 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-07 03:00:15.920 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-07 03:00:16.160 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-07 03:00:16.800 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-07 03:00:20.180 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 03:00:20.182 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 03:00:20.747 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 03:00:20.748 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-07 03:00:20.748 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 03:00:22.836 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 03:00:22.837 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 03:00:23.316 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 03:00:23.316 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-07 03:00:23.316 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 03:00:25.398 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 03:00:25.399 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 03:00:26.353 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 03:00:26.353 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-07 03:00:26.353 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 03:00:28.356 | INFO     | src.kernel.loop:run_task:138 - [KernelLoop] Task finished.
+2026-03-07 03:00:28.357 | INFO     | src.kernel.loop:stop:148 - [KernelLoop] Shutdown complete.
+2026-03-07 03:00:28.357 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 03:00:28.358 | INFO     | __main__:verify_agentic_loop:47 - --- Verification Cycle Completed ---
+2026-03-07 03:00:28.358 | INFO     | src.kernel.loop:stop:148 - [KernelLoop] Shutdown complete.
+2026-03-07 03:00:28.359 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 03:00:28.359 | INFO     | __main__:verify_agentic_loop:58 - [Verify] HUD and background services stopped.
+2026-03-07 03:02:42.751 | INFO     | __main__:verify_agentic_loop:13 - --- Starting UI Agent Integration Verification ---
+2026-03-07 03:02:42.751 | INFO     | __main__:verify_agentic_loop:22 - [Verify] Initializing components...
+2026-03-07 03:02:45.379 | INFO     | src.intelligence.perception.engine:__init__:21 - [VisionEngine] Initialized with model gemini-2.0-flash-exp
+2026-03-07 03:02:45.380 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-07 03:02:45.380 | DEBUG    | src.kernel.loop:__init__:42 - [KernelLoop] EventBus ready.
+2026-03-07 03:02:45.380 | DEBUG    | src.kernel.loop:__init__:44 - [KernelLoop] Supervisor ready.
+2026-03-07 03:02:45.381 | DEBUG    | src.kernel.loop:__init__:47 - [KernelLoop] Initializing ScreenObserver...
+2026-03-07 03:02:45.381 | DEBUG    | src.kernel.loop:__init__:49 - [KernelLoop] Initializing WindowObserver...
+2026-03-07 03:02:45.385 | DEBUG    | src.kernel.loop:__init__:51 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-07 03:02:47.506 | INFO     | src.intelligence.perception.engine:attach_live_streamer:25 - [VisionEngine] Live Streamer attached.
+2026-03-07 03:02:47.507 | DEBUG    | src.kernel.loop:__init__:55 - [KernelLoop] Perception stack ready.
+2026-03-07 03:02:47.508 | DEBUG    | src.kernel.loop:__init__:58 - [KernelLoop] Initializing HUD...
+2026-03-07 03:02:47.598 | INFO     | src.kernel.loop:__init__:65 - [KernelLoop] Initialized with Full Agentic Stack
+2026-03-07 03:02:47.598 | INFO     | __main__:verify_agentic_loop:42 - [Verify] Dispatched Task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 03:02:47.599 | INFO     | src.kernel.loop:run_task:90 - [KernelLoop] Starting task: Analyze the current screen and identify the 'Start' button.
+2026-03-07 03:02:47.600 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-07 03:02:47.600 | INFO     | src.kernel.loop:run_task:98 - [KernelLoop] Establishing Live API session...
+2026-03-07 03:02:47.740 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-07 03:02:47.749 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-07 03:02:48.166 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-07 03:02:48.397 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-07 03:02:49.041 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-07 03:02:52.696 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 03:02:52.697 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-07 03:02:53.576 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 03:02:53.577 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-07 03:02:53.577 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 03:02:55.876 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 03:02:55.877 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-07 03:02:56.588 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 03:02:56.588 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-07 03:02:56.588 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 03:02:58.874 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 03:02:58.876 | INFO     | src.intelligence.perception.engine:get_ui_state:60 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-07 03:02:59.373 | ERROR    | src.intelligence.perception.engine:get_ui_state:70 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-07 03:02:59.373 | INFO     | src.kernel.loop:run_task:115 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-07 03:02:59.374 | DEBUG    | src.kernel.loop:run_task:131 - [KernelLoop] Acting...
+2026-03-07 03:03:01.376 | INFO     | src.kernel.loop:run_task:138 - [KernelLoop] Task finished.
+2026-03-07 03:03:01.377 | INFO     | src.kernel.loop:stop:148 - [KernelLoop] Shutdown complete.
+2026-03-07 03:03:01.377 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 03:03:01.378 | INFO     | __main__:verify_agentic_loop:47 - --- Verification Cycle Completed ---
+2026-03-07 03:03:01.378 | INFO     | src.kernel.loop:stop:148 - [KernelLoop] Shutdown complete.
+2026-03-07 03:03:01.378 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-07 03:03:01.379 | INFO     | __main__:verify_agentic_loop:58 - [Verify] HUD and background services stopped.
+2026-03-10 18:09:20.802 | INFO     | __main__:verify_agentic_loop:17 - --- Starting UI Agent Integration Verification ---
+2026-03-10 18:09:20.804 | WARNING  | __main__:verify_agentic_loop:22 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-10 18:09:20.805 | INFO     | __main__:verify_agentic_loop:26 - [Verify] Initializing components...
+2026-03-10 18:09:20.822 | ERROR    | __main__:verify_agentic_loop:54 - [Verify] Failed: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-03-10 18:09:38.942 | INFO     | __main__:verify_agentic_loop:17 - --- Starting UI Agent Integration Verification ---
+2026-03-10 18:09:38.943 | WARNING  | __main__:verify_agentic_loop:22 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-10 18:09:38.943 | INFO     | __main__:verify_agentic_loop:26 - [Verify] Initializing components...
+2026-03-10 18:09:38.948 | ERROR    | __main__:verify_agentic_loop:54 - [Verify] Failed: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-03-10 18:10:11.437 | INFO     | __main__:verify_agentic_loop:17 - --- Starting UI Agent Integration Verification ---
+2026-03-10 18:10:11.438 | WARNING  | __main__:verify_agentic_loop:22 - GEMINI_API_KEY is missing. Live Streamer will fail to connect.
+2026-03-10 18:10:11.439 | INFO     | __main__:verify_agentic_loop:26 - [Verify] Initializing components...
+2026-03-10 18:10:11.445 | ERROR    | __main__:verify_agentic_loop:54 - [Verify] Failed: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.

@@ -1,0 +1,396 @@
+2026-03-11 02:00:07.110 | INFO     | __main__:run_live_test:25 - --- Starting UI Agent LIVE Test ---
+2026-03-11 02:00:07.113 | INFO     | __main__:run_live_test:26 - Goal: Open Start menu and search for Notepad.
+2026-03-11 02:00:14.644 | INFO     | src.intelligence.perception.engine:__init__:23 - [VisionEngine] Initialized with model gemini-2.0-flash-exp
+2026-03-11 02:00:14.644 | INFO     | src.kernel.interceptor:__init__:38 - [SafetyInterceptor] RulesEngine attached.
+2026-03-11 02:00:14.679 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-11 02:00:14.682 | DEBUG    | src.kernel.loop:__init__:57 - [KernelLoop] EventBus ready.
+2026-03-11 02:00:14.682 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenObserver...
+2026-03-11 02:00:14.683 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowObserver...
+2026-03-11 02:00:14.684 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-11 02:00:20.871 | INFO     | src.intelligence.perception.engine:attach_live_streamer:27 - [VisionEngine] Live Streamer attached.
+2026-03-11 02:00:25.522 | INFO     | src.kernel.introspection:__init__:112 - [IntrospectionEngine] Initialized with gemini-2.0-flash-exp.
+2026-03-11 02:00:25.523 | DEBUG    | src.kernel.loop:__init__:72 - [KernelLoop] Observatory/Introspection ready.
+2026-03-11 02:00:25.523 | DEBUG    | src.kernel.loop:__init__:73 - [KernelLoop] Perception stack ready.
+2026-03-11 02:00:25.523 | DEBUG    | src.kernel.loop:__init__:76 - [KernelLoop] Initializing HUD...
+2026-03-11 02:00:27.044 | INFO     | src.kernel.loop:__init__:83 - [KernelLoop] Initialized with Full Agentic Stack at OPERATOR Mode
+2026-03-11 02:00:27.045 | INFO     | __main__:run_live_test:55 - [LiveTest] Dispatched: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:00:27.045 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Starting task: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:00:27.053 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Dispatcher] Analyzing task: Open the Windows Start menu and type 'Notepad'....
+2026-03-11 02:00:27.053 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Dispatcher] Classification Strategy: DETERMINISTIC
+2026-03-11 02:00:27.054 | WARNING  | src.kernel.loop:run_task:121 - [KernelLoop] Task classified as DETERMINISTIC. Bypassing heavy LLM reasoning loop.
+2026-03-11 02:00:27.054 | DEBUG    | src.memory.profile_store:find_macro_for_task:97 - [UIProfileStore] No macro matched for task (best score: 0).
+2026-03-11 02:00:27.054 | ERROR    | src.kernel.loop:run_task:132 - [KernelLoop] No matching macro found for deterministic task: 'Open the Windows Start menu and type 'Notepad'.'
+2026-03-11 02:00:27.055 | WARNING  | src.kernel.loop:run_task:133 - [KernelLoop] Falling back to exploratory OTA loop...
+2026-03-11 02:00:27.055 | INFO     | src.kernel.loop:run_task:140 - [KernelLoop] Task classified as DETERMINISTIC. Engaging cognitive OTA loop.
+2026-03-11 02:00:27.102 | INFO     | src.kernel.observatory:set_attention_mode:27 - [Observatory] Transitioning attention mode: DIFFUSED -> FOCUSED
+2026-03-11 02:00:27.103 | INFO     | src.intelligence.cognition:stop:30 - [Cognition] Diffused Attention Monitor STOPPED.
+2026-03-11 02:00:27.104 | INFO     | src.kernel.loop:run_task:147 - [KernelLoop] Establishing Live API session...
+2026-03-11 02:00:27.102 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-11 02:00:27.624 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-11 02:00:27.642 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-11 02:00:28.178 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-11 02:00:28.434 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-11 02:00:29.139 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-11 02:00:32.245 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:00:32.246 | INFO     | src.intelligence.perception.engine:get_ui_state:62 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:00:33.289 | ERROR    | src.intelligence.perception.engine:get_ui_state:72 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:33.290 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-11 02:00:33.290 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:00:33.381 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1_after.png
+2026-03-11 02:00:33.382 | INFO     | src.intelligence.perception.engine:verify_change:77 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:00:34.092 | ERROR    | src.intelligence.perception.engine:verify_change:89 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:34.092 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:00:34.093 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 1/3)
+2026-03-11 02:00:34.093 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:00:34.280 | ERROR    | src.kernel.introspection:evaluate_adaptive:400 - [IntrospectionEngine] Adaptive eval failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:35.384 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:00:35.385 | INFO     | src.intelligence.perception.engine:get_ui_state:62 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:00:35.863 | ERROR    | src.intelligence.perception.engine:get_ui_state:72 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:35.864 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-11 02:00:35.864 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:00:35.949 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2_after.png
+2026-03-11 02:00:35.950 | INFO     | src.intelligence.perception.engine:verify_change:77 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:00:36.606 | ERROR    | src.intelligence.perception.engine:verify_change:89 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:36.606 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:00:36.606 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 2/3)
+2026-03-11 02:00:36.606 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:00:36.736 | ERROR    | src.kernel.introspection:evaluate_adaptive:400 - [IntrospectionEngine] Adaptive eval failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:37.831 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:00:37.833 | INFO     | src.intelligence.perception.engine:get_ui_state:62 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:00:38.334 | ERROR    | src.intelligence.perception.engine:get_ui_state:72 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:38.334 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-11 02:00:38.334 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:00:38.425 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3_after.png
+2026-03-11 02:00:38.426 | INFO     | src.intelligence.perception.engine:verify_change:77 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:00:39.083 | ERROR    | src.intelligence.perception.engine:verify_change:89 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:00:39.084 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:00:39.084 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 3/3)
+2026-03-11 02:00:39.084 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 - [Evaluator] THRESHOLD REACHED: 3 consecutive failures. Initiating Diagnostic Auto-Tune...
+2026-03-11 02:00:39.084 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 - [Evaluator] Diagnosis: Element too small or obscured. Mutating zoom_level.
+2026-03-11 02:00:39.084 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigManager] Auto-tuning triggered: Zoom increased from 1.0x to 1.5x
+2026-03-11 02:00:39.085 | WARNING  | src.kernel.loop:run_task:265 - [KernelLoop] SYSTEM RESTART FLAG CAUGHT. Re-booting loop with new constraints...
+2026-03-11 02:00:39.085 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:00:39.085 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:00:39.086 | INFO     | __main__:run_live_test:61 - --- LIVE Test Completed ---
+2026-03-11 02:00:39.086 | INFO     | __main__:run_live_test:68 - [LiveTest] Shutting down kernel...
+2026-03-11 02:00:39.086 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:00:39.087 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:01:08.106 | INFO     | __main__:run_live_test:25 - --- Starting UI Agent LIVE Test ---
+2026-03-11 02:01:08.107 | INFO     | __main__:run_live_test:26 - Goal: Open Start menu and search for Notepad.
+2026-03-11 02:01:13.857 | INFO     | src.intelligence.perception.engine:__init__:24 - [VisionEngine] Initialized with model gemini-2.0-flash-exp
+2026-03-11 02:01:13.857 | INFO     | src.kernel.interceptor:__init__:38 - [SafetyInterceptor] RulesEngine attached.
+2026-03-11 02:01:13.882 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-11 02:01:13.882 | DEBUG    | src.kernel.loop:__init__:57 - [KernelLoop] EventBus ready.
+2026-03-11 02:01:13.882 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenObserver...
+2026-03-11 02:01:13.883 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowObserver...
+2026-03-11 02:01:13.884 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-11 02:01:18.864 | INFO     | src.intelligence.perception.engine:attach_live_streamer:28 - [VisionEngine] Live Streamer attached.
+2026-03-11 02:01:23.483 | INFO     | src.kernel.introspection:__init__:112 - [IntrospectionEngine] Initialized with gemini-2.0-flash-exp.
+2026-03-11 02:01:23.484 | DEBUG    | src.kernel.loop:__init__:72 - [KernelLoop] Observatory/Introspection ready.
+2026-03-11 02:01:23.484 | DEBUG    | src.kernel.loop:__init__:73 - [KernelLoop] Perception stack ready.
+2026-03-11 02:01:23.484 | DEBUG    | src.kernel.loop:__init__:76 - [KernelLoop] Initializing HUD...
+2026-03-11 02:01:23.935 | INFO     | src.kernel.loop:__init__:83 - [KernelLoop] Initialized with Full Agentic Stack at OPERATOR Mode
+2026-03-11 02:01:23.936 | INFO     | __main__:run_live_test:55 - [LiveTest] Dispatched: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:01:23.936 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Starting task: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:01:23.940 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Dispatcher] Analyzing task: Open the Windows Start menu and type 'Notepad'....
+2026-03-11 02:01:23.940 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Dispatcher] Classification Strategy: DETERMINISTIC
+2026-03-11 02:01:23.940 | WARNING  | src.kernel.loop:run_task:121 - [KernelLoop] Task classified as DETERMINISTIC. Bypassing heavy LLM reasoning loop.
+2026-03-11 02:01:23.941 | DEBUG    | src.memory.profile_store:find_macro_for_task:97 - [UIProfileStore] No macro matched for task (best score: 0).
+2026-03-11 02:01:23.941 | ERROR    | src.kernel.loop:run_task:132 - [KernelLoop] No matching macro found for deterministic task: 'Open the Windows Start menu and type 'Notepad'.'
+2026-03-11 02:01:23.941 | WARNING  | src.kernel.loop:run_task:133 - [KernelLoop] Falling back to exploratory OTA loop...
+2026-03-11 02:01:23.941 | INFO     | src.kernel.loop:run_task:140 - [KernelLoop] Task classified as DETERMINISTIC. Engaging cognitive OTA loop.
+2026-03-11 02:01:23.968 | INFO     | src.kernel.observatory:set_attention_mode:27 - [Observatory] Transitioning attention mode: DIFFUSED -> FOCUSED
+2026-03-11 02:01:23.970 | INFO     | src.intelligence.cognition:stop:30 - [Cognition] Diffused Attention Monitor STOPPED.
+2026-03-11 02:01:23.969 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-11 02:01:23.970 | INFO     | src.kernel.loop:run_task:147 - [KernelLoop] Establishing Live API session...
+2026-03-11 02:01:24.423 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-11 02:01:24.438 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-11 02:01:24.903 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-11 02:01:25.132 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-11 02:01:25.835 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-11 02:01:29.100 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:01:29.101 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:01:29.740 | ERROR    | src.intelligence.perception.engine:get_ui_state:73 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:29.741 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-11 02:01:29.741 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:01:29.827 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1_after.png
+2026-03-11 02:01:29.829 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:01:30.505 | ERROR    | src.intelligence.perception.engine:verify_change:90 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:30.506 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:01:30.506 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 1/3)
+2026-03-11 02:01:30.506 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:01:31.033 | ERROR    | src.kernel.introspection:evaluate_adaptive:400 - [IntrospectionEngine] Adaptive eval failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:32.144 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:01:32.145 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:01:32.667 | ERROR    | src.intelligence.perception.engine:get_ui_state:73 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:32.668 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-11 02:01:32.668 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:01:32.761 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2_after.png
+2026-03-11 02:01:32.762 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:01:33.486 | ERROR    | src.intelligence.perception.engine:verify_change:90 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:33.486 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:01:33.487 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 2/3)
+2026-03-11 02:01:33.487 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:01:33.613 | ERROR    | src.kernel.introspection:evaluate_adaptive:400 - [IntrospectionEngine] Adaptive eval failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:34.712 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:01:34.713 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:01:35.231 | ERROR    | src.intelligence.perception.engine:get_ui_state:73 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:35.232 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-11 02:01:35.232 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:01:35.327 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3_after.png
+2026-03-11 02:01:35.329 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:01:35.987 | ERROR    | src.intelligence.perception.engine:verify_change:90 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:01:35.987 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:01:35.987 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 3/3)
+2026-03-11 02:01:35.988 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 - [Evaluator] THRESHOLD REACHED: 3 consecutive failures. Initiating Diagnostic Auto-Tune...
+2026-03-11 02:01:35.988 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 - [Evaluator] Diagnosis: Element too small or obscured. Mutating zoom_level.
+2026-03-11 02:01:35.988 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigManager] Auto-tuning triggered: Zoom increased from 1.0x to 1.5x
+2026-03-11 02:01:35.988 | WARNING  | src.kernel.loop:run_task:265 - [KernelLoop] SYSTEM RESTART FLAG CAUGHT. Re-booting loop with new constraints...
+2026-03-11 02:01:35.989 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:01:35.989 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:01:35.989 | INFO     | __main__:run_live_test:61 - --- LIVE Test Completed ---
+2026-03-11 02:01:35.990 | INFO     | __main__:run_live_test:68 - [LiveTest] Shutting down kernel...
+2026-03-11 02:01:35.990 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:01:35.990 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:02:18.147 | INFO     | __main__:run_live_test:25 - --- Starting UI Agent LIVE Test ---
+2026-03-11 02:02:18.151 | INFO     | __main__:run_live_test:26 - Goal: Open Start menu and search for Notepad.
+2026-03-11 02:02:20.947 | INFO     | src.intelligence.perception.engine:__init__:24 - [VisionEngine] Initialized with model gemini-1.5-flash
+2026-03-11 02:02:20.948 | INFO     | src.kernel.interceptor:__init__:38 - [SafetyInterceptor] RulesEngine attached.
+2026-03-11 02:02:20.953 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-11 02:02:20.953 | DEBUG    | src.kernel.loop:__init__:57 - [KernelLoop] EventBus ready.
+2026-03-11 02:02:20.953 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenObserver...
+2026-03-11 02:02:20.954 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowObserver...
+2026-03-11 02:02:20.954 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-11 02:02:22.899 | INFO     | src.intelligence.perception.engine:attach_live_streamer:28 - [VisionEngine] Live Streamer attached.
+2026-03-11 02:02:24.838 | INFO     | src.kernel.introspection:__init__:112 - [IntrospectionEngine] Initialized with gemini-1.5-flash.
+2026-03-11 02:02:24.838 | DEBUG    | src.kernel.loop:__init__:72 - [KernelLoop] Observatory/Introspection ready.
+2026-03-11 02:02:24.838 | DEBUG    | src.kernel.loop:__init__:73 - [KernelLoop] Perception stack ready.
+2026-03-11 02:02:24.839 | DEBUG    | src.kernel.loop:__init__:76 - [KernelLoop] Initializing HUD...
+2026-03-11 02:02:25.092 | INFO     | src.kernel.loop:__init__:83 - [KernelLoop] Initialized with Full Agentic Stack at OPERATOR Mode
+2026-03-11 02:02:25.093 | INFO     | __main__:run_live_test:55 - [LiveTest] Dispatched: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:02:25.093 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Starting task: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:02:25.095 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Dispatcher] Analyzing task: Open the Windows Start menu and type 'Notepad'....
+2026-03-11 02:02:25.096 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Dispatcher] Classification Strategy: DETERMINISTIC
+2026-03-11 02:02:25.096 | WARNING  | src.kernel.loop:run_task:121 - [KernelLoop] Task classified as DETERMINISTIC. Bypassing heavy LLM reasoning loop.
+2026-03-11 02:02:25.096 | DEBUG    | src.memory.profile_store:find_macro_for_task:97 - [UIProfileStore] No macro matched for task (best score: 0).
+2026-03-11 02:02:25.096 | ERROR    | src.kernel.loop:run_task:132 - [KernelLoop] No matching macro found for deterministic task: 'Open the Windows Start menu and type 'Notepad'.'
+2026-03-11 02:02:25.097 | WARNING  | src.kernel.loop:run_task:133 - [KernelLoop] Falling back to exploratory OTA loop...
+2026-03-11 02:02:25.097 | INFO     | src.kernel.loop:run_task:140 - [KernelLoop] Task classified as DETERMINISTIC. Engaging cognitive OTA loop.
+2026-03-11 02:02:25.097 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-11 02:02:25.097 | INFO     | src.kernel.observatory:set_attention_mode:27 - [Observatory] Transitioning attention mode: DIFFUSED -> FOCUSED
+2026-03-11 02:02:25.103 | INFO     | src.intelligence.cognition:stop:30 - [Cognition] Diffused Attention Monitor STOPPED.
+2026-03-11 02:02:25.103 | INFO     | src.kernel.loop:run_task:147 - [KernelLoop] Establishing Live API session...
+2026-03-11 02:02:25.256 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-11 02:02:25.294 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-11 02:02:26.069 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-11 02:02:26.293 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-11 02:02:26.917 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-11 02:02:30.261 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:02:30.262 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:02:31.211 | ERROR    | src.intelligence.perception.engine:get_ui_state:73 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:31.212 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 1 State: Error extracting UI state....
+2026-03-11 02:02:31.212 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:02:31.307 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1_after.png
+2026-03-11 02:02:31.308 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:02:31.987 | ERROR    | src.intelligence.perception.engine:verify_change:90 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:31.987 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:02:31.987 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 1/3)
+2026-03-11 02:02:31.987 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:02:32.489 | ERROR    | src.kernel.introspection:evaluate_adaptive:400 - [IntrospectionEngine] Adaptive eval failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:33.590 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:02:33.591 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:02:34.078 | ERROR    | src.intelligence.perception.engine:get_ui_state:73 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:34.080 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 2 State: Error extracting UI state....
+2026-03-11 02:02:34.081 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:02:34.178 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2_after.png
+2026-03-11 02:02:34.179 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:02:34.832 | ERROR    | src.intelligence.perception.engine:verify_change:90 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:34.832 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:02:34.833 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 2/3)
+2026-03-11 02:02:34.833 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:02:34.953 | ERROR    | src.kernel.introspection:evaluate_adaptive:400 - [IntrospectionEngine] Adaptive eval failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:36.041 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:02:36.042 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:02:36.547 | ERROR    | src.intelligence.perception.engine:get_ui_state:73 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:36.548 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 3 State: Error extracting UI state....
+2026-03-11 02:02:36.549 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:02:36.639 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3_after.png
+2026-03-11 02:02:36.641 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:02:37.329 | ERROR    | src.intelligence.perception.engine:verify_change:90 - [VisionEngine] Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-11 02:02:37.329 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: False
+2026-03-11 02:02:37.330 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} (Failure 3/3)
+2026-03-11 02:02:37.330 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 - [Evaluator] THRESHOLD REACHED: 3 consecutive failures. Initiating Diagnostic Auto-Tune...
+2026-03-11 02:02:37.330 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 - [Evaluator] Diagnosis: Element too small or obscured. Mutating zoom_level.
+2026-03-11 02:02:37.330 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigManager] Auto-tuning triggered: Zoom increased from 1.0x to 1.5x
+2026-03-11 02:02:37.330 | WARNING  | src.kernel.loop:run_task:265 - [KernelLoop] SYSTEM RESTART FLAG CAUGHT. Re-booting loop with new constraints...
+2026-03-11 02:02:37.331 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:02:37.331 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:02:37.331 | INFO     | __main__:run_live_test:61 - --- LIVE Test Completed ---
+2026-03-11 02:02:37.332 | INFO     | __main__:run_live_test:68 - [LiveTest] Shutting down kernel...
+2026-03-11 02:02:37.332 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:02:37.332 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:02:57.858 | INFO     | __main__:run_live_test:25 - --- Starting UI Agent LIVE Test ---
+2026-03-11 02:02:57.859 | INFO     | __main__:run_live_test:26 - Goal: Open Start menu and search for Notepad.
+2026-03-11 02:03:00.029 | INFO     | src.intelligence.perception.engine:__init__:24 - [VisionEngine] Initialized with model gemini-2.0-flash
+2026-03-11 02:03:00.029 | INFO     | src.kernel.interceptor:__init__:38 - [SafetyInterceptor] RulesEngine attached.
+2026-03-11 02:03:00.034 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\storage\bus_logs
+2026-03-11 02:03:00.035 | DEBUG    | src.kernel.loop:__init__:57 - [KernelLoop] EventBus ready.
+2026-03-11 02:03:00.035 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenObserver...
+2026-03-11 02:03:00.035 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowObserver...
+2026-03-11 02:03:00.036 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiLiveStreamer...
+2026-03-11 02:03:02.645 | INFO     | src.intelligence.perception.engine:attach_live_streamer:28 - [VisionEngine] Live Streamer attached.
+2026-03-11 02:03:04.573 | INFO     | src.kernel.introspection:__init__:112 - [IntrospectionEngine] Initialized with gemini-2.0-flash.
+2026-03-11 02:03:04.573 | DEBUG    | src.kernel.loop:__init__:72 - [KernelLoop] Observatory/Introspection ready.
+2026-03-11 02:03:04.573 | DEBUG    | src.kernel.loop:__init__:73 - [KernelLoop] Perception stack ready.
+2026-03-11 02:03:04.573 | DEBUG    | src.kernel.loop:__init__:76 - [KernelLoop] Initializing HUD...
+2026-03-11 02:03:04.679 | INFO     | src.kernel.loop:__init__:83 - [KernelLoop] Initialized with Full Agentic Stack at OPERATOR Mode
+2026-03-11 02:03:04.679 | INFO     | __main__:run_live_test:55 - [LiveTest] Dispatched: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:03:04.680 | INFO     | src.kernel.loop:run_task:108 - [KernelLoop] Starting task: Open the Windows Start menu and type 'Notepad'.
+2026-03-11 02:03:04.682 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Dispatcher] Analyzing task: Open the Windows Start menu and type 'Notepad'....
+2026-03-11 02:03:04.682 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Dispatcher] Classification Strategy: DETERMINISTIC
+2026-03-11 02:03:04.683 | WARNING  | src.kernel.loop:run_task:121 - [KernelLoop] Task classified as DETERMINISTIC. Bypassing heavy LLM reasoning loop.
+2026-03-11 02:03:04.683 | DEBUG    | src.memory.profile_store:find_macro_for_task:97 - [UIProfileStore] No macro matched for task (best score: 0).
+2026-03-11 02:03:04.683 | ERROR    | src.kernel.loop:run_task:132 - [KernelLoop] No matching macro found for deterministic task: 'Open the Windows Start menu and type 'Notepad'.'
+2026-03-11 02:03:04.684 | WARNING  | src.kernel.loop:run_task:133 - [KernelLoop] Falling back to exploratory OTA loop...
+2026-03-11 02:03:04.684 | INFO     | src.kernel.loop:run_task:140 - [KernelLoop] Task classified as DETERMINISTIC. Engaging cognitive OTA loop.
+2026-03-11 02:03:04.685 | INFO     | src.intelligence.perception.live_streamer:start_session:62 - [LiveStreamer] Attempting connection with models: ['gemini-2.0-flash-exp', 'gemini-2.5-flash-native-audio-latest', 'gemini-2.0-flash-live-001']
+2026-03-11 02:03:04.685 | INFO     | src.kernel.observatory:set_attention_mode:27 - [Observatory] Transitioning attention mode: DIFFUSED -> FOCUSED
+2026-03-11 02:03:04.686 | INFO     | src.intelligence.cognition:stop:30 - [Cognition] Diffused Attention Monitor STOPPED.
+2026-03-11 02:03:04.686 | INFO     | src.kernel.loop:run_task:147 - [KernelLoop] Establishing Live API session...
+2026-03-11 02:03:04.838 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.0-flash-exp...
+2026-03-11 02:03:04.852 | INFO     | src.intelligence.perception.live_streamer:stream_screen_loop:141 - [LiveStreamer] Starting screen stream at 0.5 fps
+2026-03-11 02:03:05.600 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-exp: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1alpha, or is not supported for bidiGenerateContent. Call ListMod
+2026-03-11 02:03:05.824 | INFO     | src.intelligence.perception.live_streamer:start_session:78 - [LiveStreamer] Trying model: gemini-2.5-flash-native-audio-latest...
+2026-03-11 02:03:06.476 | INFO     | src.intelligence.perception.live_streamer:start_session:81 - [LiveStreamer] Connected with 'gemini-2.5-flash-native-audio-latest'
+2026-03-11 02:03:09.776 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:03:09.777 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1.png
+2026-03-11 02:03:16.209 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 1 State: Here's a description of the current page state:
+
+**Overall Layout:**
+
+The interface seems to be a de...
+2026-03-11 02:03:16.209 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:03:16.311 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_1_after.png
+2026-03-11 02:03:16.312 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:03:18.409 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:03:18.410 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:03:20.571 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:03:21.664 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:03:21.665 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2.png
+2026-03-11 02:03:28.670 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 2 State: Here's a description of the image:
+
+**Overall State:**
+
+The image shows a development environment, m...
+2026-03-11 02:03:28.671 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:03:28.763 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_2_after.png
+2026-03-11 02:03:28.764 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:03:30.727 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:03:30.727 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:03:32.569 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:03:33.653 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:03:33.655 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3.png
+2026-03-11 02:03:39.375 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 3 State: Here's a description of the page state, major windows, and primary action buttons based on the scree...
+2026-03-11 02:03:39.375 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:03:39.462 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_3_after.png
+2026-03-11 02:03:39.463 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:03:41.474 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:03:41.475 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:03:43.221 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:03:44.309 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_4.png
+2026-03-11 02:03:44.310 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_4.png
+2026-03-11 02:03:50.271 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 4 State: Here's a description of the image:
+
+**Overall Page State:**
+
+The screenshot depicts a coding environ...
+2026-03-11 02:03:50.272 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:03:50.363 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_4_after.png
+2026-03-11 02:03:50.364 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:03:52.569 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:03:52.570 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:03:54.635 | WARNING  | src.kernel.introspection:evaluate_adaptive:387 - [IntrospectionEngine] REJECTED (Pass 1): The agent is only exploring the next element. It has not attempted to open the Windows Start menu or type 'Notepad'. This violates R6_OBJECTIVE_ALIGNMENT, as the response is far from fulfilling the stated objective.
+2026-03-11 02:03:56.378 | WARNING  | src.kernel.introspection:evaluate_adaptive:387 - [IntrospectionEngine] REJECTED (Pass 2): The agent is still only exploring the next element without attempting to fulfill the user's objective of opening the Windows Start menu and typing 'Notepad'. This violates R6_OBJECTIVE_ALIGNMENT.
+2026-03-11 02:03:56.378 | WARNING  | src.kernel.loop:run_task:278 - [KernelLoop] Introspection REJECTED: CRITICAL: The agent must attempt to open the Windows Start menu and type 'Notepad'. It should use appropriate actions to simulate these steps. Exploration is not sufficient to meet the objective.
+2026-03-11 02:03:57.475 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_5.png
+2026-03-11 02:03:57.479 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_5.png
+2026-03-11 02:04:03.101 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 5 State: Here's a description of the screenshot:
+
+**Overall Layout:**
+
+The screenshot shows a development env...
+2026-03-11 02:04:03.101 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:04:03.175 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_5_after.png
+2026-03-11 02:04:03.176 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:04:05.202 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:04:05.203 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:04:07.193 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:04:08.271 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_6.png
+2026-03-11 02:04:08.272 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_6.png
+2026-03-11 02:04:13.073 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 6 State: Here is a description of the current page state, major windows, and primary action buttons:
+
+**Page ...
+2026-03-11 02:04:13.074 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:04:13.163 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_6_after.png
+2026-03-11 02:04:13.164 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:04:15.264 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:04:15.264 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:04:18.184 | WARNING  | src.kernel.introspection:evaluate_adaptive:387 - [IntrospectionEngine] REJECTED (Pass 1): The agent is only exploring the 'next_element' which is vague and doesn't address the actual objective of opening the Start menu and typing 'Notepad'. The action is not aligned with the objective. It needs to find a way to open the start menu first and then type. I do not see a clear path from explore to executing the requested actions.
+2026-03-11 02:04:20.691 | WARNING  | src.kernel.introspection:evaluate_adaptive:387 - [IntrospectionEngine] REJECTED (Pass 2): The agent is still only exploring 'next_element' without any concrete steps towards opening the Start menu and typing 'Notepad'. The 'explore' action is too vague and doesn't demonstrate progress toward fulfilling the objective. It is essentially a refusal to engage meaningfully with the task by deferring to an exploratory action that might never lead to the solution.
+2026-03-11 02:04:20.692 | WARNING  | src.kernel.loop:run_task:278 - [KernelLoop] Introspection REJECTED: CRITICAL: The agent must immediately attempt to open the Windows Start menu. Explore actions are not helpful. The agent needs to use a more direct action to interact with the operating system, such as one to simulate a keyboard press (e.g., pressing the Windows key) or to interact with the UI elements related to the Start menu.
+2026-03-11 02:04:21.804 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_7.png
+2026-03-11 02:04:21.806 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_7.png
+2026-03-11 02:04:30.204 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 7 State: Here's a description of the page state based on the provided information:
+
+**Overall Layout:**
+
+The ...
+2026-03-11 02:04:30.205 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:04:30.294 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_7_after.png
+2026-03-11 02:04:30.295 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:04:32.371 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:04:32.372 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:04:34.313 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:04:35.385 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_8.png
+2026-03-11 02:04:35.386 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_8.png
+2026-03-11 02:04:41.245 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 8 State: Here's a description of the image content:
+
+**Overall Layout:**
+
+The image shows a development envir...
+2026-03-11 02:04:41.245 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:04:41.320 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_8_after.png
+2026-03-11 02:04:41.322 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:04:43.613 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:04:43.614 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:04:46.366 | WARNING  | src.kernel.introspection:evaluate_adaptive:387 - [IntrospectionEngine] REJECTED (Pass 1): The agent is taking a step but it is not directly addressing the user's request to open the Start Menu and type 'Notepad'. The 'explore' action with 'next_element' is vague and doesn't show progress towards the objective. It does not directly address opening the start menu or typing 'Notepad'.
+2026-03-11 02:04:48.401 | WARNING  | src.kernel.introspection:evaluate_adaptive:387 - [IntrospectionEngine] REJECTED (Pass 2): The agent is still not directly addressing the user's request. Exploring the 'next_element' is too vague and doesn't show progress towards opening the Start Menu and typing 'Notepad'. It's a continuation of the previous error. The agent needs to take more direct actions.
+2026-03-11 02:04:48.402 | WARNING  | src.kernel.loop:run_task:278 - [KernelLoop] Introspection REJECTED: CRITICAL: The agent needs to use the 'open_menu' action to open the Start menu and then use the 'type' action to type 'Notepad'. The 'explore' action is not helpful in this context.
+2026-03-11 02:04:49.496 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_9.png
+2026-03-11 02:04:49.497 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_9.png
+2026-03-11 02:04:55.942 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 9 State: Here's a description of the page state, major windows, and primary action buttons visible in the scr...
+2026-03-11 02:04:55.942 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:04:56.033 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_9_after.png
+2026-03-11 02:04:56.035 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:04:58.136 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:04:58.136 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:04:59.618 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:05:00.706 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_10.png
+2026-03-11 02:05:00.707 | INFO     | src.intelligence.perception.engine:get_ui_state:63 - [VisionEngine] Extracting state from C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_10.png
+2026-03-11 02:05:06.486 | INFO     | src.kernel.loop:run_task:165 - [KernelLoop] Iteration 10 State: Here is a description of the current page state, major windows, and primary action buttons, based on...
+2026-03-11 02:05:06.487 | INFO     | src.kernel.loop:run_task:212 - [KernelLoop] Proceeding with ACT: {'action': 'explore', 'target': 'next_element'}
+2026-03-11 02:05:06.582 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\loop_10_after.png
+2026-03-11 02:05:06.584 | INFO     | src.intelligence.perception.engine:verify_change:78 - [VisionEngine] Verifying intent: next_element
+2026-03-11 02:05:08.658 | INFO     | src.kernel.loop:run_task:253 - [KernelLoop] Action Verification: True
+2026-03-11 02:05:08.659 | INFO     | src.kernel.introspection:plan_checks:169 - [IntrospectionEngine] Planned 3/8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT']
+2026-03-11 02:05:10.511 | INFO     | src.kernel.introspection:evaluate_adaptive:396 - [IntrospectionEngine] APPROVED on pass 1
+2026-03-11 02:05:11.520 | INFO     | src.kernel.loop:run_task:290 - [KernelLoop] Task finished.
+2026-03-11 02:05:11.521 | INFO     | src.kernel.observatory:set_attention_mode:27 - [Observatory] Transitioning attention mode: FOCUSED -> DIFFUSED
+2026-03-11 02:05:11.521 | INFO     | src.intelligence.cognition:start:24 - [Cognition] Diffused Attention Monitor STARTED.
+2026-03-11 02:05:11.521 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:05:11.522 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:05:11.522 | INFO     | __main__:run_live_test:61 - --- LIVE Test Completed ---
+2026-03-11 02:05:11.522 | INFO     | __main__:run_live_test:68 - [LiveTest] Shutting down kernel...
+2026-03-11 02:05:11.523 | INFO     | src.kernel.loop:stop:301 - [KernelLoop] Shutdown complete.
+2026-03-11 02:05:11.523 | INFO     | src.intelligence.perception.live_streamer:disconnect:109 - [LiveStreamer] Disconnect requested.
+2026-03-11 02:05:11.627 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\storage\screenshots\current\diffused_glimpse.png

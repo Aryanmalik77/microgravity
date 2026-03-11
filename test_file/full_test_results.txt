@@ -1,0 +1,175 @@
+============================================================
+  MICROGRAVITY AGENTIC OS - FULL TEST SUITE
+============================================================
+
+============================================================
+  RUNNING: Phase 1: Task Classification
+  Script:  test_task_classification.py
+============================================================
+  | PASS: 'download report from the dashb...' -> TaskDeterminism.DETERMINISTIC
+  | PASS: 'research the top 5 competitors...' -> TaskDeterminism.NON_DETERMINISTIC
+  | PASS: 'explore this new SaaS dashboar...' -> TaskDeterminism.NON_DETERMINISTIC
+  | PASS: 'search web for the latest arti...' -> TaskDeterminism.NON_DETERMINISTIC
+  | PASS: 'book a flight to New York...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | PASS: 'buy me a coffee on this websit...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | PASS: 'login to facebook...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | --- Dispatcher Integration Test ---
+  | PASS: Dispatcher evaluated Deterministic Strategy correctly.
+  | PASS: Dispatcher evaluated Non-Deterministic Visual Strategy correctly.
+  | All Classification Engine Tests Passed Successfully!
+  | 2026-03-10 16:53:31.960 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Dispatcher] Analyzing task: export daily macro...
+  | 2026-03-10 16:53:31.960 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Dispatcher] Classification Strategy: DETERMINISTIC
+  | 2026-03-10 16:53:31.960 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Dispatcher] Analyzing task: explore and click the billing link...
+  | 2026-03-10 16:53:31.961 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Dispatcher] Classification Strategy: NON_DETERMINISTIC
+
+  Result: [PASS] in 2.1s
+
+============================================================
+  RUNNING: Phase 2: UI Profile Database
+  Script:  test_ui_profile.py
+============================================================
+  |     return future.result()
+  |            ~~~~~~~~~~~~~^^
+  |   File "C:\Users\HP\Downloads\micro gravity - Copy\test_file\test_ui_profile.py", line 63, in test_ui_profile_database
+  |     shutil.rmtree(test_storage_dir)
+  |     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  |   File "C:\Python314\Lib\shutil.py", line 852, in rmtree
+  |     _rmtree_impl(path, dir_fd, onexc)
+  |     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Python314\Lib\shutil.py", line 705, in _rmtree_unsafe
+  |     onexc(os.unlink, fullname, err)
+  |     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Python314\Lib\shutil.py", line 701, in _rmtree_unsafe
+  |     os.unlink(fullname)
+  |     ~~~~~~~~~^^^^^^^^^^
+  | PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\HP\\Downloads\\micro gravity - Copy\\test_storage\\memory\\semantic\\lmdb_store\\data.mdb'
+
+  Result: [FAIL] in 16.8s
+
+============================================================
+  RUNNING: Phase 3: Safety Interceptor
+  Script:  test_interceptor.py
+============================================================
+  | Testing Safety Interceptor (RBAC)...
+  | --- Level 0: OBSERVER Test ---
+  | PASS: Observer restrictions working.
+  | --- Level 1: OPERATOR Test ---
+  | PASS: Operator restrictions working.
+  | --- Level 2: EXECUTOR Test ---
+  | PASS: Universal Non-Negotiables caught malicious intent from Executor.
+  | All Safety Interceptor Tests Passed Successfully!
+  | 2026-03-10 16:53:50.756 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCKED MALICIOUS COMMAND: rm -rf /var/www
+  | 2026-03-10 16:53:50.757 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCKED MALICIOUS COMMAND: :(){ :|:& };:
+
+  Result: [PASS] in 2.0s
+
+============================================================
+  RUNNING: Phase 4: Auto-Tuning Loop
+  Script:  test_autotune.py
+============================================================
+  | All Auto-Tuning Tests Passed Successfully!
+  | 2026-03-10 16:53:52.966 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: Network timeout (Failure 1/3)
+  | 2026-03-10 16:53:52.966 | SUCCESS  | src.intelligence.planner.evaluator:log_action_result:29 - [Evaluator] Agent recovered. Resetting failure count.
+  | 2026-03-10 16:53:52.966 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: BBox for target not found on screen. (Failure 1/3)
+  | 2026-03-10 16:53:52.967 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: BBox for target not found on screen. (Failure 2/3)
+  | 2026-03-10 16:53:52.967 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: BBox for target not found on screen. (Failure 3/3)
+  | 2026-03-10 16:53:52.967 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 - [Evaluator] THRESHOLD REACHED: 3 consecutive failures. Initiating Diagnostic Auto-Tune...
+  | 2026-03-10 16:53:52.967 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 - [Evaluator] Diagnosis: Element too small or obscured. Mutating zoom_level.
+  | 2026-03-10 16:53:52.967 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigManager] Auto-tuning triggered: Zoom increased from 1.0x to 1.5x
+  | 2026-03-10 16:53:52.967 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: LLM Hallucination: Action schema could not be parsed. (Failure 1/3)
+  | 2026-03-10 16:53:52.967 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: LLM Hallucination: Action schema could not be parsed. (Failure 2/3)
+  | 2026-03-10 16:53:52.967 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: LLM Hallucination: Action schema could not be parsed. (Failure 3/3)
+  | 2026-03-10 16:53:52.968 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 - [Evaluator] THRESHOLD REACHED: 3 consecutive failures. Initiating Diagnostic Auto-Tune...
+  | 2026-03-10 16:53:52.968 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:54 - [Evaluator] Diagnosis: Reasoning envelope exceeded. Mutating LLM provider.
+  | 2026-03-10 16:53:52.968 | WARNING  | src.kernel.config_manager:switch_to_pro_model:33 - [ConfigManager] Auto-tuning triggered: Provider upgraded from gemini-2.5-flash to gemini-2.5-pro
+
+  Result: [PASS] in 2.4s
+
+============================================================
+  RUNNING: Phase 5: Scenario Modeling
+  Script:  test_scenarios.py
+============================================================
+  | 2026-03-10 16:54:29.138 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 - [Evaluator] Diagnosis: Element too small or obscured. Mutating zoom_level.
+  | 2026-03-10 16:54:29.138 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigManager] Auto-tuning triggered: Zoom increased from 1.0x to 1.5x
+  | 2026-03-10 16:54:29.141 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users\HP\Downloads\micro gravity - Copy\test_scenario_storage\storage\bus_logs
+  | 2026-03-10 16:54:29.141 | DEBUG    | src.kernel.loop:__init__:54 - [KernelLoop] EventBus ready.
+  | 2026-03-10 16:54:29.141 | DEBUG    | src.kernel.loop:__init__:56 - [KernelLoop] Supervisor ready.
+  | 2026-03-10 16:54:29.141 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenObserver...
+  | 2026-03-10 16:54:29.142 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowObserver...
+  | 2026-03-10 16:54:29.142 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiLiveStreamer...
+  | 2026-03-10 16:54:31.781 | DEBUG    | src.kernel.loop:__init__:67 - [KernelLoop] Perception stack ready.
+  | 2026-03-10 16:54:31.781 | DEBUG    | src.kernel.loop:__init__:70 - [KernelLoop] Initializing HUD...
+  | 2026-03-10 16:54:31.972 | INFO     | src.kernel.loop:__init__:77 - [KernelLoop] Initialized with Full Agentic Stack at EXECUTOR Mode
+  | 2026-03-10 16:54:31.972 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCKED MALICIOUS COMMAND: rm -rf /
+  | C:\Python314\Lib\asyncio\base_events.py:744: RuntimeWarning: coroutine 'GeminiLiveStreamer.disconnect' was never awaited
+  |   self._ready.clear()
+  | RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+
+  Result: [PASS] in 39.4s
+
+============================================================
+  RUNNING: Phase 6: Full Integration
+  Script:  test_integration_master.py
+============================================================
+  | 2026-03-10 16:54:48.857 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [LiveStreamer] Failed during session for gemini-2.0-flash-live-001: 1007 None. API key not valid. Please pass a valid API key.
+  | 2026-03-10 16:54:48.857 | ERROR    | src.intelligence.perception.live_streamer:start_session:105 - [LiveStreamer] All model fallbacks exhausted.
+  | 2026-03-10 16:54:52.208 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserver] Captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\test_os_storage\storage\screenshots\current\loop_1.png
+  | 2026-03-10 16:54:52.210 | INFO     | src.kernel.loop:run_task:157 - [KernelLoop] Iteration 1 State: Mock State Description...
+  | 2026-03-10 16:54:52.210 | ERROR    | src.kernel.loop:run_task:176 - [KernelLoop] SAFETY VIOLATION BLOCKED: PowerLevel OPERATOR cannot perform state-mutating action 'type'.
+  | 2026-03-10 16:54:52.210 | INFO     | src.kernel.loop:stop:217 - [KernelLoop] Shutdown complete.
+  | 2026-03-10 16:54:52.210 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: BBox not found (Failure 1/3)
+  | 2026-03-10 16:54:52.210 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: BBox not found (Failure 2/3)
+  | 2026-03-10 16:54:52.210 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Evaluator] Action Failed: BBox not found (Failure 3/3)
+  | 2026-03-10 16:54:52.210 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 - [Evaluator] THRESHOLD REACHED: 3 consecutive failures. Initiating Diagnostic Auto-Tune...
+  | 2026-03-10 16:54:52.210 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 - [Evaluator] Diagnosis: Element too small or obscured. Mutating zoom_level.
+  | 2026-03-10 16:54:52.210 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigManager] Auto-tuning triggered: Zoom increased from 1.0x to 1.5x
+  | C:\Python314\Lib\asyncio\base_events.py:744: RuntimeWarning: coroutine 'GeminiLiveStreamer.disconnect' was never awaited
+  |   self._ready.clear()
+  | RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+
+  Result: [PASS] in 20.1s
+
+
+============================================================
+  FINAL REPORT
+============================================================
+python : Traceback (most recent call 
+last):
+At line:1 char:1
++ python "c:\Users\HP\Downloads\micro 
+gravity - Copy\test_file\run_all_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (Traceback (most recent call  
+   last)::String) [], RemoteExceptio   
+ n
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+  File "c:\Users\HP\Downloads\micro 
+gravity - 
+Copy\test_file\run_all_tests.py", line 
+94, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HP\Downloads\micro 
+gravity - 
+Copy\test_file\run_all_tests.py", line 
+86, in main
+    print(f"  {icon} {name:<40} 
+{'PASS' if passed else 'FAIL':>6}  
+({elapsed:.1f}s)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
+  File "C:\Python314\Lib\encodings\cp12
+52.py", line 19, in encode
+    return codecs.charmap_encode(input,
+self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec 
+can't encode character '\u2713' in 
+position 2: character maps to 
+<undefined>

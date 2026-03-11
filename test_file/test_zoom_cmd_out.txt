@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python314\site-packages\google\genai\live.py", line 1105, in connect
+    raw_response = await ws.recv(decode=False)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python314\site-packages\websockets\asyncio\connection.py", line 322, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: received 1008 (policy violation) models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for bidiGenerateContent. Call ListMode; then sent 1008 (policy violation) models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for bidiGenerateContent. Call ListMode
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\src\ui_controller\live_streamer.py", line 61, in start_session
+    async with self.client.aio.live.connect(model=self.model, config=config) as session:
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python314\site-packages\google\genai\live.py", line 1115, in connect
+    errors.APIError.raise_error(code, reason, None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python314\site-packages\google\genai\errors.py", line 163, in raise_error
+    raise cls(status_code, response_json, response)
+google.genai.errors.APIError: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for bidiGenerateContent. Call ListMode
+[Test] Starting Gemini Multimodal Live Session...
+[LiveStreamer] Connecting to gemini-2.0-flash-exp (Audio Optimized)...
+[LiveStreamer] Initializing audio streams...
+[LiveStreamer] Failed during live session: 1008 None. models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for bidiGenerateContent. Call ListMode
+[Test] Failed to connect.

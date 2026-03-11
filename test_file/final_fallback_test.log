@@ -1,0 +1,65 @@
+﻿==================================================
+   Live UI Task Execution: Open CMD & `cd Downloads`
+==================================================
+
+[1] Initializing UIAgent and connecting Live Stream WebSocket...
+[UIAgent] Initializing agent modules...
+[UIAgent] Mouse initialized
+[UIAgent] Keyboard initialized
+[UIAgent] UI Memory Agent initialized
+[UIAgent] Screen observer initialized
+[UIAgent] Window observer initialized
+[UIAgent] Vision analyzer initialized
+[UIAgent] Planning and Management modules initialized
+[UIAgent] Checked C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\long_term\predicted_outputs, found 0 maps.
+[UIAgent] Checked C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\predicted_outputs, found 3 maps.
+[UIAgent] LATEST map detected: C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\predicted_outputs\gui_map_1772695283.json
+[UIAgent] Bootstrapping from LATEST Map: C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\predicted_outputs\gui_map_1772695283.json
+[ActionPredictor] Bootstrapping Memory from C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\predicted_outputs\gui_map_1772695283.json...
+[ActionPredictor] Bootstrap Complete: 215 templates cached in RAM.
+[UIAgent] Bootstrap complete
+[LiveStreamer] Attempting connection with model fallback list: ['gemini-2.0-flash-live-001', 'gemini-2.0-flash-exp', 'gemini-2.0-flash']
+[LiveStreamer] Initializing audio streams...
+[2] Waiting 8 seconds for WebSocket to establish...
+[LiveStreamer] Trying model: gemini-2.0-flash-live-001...
+[LiveStreamer] Model 'gemini-2.0-flash-live-001' not supported for bidiGenerateContent. Trying next...
+[LiveStreamer] Trying model: gemini-2.0-flash-exp...
+[LiveStreamer] Model 'gemini-2.0-flash-exp' not supported for bidiGenerateContent. Trying next...
+[LiveStreamer] Trying model: gemini-2.0-flash...
+[LiveStreamer] Model 'gemini-2.0-flash' not supported for bidiGenerateContent. Trying next...
+[LiveStreamer] All model fallbacks exhausted. No live session established.
+[-] Live Stream failed to connect. Ensure GEMINI_API_KEY is correct.
+    -> Architecture is defaulting to static vision.
+
+[3] Dispatching Action Queue...
+
+--- [Step 1] Executing: click ---
+[ActionPredictor] Predicting parameters for click on 'Windows Start Button'
+[ActionPredictor] Target 'Windows Start Button' found in RAM Cache. Verifying with CV...
+[ActionPredictor] Target 'Windows Start Button' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Windows Start Button' in None using Spatial Tool
+[VLM ERROR] Failed to find bounding box via Spatial Tool: expected str, bytes or os.PathLike object, not NoneType
+[UIAgent] Capturing background buffer for app 'Desktop'
+[WindowObserver] Error: Window 'Desktop' not found.
+[ScreenObserver] Successfully captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\screenshots\before_fallback_1772695533947.png
+[ActionPredictor] Predicting parameters for click on 'Windows Start Button'
+[ActionPredictor] Target 'Windows Start Button' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Windows Start Button' in C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\screenshots\before_fallback_1772695533947.png using Spatial Tool
+[UIAgent] Executing click with None
+[UIAgent] WARNING: Could not resolve coordinates for click on Windows Start Button
+[WindowObserver] Error: Window 'Desktop' not found.
+[ScreenObserver] Successfully captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\screenshots\after_fallback_1772695533947.png
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\screenshots\before_fallback_1772695533947.png -> C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\screenshots\after_fallback_1772695533947.png
+[VLM ERROR] Failed to compare images: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+[LearningLoop] Action deemed SUCCESSFUL.
+
+--- [Step 2] Executing: wait ---
+[ActionPredictor] Predicting parameters for wait on 'None'
+[ScreenObserver] Successfully captured screenshot to C:\Users\HP\Downloads\micro gravity - Copy\ui_agent_engine\agent_memory\short_term\screenshots\before_1772695540727.png
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with None
+[-] Execution failed on action {'action': 'wait', 'duration': 1.5, 'live_streamer': <ui_controller.live_streamer.GeminiLiveStreamer object at 0x000002848812A3C0>}: 'NoneType' object has no attribute 'get'
+
+[4] Task queue completed. Shutting down...
+==================================================

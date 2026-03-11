@@ -1,0 +1,303 @@
+python : 2026-03-10 17:30:49.326 | 
+INFO     | 
+src.kernel.introspection:__init__:107 
+- [IntrospectionEngine] Initialized.
+At line:1 char:1
++ python "c:\Users\HP\Downloads\micro 
+gravity - Copy\test_file\run_full ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (2026-03-10 17:3...e] Initia  
+  lized.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+2026-03-10 17:30:49.326 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: power_level
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: zoom_level
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: llm_provider
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: consecutive_failures
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: screenshots_taken
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: 
+live_streamer_connected
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: task_completed
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: task_description
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: blocked_actions
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: safety_log_count
+2026-03-10 17:30:49.327 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: actions_attempted
+2026-03-10 17:30:49.328 | DEBUG    | sr
+c.kernel.introspection:register_system_
+state:112 - [IntrospectionEngine] 
+Registered state: last_action_attempted
+2026-03-10 17:30:49.328 | INFO     | sr
+c.kernel.introspection:plan_checks:164 
+- [IntrospectionEngine] Planned 8/8 
+checks: ['R1_NO_REFUSAL', 
+'R2_PREMATURE_STOP', 
+'R6_OBJECTIVE_ALIGNMENT', 
+'R3_SAFETY_CHECK', 
+'R7_POWER_LEVEL_AUDIT', 
+'R4_MACRO_INTEGRITY', 
+'R5_AUTO_TUNE_SANITY', 
+'R8_VISION_HEALTH']
+2026-03-10 17:30:49.328 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] R1_NO_REFUSAL: 
+PASS ? OK
+2026-03-10 17:30:49.329 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R2_PREMATURE_STOP: PASS ? OK
+2026-03-10 17:30:49.329 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R6_OBJECTIVE_ALIGNMENT: PASS ? 
+Objective alignment verified.
+2026-03-10 17:30:49.329 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R3_SAFETY_CHECK: PASS ? OK
+2026-03-10 17:30:49.329 | WARNING  | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R7_POWER_LEVEL_AUDIT: FAIL ? Action 
+'click' at PowerLevel 1 was not 
+blocked.
+2026-03-10 17:30:49.330 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R4_MACRO_INTEGRITY: PASS ? OK
+2026-03-10 17:30:49.330 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R5_AUTO_TUNE_SANITY: PASS ? Zoom: 
+1.5x, Provider: gemini-2.5-flash ? 
+within bounds.
+2026-03-10 17:30:49.330 | INFO     | sr
+c.kernel.introspection:_run_check:290 
+- [IntrospectionEngine] 
+R8_VISION_HEALTH: PASS ? Vision OK: 3 
+screenshots, LiveStreamer=OFF 
+(degraded).
+2026-03-10 17:30:56.834 | INFO     | 
+nanobot.agent.task_tree:add_task:145 - 
+Task created: T-f8606b1c ? Design API 
+schema
+2026-03-10 17:30:56.835 | INFO     | 
+nanobot.agent.task_tree:add_task:145 - 
+Task created: T-ba3841b9 ? Implement 
+endpoints
+2026-03-10 17:30:56.837 | INFO     | 
+nanobot.agent.task_tree:add_task:145 - 
+Task created: T-f283c93b ? Write tests
+============================================================
+  MICROGRAVITY AGENTIC OS
+  UI Agent + Swarm + Introspection
+  Complete System Validation
+============================================================
+
+============================================================
+  RUNNING: ARCH | Task Classification
+============================================================
+  | PASS: 'buy me a coffee on this websit...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | PASS: 'login to facebook...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | --- Dispatcher Integration Test ---
+  | PASS: Dispatcher evaluated Deterministic Strategy correctly.
+  | PASS: Dispatcher evaluated Non-Deterministic Visual Strategy correctly.
+  | All Classification Engine Tests Passed Successfully!
+  | 2026-03-10 17:29:18.441 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Di
+  | 2026-03-10 17:29:18.441 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Di
+  | 2026-03-10 17:29:18.441 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Di
+  | 2026-03-10 17:29:18.442 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Di
+
+  Result: [PASS] in 3.0s
+
+============================================================
+  RUNNING: ARCH | UI Profile Database
+============================================================
+  | --- Short-Term Memory Test ---
+  | PASS: Saved and retrieved temporary session profile.
+  | PASS: Flushed temporary session profile.
+  | --- Long-Term Memory (Macro) Test ---
+  | PASS: Saved and retrieved permanent macro 'Export Daily Sales'.
+  | All UI Profile Database Tests Passed Successfully!
+  | 2026-03-10 17:29:34.061 | DEBUG    | src.memory.profile_store:save_session_profile:22 - [UIProfileSt
+  | 2026-03-10 17:29:34.064 | DEBUG    | src.memory.profile_store:clear_session:34 - [UIProfileStore] Fl
+  | 2026-03-10 17:29:34.066 | INFO     | src.memory.profile_store:save_permanent_macro:48 - [UIProfileSt
+  | 2026-03-10 17:29:34.071 | INFO     | src.memory.profile_store:find_macro_for_task:94 - [UIProfileSto
+
+  Result: [PASS] in 17.3s
+
+============================================================
+  RUNNING: ARCH | Safety Interceptor
+============================================================
+  | Testing Safety Interceptor (RBAC)...
+  | --- Level 0: OBSERVER Test ---
+  | PASS: Observer restrictions working.
+  | --- Level 1: OPERATOR Test ---
+  | PASS: Operator restrictions working.
+  | --- Level 2: EXECUTOR Test ---
+  | PASS: Universal Non-Negotiables caught malicious intent from Executor.
+  | All Safety Interceptor Tests Passed Successfully!
+  | 2026-03-10 17:29:38.413 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCK
+  | 2026-03-10 17:29:38.414 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCK
+
+  Result: [PASS] in 2.6s
+
+============================================================
+  RUNNING: ARCH | Auto-Tuning Loop
+============================================================
+  | 2026-03-10 17:29:41.775 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:29:41.775 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 
+  | 2026-03-10 17:29:41.775 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 
+  | 2026-03-10 17:29:41.775 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigMana
+  | 2026-03-10 17:29:41.776 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:29:41.776 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:29:41.776 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:29:41.776 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 
+  | 2026-03-10 17:29:41.776 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:54 
+  | 2026-03-10 17:29:41.776 | WARNING  | src.kernel.config_manager:switch_to_pro_model:33 - [ConfigManag
+
+  Result: [PASS] in 3.3s
+
+============================================================
+  RUNNING: SCEN | Scenario Modeling
+============================================================
+  | 2026-03-10 17:30:21.462 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenO
+  | 2026-03-10 17:30:21.462 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowO
+  | 2026-03-10 17:30:21.462 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiL
+  | 2026-03-10 17:30:23.995 | DEBUG    | src.kernel.loop:__init__:67 - [KernelLoop] Perception stack rea
+  | 2026-03-10 17:30:23.995 | DEBUG    | src.kernel.loop:__init__:70 - [KernelLoop] Initializing HUD...
+  | 2026-03-10 17:30:24.103 | INFO     | src.kernel.loop:__init__:77 - [KernelLoop] Initialized with Ful
+  | 2026-03-10 17:30:24.104 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCK
+  | C:\Python314\Lib\asyncio\base_events.py:744: RuntimeWarning: coroutine 'GeminiLiveStreamer.disconnec
+  |   self._ready.clear()
+  | RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+
+  Result: [PASS] in 42.9s
+
+============================================================
+  RUNNING: SCEN | Full Integration
+============================================================
+  | 2026-03-10 17:30:48.276 | INFO     | src.kernel.loop:stop:217 - [KernelLoop] Shutdown complete.
+  | 2026-03-10 17:30:48.276 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:30:48.276 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:30:48.276 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:30:48.276 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 
+  | 2026-03-10 17:30:48.277 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 
+  | 2026-03-10 17:30:48.277 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigMana
+  | C:\Python314\Lib\asyncio\base_events.py:744: RuntimeWarning: coroutine 'GeminiLiveStreamer.disconnec
+  |   self._ready.clear()
+  | RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+
+  Result: [PASS] in 24.1s
+
+============================================================
+  INTROSPECTION ENGINE TEST
+============================================================
+
+--- Test 1: System State Registration ---
+  PASS: State registered and inspectable.
+
+--- Test 2: Dynamic Check Planning ---
+  PASS: Planned 8 checks: ['R1_NO_REFUSAL', 'R2_PREMATURE_STOP', 'R6_OBJECTIVE_ALIGNMENT', 'R3_SAFETY_CHECK', 'R7_POWER_LEVEL_AUDIT', 'R4_MACRO_INTEGRITY', 'R5_AUTO_TUNE_SANITY', 'R8_VISION_HEALTH']
+
+--- Test 3: Evaluation (Healthy System) ---
+  [PASS] R1_NO_REFUSAL: OK
+  [PASS] R2_PREMATURE_STOP: OK
+  [PASS] R6_OBJECTIVE_ALIGNMENT: Objective alignment verified.
+  [PASS] R3_SAFETY_CHECK: OK
+  [FAIL] R7_POWER_LEVEL_AUDIT: Action 'click' at PowerLevel 1 was not blocked.
+  [PASS] R4_MACRO_INTEGRITY: OK
+  [PASS] R5_AUTO_TUNE_SANITY: Zoom: 1.5x, Provider: gemini-2.5-flash ? within bounds.
+  [PASS] R8_VISION_HEALTH: Vision OK: 3 screenshots, LiveStreamer=OFF (degraded).
+  INTROSPECTION ERROR: All checks should pass on a healthy system.
+
+============================================================
+  SWARM ARCHITECTURE TEST (Fixed Imports)
+============================================================
+  PASS: All Swarm modules imported successfully.
+  PASS: TaskTree initialized.
+  PASS: Created task DAG with 3 nodes: T-f8606b1c, T-ba3841b9, T-f283c93b
+  PASS: Dependency blocking works ? Blocked by: Design API schema
+  PASS: After t1 complete, t2 is ready.
+  PASS: Template extracted with 3 steps.
+
+  ALL SWARM TESTS PASSED
+============================================================
+
+============================================================
+  RUNNING: UIAG | UI Agent Prototype
+============================================================
+  | 2026-03-10 17:31:07,986 - UIPlanner - INFO - Generating plan for objective: 'Open unknown applicatio
+  | 2026-03-10 17:31:07,986 - UIPlanner - INFO - Unknown state. Defaulting to general exploration strate
+  | 2026-03-10 17:31:07,986 - UIAgent - INFO - Executing generated plan.
+  | 2026-03-10 17:31:07,986 - UIActionController - INFO - Scrolling down by 100 units
+  | 2026-03-10 17:31:09,506 - UIAgent - INFO - Evaluating outcome of step.
+  | 2026-03-10 17:31:09,506 - UIAgent - INFO - Objective deemed complete.
+  | 2026-03-10 17:31:09,506 - UIAgent - INFO - Broadcasting event to Swarm: objective_completed
+  | 2026-03-10 17:31:09,506 - TestDriver - INFO - SWARM RECEIVED from UI_Agent_01: objective_completed
+  | 2026-03-10 17:31:09,506 - UIAgent - INFO - Exited evaluation loop.
+  | 2026-03-10 17:31:09,506 - TestDriver - INFO - Test Run Complete.
+
+  Result: [PASS] in 13.8s
+
+
+============================================================
+  FINAL REPORT
+============================================================
+
+  --- Architecture ---
+  [OK] Task Classification                   PASS  (3.0s)
+  [OK] UI Profile Database                   PASS  (17.3s)
+  [OK] Safety Interceptor                    PASS  (2.6s)
+  [OK] Auto-Tuning Loop                      PASS  (3.3s)
+
+  --- Scenarios ---
+  [OK] Scenario Modeling                     PASS  (42.9s)
+  [OK] Full Integration                      PASS  (24.1s)
+
+  --- Introspection ---
+  [!!] Introspection Engine                  FAIL  (0.4s)
+
+  --- Swarm ---
+  [OK] Swarm Architecture                    PASS  (7.5s)
+
+  --- UI Agent ---
+  [OK] UI Agent Prototype                    PASS  (13.8s)
+
+  TOTAL: 8/9 passed in 114.9s
+============================================================

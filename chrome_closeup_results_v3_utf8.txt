@@ -1,0 +1,137 @@
+﻿python : 2026-03-10 23:06:15.590 | INFO    
+ | __main__:run_chrome_closeup:20 - --- 
+Starting Live Chrome Closeup ---
+At line:1 char:1
++ python scripts/execute_chrome_closeup.py 
+> chrome_closeup_results_v3. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : (2026-03-10 23:0...ome Closeup ---:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+2026-03-10 23:06:17.483 | INFO     | src.in
+telligence.perception.engine:__init__:23 - 
+[VisionEngine] Initialized with model 
+gemini-2.0-flash-exp
+2026-03-10 23:06:19.516 | INFO     | src.in
+telligence.perception.engine:attach_live_st
+reamer:27 - [VisionEngine] Live Streamer 
+attached.
+2026-03-10 23:06:19.516 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:62 - [LiveStreamer] Attempting 
+connection with models: 
+['gemini-2.0-flash-exp', 
+'gemini-2.5-flash-native-audio-latest', 
+'gemini-2.0-flash-live-001']
+2026-03-10 23:06:19.610 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.0-flash-exp...
+2026-03-10 23:06:20.016 | ERROR    | src.in
+telligence.perception.live_streamer:start_s
+ession:97 - [LiveStreamer] Failed during 
+session for gemini-2.0-flash-exp: 1008 
+None. models/gemini-2.0-flash-exp is not 
+found for API version v1alpha, or is not 
+supported for bidiGenerateContent. Call 
+ListMod
+2026-03-10 23:06:20.218 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.5-flash-native-audio-latest...
+2026-03-10 23:06:20.876 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:81 - [LiveStreamer] Connected with 
+'gemini-2.5-flash-native-audio-latest'
+2026-03-10 23:06:21.542 | INFO     | 
+__main__:run_chrome_closeup:49 - Resolving 
+'Google Search Button' with closeup 
+resolution...
+2026-03-10 23:06:21.542 | INFO     | src.in
+telligence.perception.engine:resolve_target
+_with_zoom:97 - [VisionEngine] Resolving 
+'Google Search Button' (zoom=True, 
+hint=[50, 500])
+2026-03-10 23:06:21.543 | INFO     | src.in
+telligence.perception.engine:resolve_target
+_with_zoom:116 - [VisionEngine] Triggering 
+PASS 2 (Closeup/Zoom)
+2026-03-10 23:06:21.543 | INFO     | src.in
+telligence.perception.live_streamer:set_roi
+:134 - [LiveStreamer] ROI set to (640, 0, 
+1280, 360)
+2026-03-10 23:06:23.184 | INFO     | src.in
+telligence.perception.engine:_zoom_resolve:
+192 - [VisionEngine] Setting callback and 
+sending prompt...
+2026-03-10 23:06:25.253 | INFO     | src.in
+telligence.perception.engine:_callback:168 
+- [VisionEngine] Callback received: 
+dict_keys(['text_response'])
+2026-03-10 23:06:26.319 | INFO     | src.in
+telligence.perception.engine:_callback:168 
+- [VisionEngine] Callback received: 
+dict_keys(['text_response'])
+2026-03-10 23:06:27.127 | INFO     | src.in
+telligence.perception.engine:_callback:168 
+- [VisionEngine] Callback received: 
+dict_keys(['text_response'])
+2026-03-10 23:06:28.411 | INFO     | src.in
+telligence.perception.engine:_callback:168 
+- [VisionEngine] Callback received: 
+dict_keys(['text_response'])
+2026-03-10 23:06:43.195 | ERROR    | src.in
+telligence.perception.engine:_zoom_resolve:
+212 - [VisionEngine] Internal error in 
+_zoom_resolve: 
+2026-03-10 23:06:43.200 | ERROR    | src.in
+telligence.perception.engine:_zoom_resolve:
+214 - Traceback (most recent call last):
+  File 
+"C:\Python314\Lib\asyncio\tasks.py", line 
+488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File 
+"C:\Python314\Lib\asyncio\locks.py", line 
+213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause 
+of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\micro 
+gravity - Copy\src\intelligence\perception\
+engine.py", line 199, in _zoom_resolve
+    await 
+asyncio.wait_for(response_event.wait(), 
+timeout=20.0)
+  File 
+"C:\Python314\Lib\asyncio\tasks.py", line 
+487, in wait_for
+    async with timeouts.timeout(timeout):
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Python314\Lib\asyncio\timeouts.py", 
+line 114, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+2026-03-10 23:06:43.200 | INFO     | src.in
+telligence.perception.live_streamer:reset_r
+oi:138 - [LiveStreamer] ROI reset.
+2026-03-10 23:06:43.201 | SUCCESS  | 
+__main__:run_chrome_closeup:54 - 
+Resolution Result: {'x': 960, 'y': 540}
+2026-03-10 23:06:43.201 | ERROR    | 
+__main__:run_chrome_closeup:61 - Metadata 
+was not stored in UI Atlas.
+2026-03-10 23:06:43.281 | INFO     | 
+__main__:run_chrome_closeup:69 - Closeup 
+task finished.

@@ -1,0 +1,225 @@
+============================================================
+  MICROGRAVITY AGENTIC OS
+  COMPLETE SYSTEM TEST SUITE
+  Architecture + Swarm + UI Agent
+============================================================
+
+============================================================
+  RUNNING: ARCH | Task Classification
+  Script:  test_task_classification.py
+============================================================
+  | PASS: 'download report from the dashb...' -> TaskDeterminism.DETERMINISTIC
+  | PASS: 'research the top 5 competitors...' -> TaskDeterminism.NON_DETERMINISTIC
+  | PASS: 'explore this new SaaS dashboar...' -> TaskDeterminism.NON_DETERMINISTIC
+  | PASS: 'search web for the latest arti...' -> TaskDeterminism.NON_DETERMINISTIC
+  | PASS: 'book a flight to New York...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | PASS: 'buy me a coffee on this websit...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | PASS: 'login to facebook...' -> TaskDeterminism.SEMI_DETERMINISTIC
+  | --- Dispatcher Integration Test ---
+  | PASS: Dispatcher evaluated Deterministic Strategy correctly.
+  | PASS: Dispatcher evaluated Non-Deterministic Visual Strategy correctly.
+  | All Classification Engine Tests Passed Successfully!
+  | 2026-03-10 16:59:54.826 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Di
+  | 2026-03-10 16:59:54.826 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Di
+  | 2026-03-10 16:59:54.827 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:22 - [Di
+  | 2026-03-10 16:59:54.827 | INFO     | src.intelligence.planner.dispatcher:determine_strategy:26 - [Di
+
+  Result: [PASS] in 2.4s
+
+============================================================
+  RUNNING: ARCH | UI Profile Database
+  Script:  test_ui_profile.py
+============================================================
+  | Testing UI Profile Database...
+  | --- Short-Term Memory Test ---
+  | PASS: Saved and retrieved temporary session profile.
+  | PASS: Flushed temporary session profile.
+  | --- Long-Term Memory (Macro) Test ---
+  | PASS: Saved and retrieved permanent macro 'Export Daily Sales'.
+  | All UI Profile Database Tests Passed Successfully!
+  | 2026-03-10 17:00:10.440 | DEBUG    | src.memory.profile_store:save_session_profile:22 - [UIProfileSt
+  | 2026-03-10 17:00:10.456 | DEBUG    | src.memory.profile_store:clear_session:34 - [UIProfileStore] Fl
+  | 2026-03-10 17:00:10.488 | INFO     | src.memory.profile_store:save_permanent_macro:48 - [UIProfileSt
+  | 2026-03-10 17:00:10.505 | INFO     | src.memory.profile_store:find_macro_for_task:94 - [UIProfileSto
+
+  Result: [PASS] in 17.2s
+
+============================================================
+  RUNNING: ARCH | Safety Interceptor
+  Script:  test_interceptor.py
+============================================================
+  | Testing Safety Interceptor (RBAC)...
+  | --- Level 0: OBSERVER Test ---
+  | PASS: Observer restrictions working.
+  | --- Level 1: OPERATOR Test ---
+  | PASS: Operator restrictions working.
+  | --- Level 2: EXECUTOR Test ---
+  | PASS: Universal Non-Negotiables caught malicious intent from Executor.
+  | All Safety Interceptor Tests Passed Successfully!
+  | 2026-03-10 17:00:14.699 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCK
+  | 2026-03-10 17:00:14.700 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCK
+
+  Result: [PASS] in 2.6s
+
+============================================================
+  RUNNING: ARCH | Auto-Tuning Loop
+  Script:  test_autotune.py
+============================================================
+  | All Auto-Tuning Tests Passed Successfully!
+  | 2026-03-10 17:00:16.702 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.703 | SUCCESS  | src.intelligence.planner.evaluator:log_action_result:29 - [Eval
+  | 2026-03-10 17:00:16.703 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.703 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.703 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.703 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 
+  | 2026-03-10 17:00:16.703 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 
+  | 2026-03-10 17:00:16.704 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigMana
+  | 2026-03-10 17:00:16.704 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.704 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.704 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:00:16.704 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 
+  | 2026-03-10 17:00:16.707 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:54 
+  | 2026-03-10 17:00:16.707 | WARNING  | src.kernel.config_manager:switch_to_pro_model:33 - [ConfigManag
+
+  Result: [PASS] in 2.0s
+
+============================================================
+  RUNNING: SCEN | Scenario Modeling
+  Script:  test_scenarios.py
+============================================================
+  | 2026-03-10 17:00:53.388 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 
+  | 2026-03-10 17:00:53.388 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigMana
+  | 2026-03-10 17:00:53.391 | INFO     | src.kernel.bus:__init__:22 - [EventBus] Initialized at C:\Users
+  | 2026-03-10 17:00:53.391 | DEBUG    | src.kernel.loop:__init__:54 - [KernelLoop] EventBus ready.
+  | 2026-03-10 17:00:53.391 | DEBUG    | src.kernel.loop:__init__:56 - [KernelLoop] Supervisor ready.
+  | 2026-03-10 17:00:53.391 | DEBUG    | src.kernel.loop:__init__:59 - [KernelLoop] Initializing ScreenO
+  | 2026-03-10 17:00:53.392 | DEBUG    | src.kernel.loop:__init__:61 - [KernelLoop] Initializing WindowO
+  | 2026-03-10 17:00:53.392 | DEBUG    | src.kernel.loop:__init__:63 - [KernelLoop] Initializing GeminiL
+  | 2026-03-10 17:00:55.839 | DEBUG    | src.kernel.loop:__init__:67 - [KernelLoop] Perception stack rea
+  | 2026-03-10 17:00:55.840 | DEBUG    | src.kernel.loop:__init__:70 - [KernelLoop] Initializing HUD...
+  | 2026-03-10 17:00:56.004 | INFO     | src.kernel.loop:__init__:77 - [KernelLoop] Initialized with Ful
+  | 2026-03-10 17:00:56.004 | CRITICAL | src.kernel.interceptor:evaluate_action:62 - [INTERCEPTOR] BLOCK
+  | C:\Python314\Lib\asyncio\base_events.py:744: RuntimeWarning: coroutine 'GeminiLiveStreamer.disconnec
+  |   self._ready.clear()
+  | RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+
+  Result: [PASS] in 39.9s
+
+============================================================
+  RUNNING: SCEN | Full Integration
+  Script:  test_integration_master.py
+============================================================
+  | 2026-03-10 17:01:07.888 | ERROR    | src.intelligence.perception.live_streamer:start_session:97 - [L
+  | 2026-03-10 17:01:07.888 | ERROR    | src.intelligence.perception.live_streamer:start_session:105 - [
+  | 2026-03-10 17:01:11.118 | INFO     | src.intelligence.perception.screen:capture:143 - [ScreenObserve
+  | 2026-03-10 17:01:11.119 | INFO     | src.kernel.loop:run_task:157 - [KernelLoop] Iteration 1 State: 
+  | 2026-03-10 17:01:11.119 | ERROR    | src.kernel.loop:run_task:176 - [KernelLoop] SAFETY VIOLATION BL
+  | 2026-03-10 17:01:11.119 | INFO     | src.kernel.loop:stop:217 - [KernelLoop] Shutdown complete.
+  | 2026-03-10 17:01:11.119 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:01:11.119 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:01:11.119 | ERROR    | src.intelligence.planner.evaluator:log_action_result:35 - [Eval
+  | 2026-03-10 17:01:11.119 | CRITICAL | src.intelligence.planner.evaluator:_evaluate_session_health:45 
+  | 2026-03-10 17:01:11.119 | INFO     | src.intelligence.planner.evaluator:_evaluate_session_health:51 
+  | 2026-03-10 17:01:11.120 | WARNING  | src.kernel.config_manager:increase_vision_zoom:25 - [ConfigMana
+  | C:\Python314\Lib\asyncio\base_events.py:744: RuntimeWarning: coroutine 'GeminiLiveStreamer.disconnec
+  |   self._ready.clear()
+  | RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+
+  Result: [PASS] in 15.0s
+
+============================================================
+  RUNNING: SWRM | Swarm Architecture
+  Script:  verify_swarm.py
+============================================================
+  |   File "C:\Users\HP\Downloads\micro gravity - Copy\scripts\verify_swarm.py", line 144, in <module>
+  |     asyncio.run(test_swarm_architecture())
+  |     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Python314\Lib\asyncio\runners.py", line 204, in run
+  |     return runner.run(main)
+  |            ~~~~~~~~~~^^^^^^
+  |   File "C:\Python314\Lib\asyncio\runners.py", line 127, in run
+  |     return self._loop.run_until_complete(task)
+  |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  |   File "C:\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+  |     return future.result()
+  |            ~~~~~~~~~~~~~^^
+  |   File "C:\Users\HP\Downloads\micro gravity - Copy\scripts\verify_swarm.py", line 13, in test_swarm_
+  |     from nanobot.agent.task_tree import TaskTree
+  | ModuleNotFoundError: No module named 'nanobot.agent.task_tree'
+
+  Result: [FAIL] in 12.3s
+
+============================================================
+  RUNNING: SWRM | Swarm Simple
+  Script:  test_swarm_simple.py
+============================================================
+  | INFO - ============================================================
+  | INFO - STEP 5: Operator Integration (End-to-End)
+  | INFO - ============================================================
+  | ERROR -   \u274c STEP FAILED: Operator Integration -> No module named 'nanobot.swarm'
+  | Traceback (most recent call last):
+  |   File "C:\Users\HP\Downloads\micro gravity - Copy\test_file\test_swarm_simple.py", line 273, in mai
+  |     fn()
+  |     ~~^^
+  |   File "C:\Users\HP\Downloads\micro gravity - Copy\test_file\test_swarm_simple.py", line 208, in tes
+  |     from nanobot.swarm.broker.lmdb_broker import LMDBBroker
+  | ModuleNotFoundError: No module named 'nanobot.swarm'
+  | INFO - ============================================================
+  | INFO - RESULTS: 0 passed, 5 failed out of 5 steps
+  | INFO - ============================================================
+  | ERROR - \u274c 5 STEP(S) FAILED. See above for details.
+
+  Result: [FAIL] in 0.3s
+
+============================================================
+  RUNNING: UIAG | UI Agent Prototype
+  Script:  test_ui_agent.py
+============================================================
+  | 2026-03-10 17:01:33,741 - LiteLLM - INFO - 
+  | LiteLLM completion() model= gemini-2.5-flash; provider = gemini
+  | 2026-03-10 17:01:35,384 - UIAgent - INFO - Broadcasting event to Swarm: state_update
+  | 2026-03-10 17:01:35,384 - TestDriver - INFO - SWARM RECEIVED from UI_Agent_01: state_update
+  | 2026-03-10 17:01:35,384 - UIAgent - INFO - Thinking what to do next based on screen state...
+  | 2026-03-10 17:01:35,384 - UIPlanner - INFO - Generating plan for objective: 'Open unknown applicatio
+  | 2026-03-10 17:01:35,384 - UIPlanner - INFO - Unknown state. Defaulting to general exploration strate
+  | 2026-03-10 17:01:35,384 - UIAgent - INFO - Executing generated plan.
+  | 2026-03-10 17:01:35,384 - UIActionController - INFO - Scrolling down by 100 units
+  | 2026-03-10 17:01:36,888 - UIAgent - INFO - Evaluating outcome of step.
+  | 2026-03-10 17:01:36,889 - UIAgent - INFO - Objective deemed complete.
+  | 2026-03-10 17:01:36,890 - UIAgent - INFO - Broadcasting event to Swarm: objective_completed
+  | 2026-03-10 17:01:36,890 - TestDriver - INFO - SWARM RECEIVED from UI_Agent_01: objective_completed
+  | 2026-03-10 17:01:36,891 - UIAgent - INFO - Exited evaluation loop.
+  | 2026-03-10 17:01:36,892 - TestDriver - INFO - Test Run Complete.
+
+  Result: [PASS] in 13.5s
+
+
+============================================================
+  FINAL REPORT
+============================================================
+
+  --- Architecture ---
+  [OK] Task Classification                   PASS  (2.4s)
+  [OK] UI Profile Database                   PASS  (17.2s)
+  [OK] Safety Interceptor                    PASS  (2.6s)
+  [OK] Auto-Tuning Loop                      PASS  (2.0s)
+
+  --- Scenarios ---
+  [OK] Scenario Modeling                     PASS  (39.9s)
+  [OK] Full Integration                      PASS  (15.0s)
+
+  --- Swarm ---
+  [!!] Swarm Architecture                    FAIL  (12.3s)
+  [!!] Swarm Simple                          FAIL  (0.3s)
+
+  --- UI Agent ---
+  [OK] UI Agent Prototype                    PASS  (13.5s)
+
+  ========================================================
+  Architecture         4/4 passed
+  Scenarios            2/2 passed
+  Swarm                0/2 passed
+  UI Agent             1/1 passed
+
+  TOTAL: 7/9 passed in 105.2s
+============================================================

@@ -1,0 +1,48 @@
+﻿========================================
+ PHASE 13.5 REMEDIATION VERIFICATION 
+========================================
+
+[Test] EdgeCorrelator Capping
+[EdgeCorrelator] Initialized.
+[PASS] edge_correlator_capping: final_size=2000
+
+[Test] PostponedJudgement Capping
+[PostponedJudgement] Initialized
+[FAIL] postponed_judgement_capping: final_size=0
+
+[Test] PresumptionEngine Capping & Pruning
+[PresumptionEngine] Loaded 0 presumptions
+[Presumption] NEW 'Button' at top-left in win_1: coords=(0.000, 0.000)
+[Presumption] Updated 'Button' in win_1: conf=0.45 weight=0.85 (2 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.52 weight=0.86 (3 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.58 weight=0.87 (4 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.64 weight=0.88 (5 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.70 weight=0.88 (6 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.76 weight=0.89 (7 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.81 weight=0.90 (8 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.86 weight=0.90 (9 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.92 weight=0.90 (10 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.92 weight=0.91 (11 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.93 weight=0.91 (12 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.93 weight=0.91 (13 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.94 weight=0.92 (14 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.94 weight=0.92 (15 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.94 weight=0.92 (16 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.95 weight=0.93 (17 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.95 weight=0.93 (18 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.95 weight=0.93 (19 OK / 0 FAIL)
+[Presumption] Updated 'Button' in win_1: conf=0.95 weight=0.93 (20 OK / 0 FAIL)
+[FAIL] presumption_index_capping: index_size=1
+[Presumption] [X] Pruned stale 'Stale' (last confirmed 30+ days ago)
+[PresumptionEngine] Loaded 1 presumptions
+[PASS] presumption_auto_pruning: Stale item removed on init
+
+[Test] Integration Finalization
+[ActionOutcomeTracker] Loaded 0 step records, 0 objectives
+[ExperientialMemory] Loaded: 0 episodes, 0 hypotheses, 0 processes, 0 nuances
+[ExperientialMemory] Hierarchy: 0 app classes, 0 app instances, 0 sites
+[FAIL] integration_finalization: tracker_obj=False, memory_persisted=False
+
+========================================
+ FINAL STATUS: FAILED
+========================================

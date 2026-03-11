@@ -1,0 +1,408 @@
+python : 2026-03-10 16:50:00.467 | 
+INFO     | src.kernel.bus:__init__:22 
+- [EventBus] Initialized at 
+C:\Users\HP\Downloads\micro gravity - C
+opy\test_scenario_storage\storage\bus_l
+ogs
+At line:1 char:1
++ python "c:\Users\HP\Downloads\micro 
+gravity - Copy\test_file\test_sce ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (2026-03-10 16:5...torage\bu  
+  s_logs:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+2026-03-10 16:50:00.467 | DEBUG    | 
+src.kernel.loop:__init__:54 - 
+[KernelLoop] EventBus ready.
+2026-03-10 16:50:00.467 | DEBUG    | 
+src.kernel.loop:__init__:56 - 
+[KernelLoop] Supervisor ready.
+2026-03-10 16:50:00.467 | DEBUG    | 
+src.kernel.loop:__init__:59 - 
+[KernelLoop] Initializing 
+ScreenObserver...
+2026-03-10 16:50:00.469 | DEBUG    | 
+src.kernel.loop:__init__:61 - 
+[KernelLoop] Initializing 
+WindowObserver...
+2026-03-10 16:50:00.469 | DEBUG    | 
+src.kernel.loop:__init__:63 - 
+[KernelLoop] Initializing 
+GeminiLiveStreamer...
+2026-03-10 16:50:03.484 | DEBUG    | 
+src.kernel.loop:__init__:67 - 
+[KernelLoop] Perception stack ready.
+2026-03-10 16:50:03.484 | DEBUG    | 
+src.kernel.loop:__init__:70 - 
+[KernelLoop] Initializing HUD...
+2026-03-10 16:50:03.600 | INFO     | 
+src.kernel.loop:__init__:77 - 
+[KernelLoop] Initialized with Full 
+Agentic Stack at EXECUTOR Mode
+2026-03-10 16:50:03.600 | INFO     | 
+src.kernel.loop:run_task:102 - 
+[KernelLoop] Starting task: Find the 
+daily sales report, download it, and 
+remember this sequence for next time.
+2026-03-10 16:50:03.602 | INFO     | sr
+c.intelligence.planner.dispatcher:deter
+mine_strategy:22 - [Dispatcher] 
+Analyzing task: Find the daily sales 
+report, download it, and reme...
+2026-03-10 16:50:03.603 | INFO     | sr
+c.intelligence.planner.dispatcher:deter
+mine_strategy:26 - [Dispatcher] 
+Classification Strategy: 
+SEMI_DETERMINISTIC
+2026-03-10 16:50:03.603 | INFO     | 
+src.kernel.loop:run_task:134 - 
+[KernelLoop] Task classified as 
+SEMI_DETERMINISTIC. Engaging cognitive 
+OTA loop.
+2026-03-10 16:50:03.604 | INFO     | 
+src.kernel.loop:run_task:140 - 
+[KernelLoop] Establishing Live API 
+session...
+2026-03-10 16:50:03.604 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:62 - [LiveStreamer] 
+Attempting connection with models: 
+['gemini-2.0-flash-exp', 'gemini-2.5-fl
+ash-native-audio-latest', 
+'gemini-2.0-flash-live-001']
+2026-03-10 16:50:03.738 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:78 - [LiveStreamer] 
+Trying model: gemini-2.0-flash-exp...
+2026-03-10 16:50:03.745 | INFO     | sr
+c.intelligence.perception.live_streamer
+:stream_screen_loop:141 - 
+[LiveStreamer] Starting screen stream 
+at 0.5 fps
+2026-03-10 16:50:04.122 | ERROR    | sr
+c.intelligence.perception.live_streamer
+:start_session:97 - [LiveStreamer] 
+Failed during session for 
+gemini-2.0-flash-exp: 1007 None. API 
+key not valid. Please pass a valid API 
+key.
+2026-03-10 16:50:04.353 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:78 - [LiveStreamer] 
+Trying model: 
+gemini-2.5-flash-native-audio-latest...
+2026-03-10 16:50:04.707 | ERROR    | sr
+c.intelligence.perception.live_streamer
+:start_session:97 - [LiveStreamer] 
+Failed during session for 
+gemini-2.5-flash-native-audio-latest: 
+1007 None. API key not valid. Please 
+pass a valid API key.
+2026-03-10 16:50:04.707 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:78 - [LiveStreamer] 
+Trying model: 
+gemini-2.0-flash-live-001...
+2026-03-10 16:50:05.005 | ERROR    | sr
+c.intelligence.perception.live_streamer
+:start_session:97 - [LiveStreamer] 
+Failed during session for 
+gemini-2.0-flash-live-001: 1007 None. 
+API key not valid. Please pass a valid 
+API key.
+2026-03-10 16:50:05.005 | ERROR    | sr
+c.intelligence.perception.live_streamer
+:start_session:105 - [LiveStreamer] 
+All model fallbacks exhausted.
+2026-03-10 16:50:08.769 | INFO     | sr
+c.intelligence.perception.screen:captur
+e:143 - [ScreenObserver] Captured 
+screenshot to 
+C:\Users\HP\Downloads\micro gravity - C
+opy\test_scenario_storage\storage\scree
+nshots\current\loop_1.png
+2026-03-10 16:50:08.770 | INFO     | 
+src.kernel.loop:run_task:157 - 
+[KernelLoop] Iteration 1 State: Mock 
+State Description...
+2026-03-10 16:50:08.770 | DEBUG    | 
+src.kernel.loop:run_task:184 - 
+[KernelLoop] Proceeding with ACT: 
+{'action': 'type', 'target': 
+'search_box', 'value': 'test'}
+2026-03-10 16:50:08.770 | INFO     | 
+src.kernel.loop:run_task:192 - 
+[KernelLoop] Verifying action 
+success...
+2026-03-10 16:50:08.770 | ERROR    | sr
+c.intelligence.planner.evaluator:log_ac
+tion_result:35 - [Evaluator] Action 
+Failed: Target BBox not found on UI. 
+(Failure 1/3)
+2026-03-10 16:50:09.919 | INFO     | sr
+c.intelligence.perception.screen:captur
+e:143 - [ScreenObserver] Captured 
+screenshot to 
+C:\Users\HP\Downloads\micro gravity - C
+opy\test_scenario_storage\storage\scree
+nshots\current\loop_2.png
+2026-03-10 16:50:09.921 | INFO     | 
+src.kernel.loop:run_task:157 - 
+[KernelLoop] Iteration 2 State: Mock 
+State Description...
+2026-03-10 16:50:09.921 | DEBUG    | 
+src.kernel.loop:run_task:184 - 
+[KernelLoop] Proceeding with ACT: 
+{'action': 'type', 'target': 
+'search_box', 'value': 'test'}
+2026-03-10 16:50:09.921 | INFO     | 
+src.kernel.loop:run_task:192 - 
+[KernelLoop] Verifying action 
+success...
+2026-03-10 16:50:09.921 | ERROR    | sr
+c.intelligence.planner.evaluator:log_ac
+tion_result:35 - [Evaluator] Action 
+Failed: Target BBox not found on UI. 
+(Failure 2/3)
+2026-03-10 16:50:10.926 | INFO     | 
+src.kernel.loop:run_task:207 - 
+[KernelLoop] Task finished.
+2026-03-10 16:50:10.927 | INFO     | 
+src.kernel.loop:stop:217 - 
+[KernelLoop] Shutdown complete.
+2026-03-10 16:50:10.931 | INFO     | sr
+c.memory.profile_store:save_permanent_m
+acro:48 - [UIProfileStore] Saved 
+permanent macro: download_sales_report
+2026-03-10 16:50:10.936 | INFO     | 
+src.kernel.bus:__init__:22 - 
+[EventBus] Initialized at 
+C:\Users\HP\Downloads\micro gravity - C
+opy\test_scenario_storage\storage\bus_l
+ogs
+2026-03-10 16:50:10.936 | DEBUG    | 
+src.kernel.loop:__init__:54 - 
+[KernelLoop] EventBus ready.
+2026-03-10 16:50:10.936 | DEBUG    | 
+src.kernel.loop:__init__:56 - 
+[KernelLoop] Supervisor ready.
+2026-03-10 16:50:10.936 | DEBUG    | 
+src.kernel.loop:__init__:59 - 
+[KernelLoop] Initializing 
+ScreenObserver...
+2026-03-10 16:50:10.937 | DEBUG    | 
+src.kernel.loop:__init__:61 - 
+[KernelLoop] Initializing 
+WindowObserver...
+2026-03-10 16:50:10.937 | DEBUG    | 
+src.kernel.loop:__init__:63 - 
+[KernelLoop] Initializing 
+GeminiLiveStreamer...
+2026-03-10 16:50:13.825 | DEBUG    | 
+src.kernel.loop:__init__:67 - 
+[KernelLoop] Perception stack ready.
+2026-03-10 16:50:13.825 | DEBUG    | 
+src.kernel.loop:__init__:70 - 
+[KernelLoop] Initializing HUD...
+2026-03-10 16:50:13.900 | INFO     | 
+src.kernel.loop:__init__:77 - 
+[KernelLoop] Initialized with Full 
+Agentic Stack at EXECUTOR Mode
+2026-03-10 16:50:13.901 | INFO     | 
+src.kernel.loop:run_task:102 - 
+[KernelLoop] Starting task: Run the 
+download sales report macro.
+2026-03-10 16:50:13.901 | INFO     | sr
+c.intelligence.planner.dispatcher:deter
+mine_strategy:22 - [Dispatcher] 
+Analyzing task: Run the download sales 
+report macro....
+2026-03-10 16:50:13.901 | INFO     | sr
+c.intelligence.planner.dispatcher:deter
+mine_strategy:26 - [Dispatcher] 
+Classification Strategy: DETERMINISTIC
+2026-03-10 16:50:13.901 | WARNING  | 
+src.kernel.loop:run_task:115 - 
+[KernelLoop] Task classified as 
+DETERMINISTIC. Bypassing heavy LLM 
+reasoning loop.
+2026-03-10 16:50:13.903 | INFO     | sr
+c.memory.profile_store:find_macro_for_t
+ask:94 - [UIProfileStore] Macro 
+matched with score 3: 
+'download_sales_report'
+2026-03-10 16:50:13.903 | INFO     | 
+src.kernel.loop:run_task:120 - 
+[KernelLoop] --> Executing rigid 
+procedural macro: 
+'download_sales_report'
+2026-03-10 16:50:13.903 | DEBUG    | 
+src.kernel.loop:run_task:121 - 
+[KernelLoop] Sequence: [{'action': 
+'click', 'target': 'sales_tab'}, 
+{'action': 'click', 'target': 
+'download'}]
+2026-03-10 16:50:14.904 | INFO     | 
+src.kernel.loop:run_task:124 - 
+[KernelLoop] Macro execution complete.
+2026-03-10 16:50:14.905 | INFO     | 
+src.kernel.loop:stop:217 - 
+[KernelLoop] Shutdown complete.
+2026-03-10 16:50:14.909 | INFO     | 
+src.kernel.bus:__init__:22 - 
+[EventBus] Initialized at 
+C:\Users\HP\Downloads\micro gravity - C
+opy\test_scenario_storage\storage\bus_l
+ogs
+2026-03-10 16:50:14.909 | DEBUG    | 
+src.kernel.loop:__init__:54 - 
+[KernelLoop] EventBus ready.
+2026-03-10 16:50:14.909 | DEBUG    | 
+src.kernel.loop:__init__:56 - 
+[KernelLoop] Supervisor ready.
+2026-03-10 16:50:14.910 | DEBUG    | 
+src.kernel.loop:__init__:59 - 
+[KernelLoop] Initializing 
+ScreenObserver...
+2026-03-10 16:50:14.910 | DEBUG    | 
+src.kernel.loop:__init__:61 - 
+[KernelLoop] Initializing 
+WindowObserver...
+2026-03-10 16:50:14.911 | DEBUG    | 
+src.kernel.loop:__init__:63 - 
+[KernelLoop] Initializing 
+GeminiLiveStreamer...
+2026-03-10 16:50:17.213 | DEBUG    | 
+src.kernel.loop:__init__:67 - 
+[KernelLoop] Perception stack ready.
+2026-03-10 16:50:17.214 | DEBUG    | 
+src.kernel.loop:__init__:70 - 
+[KernelLoop] Initializing HUD...
+2026-03-10 16:50:17.299 | INFO     | 
+src.kernel.loop:__init__:77 - 
+[KernelLoop] Initialized with Full 
+Agentic Stack at EXECUTOR Mode
+2026-03-10 16:50:17.299 | ERROR    | sr
+c.intelligence.planner.evaluator:log_ac
+tion_result:35 - [Evaluator] Action 
+Failed: BBox for target not found on 
+screen. (Failure 1/3)
+2026-03-10 16:50:17.299 | ERROR    | sr
+c.intelligence.planner.evaluator:log_ac
+tion_result:35 - [Evaluator] Action 
+Failed: BBox for target not found on 
+screen. (Failure 2/3)
+2026-03-10 16:50:17.299 | ERROR    | sr
+c.intelligence.planner.evaluator:log_ac
+tion_result:35 - [Evaluator] Action 
+Failed: BBox for target not found on 
+screen. (Failure 3/3)
+2026-03-10 16:50:17.299 | CRITICAL | sr
+c.intelligence.planner.evaluator:_evalu
+ate_session_health:45 - [Evaluator] 
+THRESHOLD REACHED: 3 consecutive 
+failures. Initiating Diagnostic 
+Auto-Tune...
+2026-03-10 16:50:17.299 | INFO     | sr
+c.intelligence.planner.evaluator:_evalu
+ate_session_health:51 - [Evaluator] 
+Diagnosis: Element too small or 
+obscured. Mutating zoom_level.
+2026-03-10 16:50:17.299 | WARNING  | sr
+c.kernel.config_manager:increase_vision
+_zoom:25 - [ConfigManager] Auto-tuning 
+triggered: Zoom increased from 1.0x to 
+1.5x
+2026-03-10 16:50:17.302 | INFO     | 
+src.kernel.bus:__init__:22 - 
+[EventBus] Initialized at 
+C:\Users\HP\Downloads\micro gravity - C
+opy\test_scenario_storage\storage\bus_l
+ogs
+2026-03-10 16:50:17.302 | DEBUG    | 
+src.kernel.loop:__init__:54 - 
+[KernelLoop] EventBus ready.
+2026-03-10 16:50:17.303 | DEBUG    | 
+src.kernel.loop:__init__:56 - 
+[KernelLoop] Supervisor ready.
+2026-03-10 16:50:17.303 | DEBUG    | 
+src.kernel.loop:__init__:59 - 
+[KernelLoop] Initializing 
+ScreenObserver...
+2026-03-10 16:50:17.303 | DEBUG    | 
+src.kernel.loop:__init__:61 - 
+[KernelLoop] Initializing 
+WindowObserver...
+2026-03-10 16:50:17.304 | DEBUG    | 
+src.kernel.loop:__init__:63 - 
+[KernelLoop] Initializing 
+GeminiLiveStreamer...
+2026-03-10 16:50:19.517 | DEBUG    | 
+src.kernel.loop:__init__:67 - 
+[KernelLoop] Perception stack ready.
+2026-03-10 16:50:19.517 | DEBUG    | 
+src.kernel.loop:__init__:70 - 
+[KernelLoop] Initializing HUD...
+2026-03-10 16:50:19.594 | INFO     | 
+src.kernel.loop:__init__:77 - 
+[KernelLoop] Initialized with Full 
+Agentic Stack at EXECUTOR Mode
+2026-03-10 16:50:19.595 | CRITICAL | sr
+c.kernel.interceptor:evaluate_action:62
+ - [INTERCEPTOR] BLOCKED MALICIOUS 
+COMMAND: rm -rf /
+==================================================
+Starting Advanced Architectural Scenario Modeling Suite...
+==================================================
+
+==================================================
+SCENARIO 1: THE EXPLORER (Dynamic Discovery & Macro Save)
+Context: The agent encounters a new environment, discovers a layout, completes a goal, and creates a reusable macro.
+==================================================
+-> Sending prompt: 'Find the daily sales report, download it, and remember this sequence for next time.'
+
+-> Assuming agent successfully navigated the DOM. Agent fires internal 'save_macro' mechanism.
+==================================================
+
+
+==================================================
+SCENARIO 2: THE FACTORY WORKER (Deterministic Fast-Path)
+Context: The agent is asked to repeat Scenario 1, so it automatically bypasses the LLM and runs the cached fast-path macro.
+==================================================
+-> Sending prompt: 'Run the download sales report macro.'
+==================================================
+
+
+==================================================
+SCENARIO 3: THE RESILIENT AGENT (Auto-Tuning under Duress)
+Context: The agent encounters a tiny UI element, fails 3 times, auto-tunes itself to a 1.5x zoom, and reruns correctly.
+==================================================
+-> Sending prompt: 'Click the tiny checkbox in the corner.'
+-> Simulating 3 consecutive 'BBox not found' errors sent from Vision processing...
+-> SYSTEM REBOOT CAUGHT. Auto-Tuning adapted system Zoom Level to: 1.5x
+==================================================
+
+
+==================================================
+SCENARIO 4: THE ROGUE OPERATOR (Safety Interception)
+Context: The agent is fed a prompt-injection payload (rm -rf), which is instantly blocked by the Safety Interceptor.
+==================================================
+-> Simulating Rogue Payload generation from hallucinating/injected LLM Planner...
+-> Emitting rogue payload through Think-Act Interceptor...
+-> SYSTEM GUARD ENGAGED: Payload Blocked. Reason: Action violates core Non-Negotiable safety directive: ^rm -rf
+==================================================
+
+==================================================
+All Scenarios Completed.
+==================================================
+C:\Python314\Lib\asyncio\base_events.py
+:744: RuntimeWarning: coroutine 
+'GeminiLiveStreamer.disconnect' was 
+never awaited
+  self._ready.clear()
+RuntimeWarning: Enable tracemalloc to 
+get the object allocation traceback

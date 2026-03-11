@@ -1,0 +1,2492 @@
+{
+  "contexts": {
+    "Desktop": {
+      "elements": {
+        "testicon": {
+          "coords": [
+            20,
+            20,
+            50,
+            50
+          ],
+          "type": "test",
+          "behavior": "static",
+          "description": "TestIcon"
+        },
+        "windows start button": {
+          "coords": [
+            966,
+            726,
+            38,
+            12
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Windows Start Button",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_windows start button.png"
+        },
+        "notepad icon": {
+          "coords": [
+            422,
+            410,
+            118,
+            48
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad icon",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad icon.png"
+        },
+        "search bar icon": {
+          "coords": [
+            344,
+            730,
+            164,
+            25
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search bar icon",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search bar icon.png"
+        },
+        "notepad app icon": {
+          "coords": [
+            846,
+            433,
+            55,
+            47
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad app icon",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad app icon.png"
+        },
+        "notepad": {
+          "coords": [
+            883,
+            208,
+            44,
+            126
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad.png"
+        },
+        "notepad application in search results": {
+          "coords": [
+            381,
+            738,
+            45,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad application in search results",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad application in search results.png"
+        },
+        "notepad application icon in 'top apps'": {
+          "coords": [
+            784,
+            495,
+            71,
+            54
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad application icon in 'Top apps'",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad application icon in 'top apps'.png"
+        },
+        "notepad icon in taskbar": {
+          "coords": [
+            215,
+            728,
+            43,
+            27
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad icon in taskbar",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad icon in taskbar.png"
+        },
+        "close button": {
+          "coords": [
+            192,
+            586,
+            21,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button.png"
+        },
+        "search bar on the taskbar": {
+          "coords": [
+            308,
+            737,
+            123,
+            18
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search bar on the taskbar",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search bar on the taskbar.png"
+        },
+        "restore button": {
+          "coords": [
+            972,
+            181,
+            72,
+            31
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Restore button",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_restore button.png"
+        },
+        "close button for the microsoft edge window": {
+          "coords": [
+            546,
+            10,
+            15,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for the Microsoft Edge window",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for the microsoft edge window.png"
+        },
+        "search button on the taskbar": {
+          "coords": [
+            308,
+            731,
+            126,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search button on the taskbar",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search button on the taskbar.png"
+        },
+        "notepad app icon (best match)": {
+          "coords": [
+            262,
+            734,
+            27,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad app icon (Best match)",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad app icon (best match).png"
+        },
+        "notepad app icon under top apps": {
+          "coords": [
+            651,
+            483,
+            71,
+            66
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad app icon under Top apps",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad app icon under top apps.png"
+        },
+        "notepad app icon under recent": {
+          "coords": [
+            778,
+            207,
+            44,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad app icon under Recent",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad app icon under recent.png"
+        },
+        "search button on taskbar": {
+          "coords": [
+            353,
+            736,
+            70,
+            15
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search button on taskbar",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search button on taskbar.png"
+        },
+        "notepad app listed as best match": {
+          "coords": [
+            191,
+            203,
+            474,
+            121
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Notepad App listed as Best match",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_notepad app listed as best match.png"
+        },
+        "google antigravity auth suc tab": {
+          "coords": [
+            678,
+            9,
+            204,
+            21
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Google Antigravity Auth Suc tab",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_google antigravity auth suc tab.png"
+        },
+        "bookmark this tab button (star icon)": {
+          "coords": [
+            937,
+            82,
+            103,
+            54
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Bookmark this tab button (star icon)",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_bookmark this tab button (star icon).png"
+        },
+        "chrome icon in taskbar": {
+          "coords": [
+            655,
+            728,
+            30,
+            27
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chrome icon in taskbar",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chrome icon in taskbar.png"
+        },
+        "youtube shortcut icon": {
+          "coords": [
+            321,
+            464,
+            47,
+            45
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "YouTube shortcut icon",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_youtube shortcut icon.png"
+        },
+        "search bar": {
+          "coords": [
+            360,
+            137,
+            404,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search bar",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search bar.png"
+        },
+        "search icon": {
+          "coords": [
+            887,
+            135,
+            18,
+            34
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search icon",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search icon.png"
+        },
+        "address bar showing meet.google.com/dms-cfbr-adv": {
+          "coords": [
+            155,
+            50,
+            241,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar showing meet.google.com/dms-cfbr-adv",
+          "is_invariant": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar showing meet.google.com\\dms-cfbr-adv.png"
+        },
+        "rumi tab": {
+          "coords": [
+            121,
+            7,
+            51,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Rumi tab",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_rumi tab.png"
+        },
+        "never allow button": {
+          "coords": [
+            155,
+            654,
+            264,
+            32
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Never allow button",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_never allow button.png"
+        },
+        "google button": {
+          "coords": [
+            258,
+            579,
+            375,
+            38
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Google button",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_google button.png"
+        },
+        "aryan malik aryanmalik77g@gmail.com account": {
+          "coords": [
+            461,
+            339,
+            213,
+            37
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Aryan Malik aryanmalik77g@gmail.com account",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_aryan malik aryanmalik77g@gmail.com account.png"
+        },
+        "a icon": {
+          "coords": [
+            1304,
+            145,
+            31,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "A icon",
+          "is_invariant": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_a icon.png"
+        },
+        "reddit: the front page of the internet - reddit.com": {
+          "coords": [
+            166,
+            256,
+            323,
+            18
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "reddit: the front page of the internet - reddit.com",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit: the front page of the internet - reddit.com.png"
+        },
+        "button": {
+          "coords": [
+            1034,
+            3,
+            110,
+            26
+          ],
+          "type": "BUTTON",
+          "behavior": "static",
+          "description": "BUTTON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_button.png"
+        },
+        "text_field": {
+          "coords": [
+            0,
+            37,
+            936,
+            8
+          ],
+          "type": "TEXT_INPUT",
+          "behavior": "static",
+          "description": "TEXT_FIELD",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_text_field.png"
+        },
+        "icon": {
+          "coords": [
+            1237,
+            49,
+            35,
+            29
+          ],
+          "type": "ICON",
+          "behavior": "static",
+          "description": "ICON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_icon.png"
+        },
+        "panel": {
+          "coords": [
+            0,
+            135,
+            1366,
+            587
+          ],
+          "type": "PANEL",
+          "behavior": "static",
+          "description": "PANEL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_panel.png"
+        },
+        "structural": {
+          "coords": [
+            1354,
+            139,
+            9,
+            139
+          ],
+          "type": "STRUCTURAL",
+          "behavior": "static",
+          "description": "STRUCTURAL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_structural.png"
+        },
+        "close button for 'sign in to reddit.com with google.com'": {
+          "coords": [
+            1262,
+            132,
+            26,
+            15
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for 'Sign in to reddit.com with google.com'",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for 'sign in to reddit.com with google.com'.png"
+        },
+        "reddit alien icon (user profile/login button)": {
+          "coords": [
+            860,
+            132,
+            33,
+            23
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Reddit alien icon (user profile/login button)",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit alien icon (user profile\\login button).png"
+        },
+        "log in button": {
+          "coords": [
+            1252,
+            129,
+            55,
+            29
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Log In button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_log in button.png"
+        },
+        "login link": {
+          "coords": [
+            1252,
+            128,
+            53,
+            30
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Login link",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_login link.png"
+        },
+        "login link (https://www.reddit.com/login/)": {
+          "coords": [
+            226,
+            127,
+            1083,
+            23
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Login link (https://www.reddit.com/login/)",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_login link (https:\\www.reddit.com\\login\\).png"
+        },
+        "home link": {
+          "coords": [
+            57,
+            186,
+            34,
+            15
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Home link",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_home link.png"
+        },
+        "reddit icon (alien head)": {
+          "coords": [
+            243,
+            7,
+            34,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Reddit icon (alien head)",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit icon (alien head).png"
+        },
+        "reddit tab": {
+          "coords": [
+            708,
+            13,
+            24,
+            14
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Reddit tab",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit tab.png"
+        },
+        "stop presenting button": {
+          "coords": [
+            1106,
+            153,
+            134,
+            21
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Stop presenting button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_stop presenting button.png"
+        },
+        "google antigravity auth succe... window": {
+          "coords": [
+            457,
+            556,
+            433,
+            151
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Google Antigravity Auth Succe... window",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_google antigravity auth succe... window.png"
+        },
+        "address bar showing 'antigravity.google/auth-success'": {
+          "coords": [
+            285,
+            59,
+            393,
+            23
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar showing 'antigravity.google/auth-success'",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar showing 'antigravity.google\\auth-success'.png"
+        },
+        "reddit - the heart of the internet - reddit.com": {
+          "coords": [
+            166,
+            92,
+            297,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Reddit - The heart of the internet - reddit.com",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit - the heart of the internet - reddit.com.png"
+        },
+        "close button for 'sign in to reddit.com with google.com' pop-up": {
+          "coords": [
+            1285,
+            166,
+            14,
+            7
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for 'Sign in to reddit.com with google.com' pop-up",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for 'sign in to reddit.com with google.com' pop-up.png"
+        },
+        "sign in button": {
+          "coords": [
+            1219,
+            132,
+            50,
+            33
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Sign In button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_sign in button.png"
+        },
+        "close button for 'get the reddit app' pop-up": {
+          "coords": [
+            827,
+            245,
+            15,
+            12
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for 'Get the Reddit app' pop-up",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for 'get the reddit app' pop-up.png"
+        },
+        "email or username text input field": {
+          "coords": [
+            539,
+            460,
+            276,
+            35
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Email or username text input field",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_email or username text input field.png"
+        },
+        "password text input field": {
+          "coords": [
+            545,
+            532,
+            72,
+            14
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Password text input field",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_password text input field.png"
+        },
+        "never button": {
+          "coords": [
+            1113,
+            361,
+            42,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Never button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_never button.png"
+        },
+        "find anything search bar": {
+          "coords": [
+            635,
+            135,
+            87,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Find anything search bar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_find anything search bar.png"
+        },
+        "ask button": {
+          "coords": [
+            866,
+            135,
+            24,
+            16
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Ask button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_ask button.png"
+        },
+        "switch to this tab button": {
+          "coords": [
+            336,
+            334,
+            142,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Switch to this tab button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_switch to this tab button.png"
+        },
+        "close button for 'log in with google.com' pop-up": {
+          "coords": [
+            1309,
+            132,
+            31,
+            41
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for 'Log in with Google.com' pop-up",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for 'log in with google.com' pop-up.png"
+        },
+        "search bar with placeholder 'find anything'": {
+          "coords": [
+            476,
+            133,
+            308,
+            25
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search bar with placeholder 'Find anything'",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search bar with placeholder 'find anything'.png"
+        },
+        "save button": {
+          "coords": [
+            1061,
+            354,
+            71,
+            31
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Save button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_save button.png"
+        },
+        "i recently rediscovered chatroulette and started wondering if there is a random video chat app (like chatroulette, omegle, etc.) that actually works well for dating.": {
+          "coords": [
+            547,
+            412,
+            484,
+            28
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "I recently rediscovered Chatroulette and started wondering if there is a random video chat app (like Chatroulette, Omegle, etc.) that actually works well for dating.",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_i recently rediscovered chatroulette and started wondering if there is a random video chat app (like chatroulette, omegle, etc.) that actually works well for dating..png"
+        },
+        "go to post button": {
+          "coords": [
+            964,
+            377,
+            280,
+            30
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Go to Post button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_go to post button.png"
+        },
+        "back button": {
+          "coords": [
+            1087,
+            135,
+            24,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Back button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_back button.png"
+        },
+        "back button in browser navigation bar": {
+          "coords": [
+            125,
+            60,
+            18,
+            11
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Back button in browser navigation bar",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_back button in browser navigation bar.png"
+        },
+        "close button for reddit.com pop-up": {
+          "coords": [
+            404,
+            107,
+            15,
+            12
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for reddit.com pop-up",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for reddit.com pop-up.png"
+        },
+        "text_input 'text_field'": {
+          "coords": [
+            344,
+            56,
+            646,
+            18
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "TEXT_INPUT 'TEXT_FIELD'",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_text_input 'text_field'.png"
+        },
+        "my husband is using random video chat apps": {
+          "coords": [
+            364,
+            637,
+            301,
+            15
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "My husband is using random video chat apps",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_my husband is using random video chat apps.png"
+        },
+        "back arrow button": {
+          "coords": [
+            94,
+            62,
+            39,
+            16
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Back arrow button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_back arrow button.png"
+        },
+        "reddit.com suggestion": {
+          "coords": [
+            491,
+            162,
+            93,
+            12
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "reddit.com suggestion",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit.com suggestion.png"
+        },
+        "windows search bar": {
+          "coords": [
+            308,
+            734,
+            149,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Windows Search bar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_windows search bar.png"
+        },
+        "chrome icon on taskbar": {
+          "coords": [
+            659,
+            734,
+            28,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chrome icon on taskbar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chrome icon on taskbar.png"
+        },
+        "html online viewer - google chrome thumbnail preview": {
+          "coords": [
+            678,
+            558,
+            209,
+            144
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "HTML Online Viewer - Google Chrome thumbnail preview",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_html online viewer - google chrome thumbnail preview.png"
+        },
+        "address bar showing html.onlineviewer.net": {
+          "coords": [
+            127,
+            59,
+            178,
+            12
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar showing html.onlineviewer.net",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar showing html.onlineviewer.net.png"
+        },
+        "randc tab": {
+          "coords": [
+            754,
+            13,
+            62,
+            16
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "randc tab",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_randc tab.png"
+        },
+        "address bar": {
+          "coords": [
+            139,
+            53,
+            795,
+            19
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar.png"
+        },
+        "email or username text field": {
+          "coords": [
+            534,
+            430,
+            296,
+            46
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Email or username text field",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_email or username text field.png"
+        },
+        "close button for 'battery saver' popup": {
+          "coords": [
+            1311,
+            602,
+            23,
+            29
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Close button for 'Battery saver' popup",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_close button for 'battery saver' popup.png"
+        },
+        "autofill suggestion for username 'sea-rate-8973ar@151203'": {
+          "coords": [
+            654,
+            484,
+            158,
+            17
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Autofill suggestion for username 'Sea-Rate-8973Ar@151203'",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_autofill suggestion for username 'sea-rate-8973ar@151203'.png"
+        },
+        "password text field": {
+          "coords": [
+            534,
+            489,
+            296,
+            47
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Password text field",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_password text field.png"
+        },
+        "back arrow icon": {
+          "coords": [
+            490,
+            159,
+            30,
+            33
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Back arrow icon",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_back arrow icon.png"
+        },
+        "sea-rate-8973ar@151203 password suggestion": {
+          "coords": [
+            685,
+            327,
+            84,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Sea-Rate-8973Ar@151203 password suggestion",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_sea-rate-8973ar@151203 password suggestion.png"
+        },
+        "address bar showing 'bohrium.com/en'": {
+          "coords": [
+            122,
+            57,
+            174,
+            15
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar showing 'bohrium.com/en'",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar showing 'bohrium.com\\en'.png"
+        },
+        "switch to this tab button for reddit": {
+          "coords": [
+            482,
+            99,
+            128,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Switch to this tab button for Reddit",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_switch to this tab button for reddit.png"
+        },
+        "email or username text input field in the log in modal": {
+          "coords": [
+            540,
+            460,
+            283,
+            38
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Email or username text input field in the Log In modal",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_email or username text input field in the log in modal.png"
+        },
+        "password text input field in the log in modal": {
+          "coords": [
+            534,
+            511,
+            84,
+            53
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Password text input field in the Log In modal",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_password text input field in the log in modal.png"
+        },
+        "log in button in the log in modal": {
+          "coords": [
+            547,
+            640,
+            268,
+            41
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Log In button in the Log In modal",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_log in button in the log in modal.png"
+        },
+        "reddit icon in the top right corner": {
+          "coords": [
+            1318,
+            133,
+            22,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Reddit icon in the top right corner",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_reddit icon in the top right corner.png"
+        },
+        "find anything text input field": {
+          "coords": [
+            631,
+            133,
+            87,
+            16
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Find anything text input field",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_find anything text input field.png"
+        },
+        "my husband is using random video chat apps post": {
+          "coords": [
+            367,
+            314,
+            37,
+            17
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "My husband is using random video chat apps post",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_my husband is using random video chat apps post.png"
+        },
+        "user icon": {
+          "coords": [
+            1294,
+            57,
+            25,
+            17
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "User icon",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_user icon.png"
+        },
+        "email or username text input field in the login modal": {
+          "coords": [
+            546,
+            469,
+            134,
+            17
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Email or username text input field in the login modal",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_email or username text input field in the login modal.png"
+        },
+        "password text input field in the login modal": {
+          "coords": [
+            535,
+            519,
+            108,
+            45
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Password text input field in the login modal",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_password text input field in the login modal.png"
+        },
+        "log in button in the login modal": {
+          "coords": [
+            535,
+            642,
+            294,
+            39
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Log In button in the login modal",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_log in button in the login modal.png"
+        },
+        "search icon next to the search bar": {
+          "coords": [
+            856,
+            130,
+            20,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Search icon next to the search bar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_search icon next to the search bar.png"
+        },
+        "chatroulette link/text": {
+          "coords": [
+            524,
+            377,
+            79,
+            11
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chatroulette link/text",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chatroulette link\\text.png"
+        },
+        "plus icon to open a new tab": {
+          "coords": [
+            718,
+            9,
+            22,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Plus icon to open a new tab",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_plus icon to open a new tab.png"
+        },
+        "github - github.com suggestion": {
+          "coords": [
+            166,
+            99,
+            141,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "GitHub - github.com suggestion",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_github - github.com suggestion.png"
+        },
+        "user profile icon": {
+          "coords": [
+            1185,
+            148,
+            19,
+            10
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "User profile icon",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_user profile icon.png"
+        },
+        "user profile icon (letter a)": {
+          "coords": [
+            1233,
+            53,
+            34,
+            22
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "User profile icon (letter A)",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_user profile icon (letter a).png"
+        },
+        "user profile icon (purple circle with 'a')": {
+          "coords": [
+            1292,
+            13,
+            31,
+            23
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "User profile icon (purple circle with 'A')",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_user profile icon (purple circle with 'a').png"
+        },
+        "chrome window thumbnail in the window switcher overlay": {
+          "coords": [
+            1141,
+            145,
+            99,
+            40
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chrome window thumbnail in the window switcher overlay",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chrome window thumbnail in the window switcher overlay.png"
+        },
+        "chrome icon in the taskbar": {
+          "coords": [
+            475,
+            744,
+            44,
+            18
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chrome icon in the taskbar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chrome icon in the taskbar.png"
+        },
+        "chrome icon on the taskbar": {
+          "coords": [
+            616,
+            734,
+            30,
+            21
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chrome icon on the taskbar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chrome icon on the taskbar.png"
+        },
+        "chrome browser icon in the taskbar": {
+          "coords": [
+            659,
+            731,
+            28,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Chrome browser icon in the taskbar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_chrome browser icon in the taskbar.png"
+        },
+        "address bar showing github.com/issues/assigned": {
+          "coords": [
+            211,
+            86,
+            205,
+            14
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar showing github.com/issues/assigned",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar showing github.com\\issues\\assigned.png"
+        },
+        "address bar showing https://github.com/issues/assigned": {
+          "coords": [
+            243,
+            82,
+            222,
+            20
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Address bar showing https://github.com/issues/assigned",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_address bar showing https:\\github.com\\issues\\assigned.png"
+        },
+        "profile icon": {
+          "coords": [
+            1098,
+            13,
+            23,
+            13
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Profile icon",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_profile icon.png"
+        },
+        "new tab button": {
+          "coords": [
+            659,
+            35,
+            32,
+            25
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "New tab button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_new tab button.png"
+        },
+        "google chrome icon on the taskbar": {
+          "coords": [
+            661,
+            731,
+            26,
+            24
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Google Chrome icon on the taskbar",
+          "is_invariant": true,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_google chrome icon on the taskbar.png"
+        },
+        "cancel button": {
+          "coords": [
+            1031,
+            101,
+            75,
+            28
+          ],
+          "type": "vlm_discovered",
+          "behavior": "static",
+          "description": "Cancel button",
+          "is_invariant": false,
+          "stability_class": "UNKNOWN",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": false,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Desktop_cancel button.png"
+        }
+      },
+      "last_seen": 1772819135.4890406
+    },
+    "Taskbar": {
+      "elements": {
+        "start button": {
+          "coords": [
+            0,
+            1040,
+            40,
+            40
+          ],
+          "type": "system_button",
+          "behavior": "static",
+          "description": "Start Button",
+          "is_invariant": true
+        }
+      },
+      "last_seen": 1772304445.549459,
+      "type": "FIXED"
+    },
+    "Chrome_WidgetWin_1": {
+      "elements": {
+        "text_field": {
+          "coords": [
+            0,
+            3,
+            936,
+            42
+          ],
+          "type": "TEXT_INPUT",
+          "behavior": "static",
+          "description": "TEXT_FIELD",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_text_field.png"
+        },
+        "button": {
+          "coords": [
+            564,
+            16,
+            48,
+            12
+          ],
+          "type": "BUTTON",
+          "behavior": "static",
+          "description": "BUTTON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_button.png"
+        },
+        "structural": {
+          "coords": [
+            1137,
+            49,
+            43,
+            29
+          ],
+          "type": "STRUCTURAL",
+          "behavior": "static",
+          "description": "STRUCTURAL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_structural.png"
+        },
+        "icon": {
+          "coords": [
+            1237,
+            49,
+            35,
+            29
+          ],
+          "type": "ICON",
+          "behavior": "static",
+          "description": "ICON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_icon.png"
+        },
+        "panel": {
+          "coords": [
+            0,
+            106,
+            1366,
+            616
+          ],
+          "type": "PANEL",
+          "behavior": "static",
+          "description": "PANEL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_panel.png"
+        }
+      },
+      "last_seen": 1772739728.0241385,
+      "type": "DYNAMIC"
+    },
+    "TkTopLevel": {
+      "elements": {
+        "text_field": {
+          "coords": [
+            0,
+            3,
+            936,
+            42
+          ],
+          "type": "TEXT_INPUT",
+          "behavior": "static",
+          "description": "TEXT_FIELD",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\TkTopLevel_text_field.png"
+        },
+        "button": {
+          "coords": [
+            1034,
+            3,
+            110,
+            26
+          ],
+          "type": "BUTTON",
+          "behavior": "static",
+          "description": "BUTTON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\TkTopLevel_button.png"
+        },
+        "icon": {
+          "coords": [
+            1237,
+            49,
+            35,
+            29
+          ],
+          "type": "ICON",
+          "behavior": "static",
+          "description": "ICON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\TkTopLevel_icon.png"
+        },
+        "panel": {
+          "coords": [
+            0,
+            135,
+            1366,
+            587
+          ],
+          "type": "PANEL",
+          "behavior": "static",
+          "description": "PANEL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\TkTopLevel_panel.png"
+        },
+        "structural": {
+          "coords": [
+            1354,
+            139,
+            9,
+            139
+          ],
+          "type": "STRUCTURAL",
+          "behavior": "static",
+          "description": "STRUCTURAL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\TkTopLevel_structural.png"
+        }
+      },
+      "last_seen": 1772739904.6888962,
+      "type": "DYNAMIC"
+    },
+    "#32770": {
+      "elements": {
+        "button": {
+          "coords": [
+            39,
+            8,
+            28,
+            18
+          ],
+          "type": "BUTTON",
+          "behavior": "static",
+          "description": "BUTTON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\#32770_button.png"
+        },
+        "structural": {
+          "coords": [
+            224,
+            9,
+            24,
+            18
+          ],
+          "type": "STRUCTURAL",
+          "behavior": "static",
+          "description": "STRUCTURAL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\#32770_structural.png"
+        },
+        "icon": {
+          "coords": [
+            1335,
+            9,
+            16,
+            16
+          ],
+          "type": "ICON",
+          "behavior": "static",
+          "description": "ICON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\#32770_icon.png"
+        },
+        "text_field": {
+          "coords": [
+            1226,
+            592,
+            106,
+            17
+          ],
+          "type": "TEXT_INPUT",
+          "behavior": "static",
+          "description": "TEXT_FIELD",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\#32770_text_field.png"
+        }
+      },
+      "last_seen": 1772802244.6640265,
+      "type": "DYNAMIC"
+    },
+    "ApplicationFrameWindow": {
+      "elements": {
+        "text_field": {
+          "coords": [
+            298,
+            726,
+            224,
+            35
+          ],
+          "type": "TEXT_INPUT",
+          "behavior": "static",
+          "description": "TEXT_FIELD",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\ApplicationFrameWindow_text_field.png"
+        },
+        "icon": {
+          "coords": [
+            22,
+            731,
+            26,
+            23
+          ],
+          "type": "ICON",
+          "behavior": "static",
+          "description": "ICON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\ApplicationFrameWindow_icon.png"
+        },
+        "structural": {
+          "coords": [
+            840,
+            735,
+            24,
+            18
+          ],
+          "type": "STRUCTURAL",
+          "behavior": "static",
+          "description": "STRUCTURAL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "C:\\Users\\HP\\Downloads\\micro gravity - Copy\\ui_agent_engine\\agent_memory\\long_term\\templates\\ApplicationFrameWindow_structural.png"
+        }
+      },
+      "last_seen": 1772803370.4250016,
+      "type": "DYNAMIC"
+    }
+  },
+  "global_elements": {},
+  "layout_patterns": {},
+  "version": "2.0"
+}

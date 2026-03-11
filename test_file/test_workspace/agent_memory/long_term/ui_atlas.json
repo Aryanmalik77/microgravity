@@ -1,0 +1,129 @@
+{
+  "contexts": {
+    "Desktop": {
+      "type": "FIXED",
+      "elements": {}
+    },
+    "Taskbar": {
+      "type": "FIXED",
+      "elements": {}
+    },
+    "Chrome_WidgetWin_1": {
+      "elements": {
+        "text_field": {
+          "coords": [
+            881,
+            2,
+            299,
+            31
+          ],
+          "type": "TEXT_INPUT",
+          "behavior": "static",
+          "description": "TEXT_FIELD",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\test_workspace\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_text_field.png"
+        },
+        "button": {
+          "coords": [
+            1183,
+            5,
+            37,
+            24
+          ],
+          "type": "BUTTON",
+          "behavior": "static",
+          "description": "BUTTON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\test_workspace\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_button.png"
+        },
+        "icon": {
+          "coords": [
+            1287,
+            7,
+            20,
+            20
+          ],
+          "type": "ICON",
+          "behavior": "static",
+          "description": "ICON",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "CLICK",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\test_workspace\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_icon.png"
+        },
+        "panel": {
+          "coords": [
+            38,
+            8,
+            949,
+            692
+          ],
+          "type": "PANEL",
+          "behavior": "static",
+          "description": "PANEL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\test_workspace\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_panel.png"
+        },
+        "structural": {
+          "coords": [
+            224,
+            9,
+            24,
+            18
+          ],
+          "type": "STRUCTURAL",
+          "behavior": "static",
+          "description": "STRUCTURAL",
+          "is_invariant": false,
+          "stability_class": "STATIC",
+          "interaction_type": "HOVER",
+          "typical_position": "",
+          "match_count": 0,
+          "last_match_confidence": 0.0,
+          "discovered_via": "VLM",
+          "last_verified": 0.0,
+          "is_speculative": true,
+          "template_path": "c:\\Users\\HP\\Downloads\\micro gravity - Copy\\test_workspace\\agent_memory\\long_term\\templates\\Chrome_WidgetWin_1_structural.png"
+        }
+      },
+      "last_seen": 1772738915.2406375,
+      "type": "DYNAMIC"
+    }
+  },
+  "global_elements": {},
+  "layout_patterns": {},
+  "app_profiles": {},
+  "learned_chrome_boundaries": {},
+  "element_embeddings": {},
+  "version": "3.0"
+}

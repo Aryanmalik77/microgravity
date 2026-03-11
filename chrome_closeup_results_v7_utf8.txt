@@ -1,0 +1,71 @@
+﻿python : 2026-03-10 23:14:29.515 | INFO    
+ | __main__:run_chrome_closeup:20 - --- 
+Starting Live Chrome Closeup ---
+At line:1 char:1
++ python scripts/execute_chrome_closeup.py 
+> chrome_closeup_results_v7. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : (2026-03-10 23:1...ome Closeup ---:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+2026-03-10 23:14:31.685 | INFO     | src.in
+telligence.perception.engine:__init__:23 - 
+[VisionEngine] Initialized with model 
+gemini-2.0-flash-exp
+2026-03-10 23:14:33.856 | INFO     | src.in
+telligence.perception.engine:attach_live_st
+reamer:27 - [VisionEngine] Live Streamer 
+attached.
+2026-03-10 23:14:33.857 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:62 - [LiveStreamer] Attempting 
+connection with models: 
+['gemini-2.0-flash', 
+'gemini-2.0-flash-001', 
+'gemini-2.0-flash-exp']
+2026-03-10 23:14:33.943 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.0-flash...
+2026-03-10 23:14:34.308 | ERROR    | src.in
+telligence.perception.live_streamer:start_s
+ession:97 - [LiveStreamer] Failed during 
+session for gemini-2.0-flash: 1008 None. 
+models/gemini-2.0-flash is not found for 
+API version v1beta, or is not supported 
+for bidiGenerateContent. Call ListModels t
+2026-03-10 23:14:34.528 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.0-flash-001...
+2026-03-10 23:14:34.870 | ERROR    | src.in
+telligence.perception.live_streamer:start_s
+ession:97 - [LiveStreamer] Failed during 
+session for gemini-2.0-flash-001: 1008 
+None. models/gemini-2.0-flash-001 is not 
+found for API version v1beta, or is not 
+supported for bidiGenerateContent. Call 
+ListMode
+2026-03-10 23:14:34.870 | INFO     | src.in
+telligence.perception.live_streamer:start_s
+ession:78 - [LiveStreamer] Trying model: 
+gemini-2.0-flash-exp...
+2026-03-10 23:14:35.553 | ERROR    | src.in
+telligence.perception.live_streamer:start_s
+ession:97 - [LiveStreamer] Failed during 
+session for gemini-2.0-flash-exp: 1008 
+None. models/gemini-2.0-flash-exp is not 
+found for API version v1beta, or is not 
+supported for bidiGenerateContent. Call 
+ListMode
+2026-03-10 23:14:35.553 | ERROR    | src.in
+telligence.perception.live_streamer:start_s
+ession:105 - [LiveStreamer] All model 
+fallbacks exhausted.
+2026-03-10 23:14:49.043 | ERROR    | 
+__main__:run_chrome_closeup:40 - Failed to 
+connect to Gemini Live API.

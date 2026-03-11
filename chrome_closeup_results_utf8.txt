@@ -1,0 +1,130 @@
+﻿python : 2026-03-10 23:03:48.002 | 
+INFO     | 
+__main__:run_chrome_closeup:20 - --- 
+Starting Live Chrome Closeup ---
+At line:1 char:1
++ python 
+scripts/execute_chrome_closeup.py > 
+chrome_closeup_results.txt ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (2026-03-10 23:0...ome Close  
+  up ---:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+2026-03-10 23:03:52.582 | INFO     | sr
+c.intelligence.perception.engine:__init
+__:23 - [VisionEngine] Initialized 
+with model gemini-2.0-flash-exp
+2026-03-10 23:03:55.530 | INFO     | sr
+c.intelligence.perception.engine:attach
+_live_streamer:27 - [VisionEngine] 
+Live Streamer attached.
+2026-03-10 23:03:55.531 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:62 - [LiveStreamer] 
+Attempting connection with models: 
+['gemini-2.0-flash-exp', 'gemini-2.5-fl
+ash-native-audio-latest', 
+'gemini-2.0-flash-live-001']
+2026-03-10 23:03:55.646 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:78 - [LiveStreamer] 
+Trying model: gemini-2.0-flash-exp...
+2026-03-10 23:03:56.219 | ERROR    | sr
+c.intelligence.perception.live_streamer
+:start_session:97 - [LiveStreamer] 
+Failed during session for 
+gemini-2.0-flash-exp: 1008 None. 
+models/gemini-2.0-flash-exp is not 
+found for API version v1alpha, or is 
+not supported for bidiGenerateContent. 
+Call ListMod
+2026-03-10 23:03:56.471 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:78 - [LiveStreamer] 
+Trying model: 
+gemini-2.5-flash-native-audio-latest...
+2026-03-10 23:03:57.306 | INFO     | sr
+c.intelligence.perception.live_streamer
+:start_session:81 - [LiveStreamer] 
+Connected with 
+'gemini-2.5-flash-native-audio-latest'
+2026-03-10 23:03:57.534 | INFO     | 
+__main__:run_chrome_closeup:49 - 
+Resolving 'Chrome Address Bar' with 
+closeup resolution...
+2026-03-10 23:03:57.535 | INFO     | sr
+c.intelligence.perception.engine:resolv
+e_target_with_zoom:97 - [VisionEngine] 
+Resolving 'Chrome Address Bar' 
+(zoom=True, hint=[50, 500])
+2026-03-10 23:03:57.535 | INFO     | sr
+c.intelligence.perception.engine:resolv
+e_target_with_zoom:116 - 
+[VisionEngine] Triggering PASS 2 
+(Closeup/Zoom)
+2026-03-10 23:03:57.536 | INFO     | sr
+c.intelligence.perception.live_streamer
+:set_roi:134 - [LiveStreamer] ROI set 
+to (640, 0, 1280, 360)
+2026-03-10 23:03:59.152 | INFO     | sr
+c.intelligence.perception.engine:_zoom_
+resolve:182 - [VisionEngine] Setting 
+callback and sending prompt...
+2026-03-10 23:04:09.164 | ERROR    | sr
+c.intelligence.perception.engine:_zoom_
+resolve:202 - [VisionEngine] Internal 
+error in _zoom_resolve: 
+2026-03-10 23:04:09.176 | ERROR    | sr
+c.intelligence.perception.engine:_zoom_
+resolve:204 - Traceback (most recent 
+call last):
+  File 
+"C:\Python314\Lib\asyncio\tasks.py", 
+line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File 
+"C:\Python314\Lib\asyncio\locks.py", 
+line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct 
+cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\micro 
+gravity - Copy\src\intelligence\percept
+ion\engine.py", line 189, in 
+_zoom_resolve
+    await asyncio.wait_for(response_eve
+nt.wait(), timeout=10.0)
+  File 
+"C:\Python314\Lib\asyncio\tasks.py", 
+line 487, in wait_for
+    async with 
+timeouts.timeout(timeout):
+               
+~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\timeou
+ts.py", line 114, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+2026-03-10 23:04:09.177 | INFO     | sr
+c.intelligence.perception.live_streamer
+:reset_roi:138 - [LiveStreamer] ROI 
+reset.
+2026-03-10 23:04:09.177 | SUCCESS  | 
+__main__:run_chrome_closeup:54 - 
+Resolution Result: {'x': 960, 'y': 540}
+2026-03-10 23:04:09.177 | ERROR    | 
+__main__:run_chrome_closeup:61 - 
+Metadata was not stored in UI Atlas.
+2026-03-10 23:04:09.257 | INFO     | 
+__main__:run_chrome_closeup:69 - 
+Closeup task finished.

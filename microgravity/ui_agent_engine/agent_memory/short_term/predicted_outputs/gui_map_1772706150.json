@@ -1,0 +1,2477 @@
+[
+  {
+    "id": 1,
+    "label": "File: .dockerignore",
+    "description": "A file that specifies intentionally untracked files that Git should ignore.",
+    "coordinates": {
+      "x": 791,
+      "y": 755,
+      "width": 6,
+      "height": 6
+    }
+  },
+  {
+    "id": 2,
+    "label": "Folder: ui_agent_engine",
+    "description": "A folder containing files related to the UI agent engine.",
+    "coordinates": {
+      "x": 317,
+      "y": 409,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 3,
+    "label": "Folder: temp_vision",
+    "description": "A folder likely containing temporary vision-related files or modules.",
+    "coordinates": {
+      "x": 317,
+      "y": 277,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 4,
+    "label": "Folder: .microgravity",
+    "description": "A hidden folder named '.microgravity', possibly containing configuration or core files for a microgravity project.",
+    "coordinates": {
+      "x": 317,
+      "y": 101,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 5,
+    "label": "Error Message: Server initialization failed.",
+    "description": "A notification indicating that the server failed to start or initialize correctly.",
+    "coordinates": {
+      "x": 1054,
+      "y": 762,
+      "width": 10,
+      "height": 6
+    }
+  },
+  {
+    "id": 6,
+    "label": "Volume Control Icon",
+    "description": "An icon to control the system's audio volume.",
+    "coordinates": {
+      "x": 1187,
+      "y": 727,
+      "width": 10,
+      "height": 6
+    }
+  },
+  {
+    "id": 7,
+    "label": "Windows Start Button",
+    "description": "The button to open the Windows Start menu.",
+    "coordinates": {
+      "x": 1253,
+      "y": 761,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 8,
+    "label": "Date Display",
+    "description": "Displays the current month and year, '03-2026'.",
+    "coordinates": {
+      "x": 1245,
+      "y": 756,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 9,
+    "label": "Button: Review Changes",
+    "description": "A button to review changes made in the current context.",
+    "coordinates": {
+      "x": 1145,
+      "y": 600,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 10,
+    "label": "Text: Generating.",
+    "description": "Indicates that a process of generation is currently active.",
+    "coordinates": {
+      "x": 1121,
+      "y": 600,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 11,
+    "label": "Input Field: Ask anything, @ to mention, / for workflows.",
+    "description": "An input field for typing queries, mentions, or workflow commands.",
+    "coordinates": {
+      "x": 74,
+      "y": 499,
+      "width": 11,
+      "height": 6
+    }
+  },
+  {
+    "id": 12,
+    "label": "Network Status Icon",
+    "description": "An icon indicating the current network connection status, likely Wi-Fi.",
+    "coordinates": {
+      "x": 1121,
+      "y": 751,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 13,
+    "label": "Search Icon (Taskbar)",
+    "description": "An icon to open the system's search utility from the taskbar.",
+    "coordinates": {
+      "x": 358,
+      "y": 740,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 14,
+    "label": "Visual Studio Code Icon",
+    "description": "The icon for the Visual Studio Code integrated development environment, pinned to the taskbar.",
+    "coordinates": {
+      "x": 892,
+      "y": 739,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 15,
+    "label": "VS Code Tab: main*",
+    "description": "A tab in Visual Studio Code, likely representing the main file or project, with an asterisk indicating unsaved changes.",
+    "coordinates": {
+      "x": 163,
+      "y": 727,
+      "width": 12,
+      "height": 6
+    }
+  },
+  {
+    "id": 16,
+    "label": "Microphone Icon",
+    "description": "An icon indicating microphone status or controls.",
+    "coordinates": {
+      "x": 1002,
+      "y": 729,
+      "width": 11,
+      "height": 7
+    }
+  },
+  {
+    "id": 17,
+    "label": "Windows Widgets/News Icon",
+    "description": "An icon to access Windows Widgets or News and Interests feed.",
+    "coordinates": {
+      "x": 332,
+      "y": 746,
+      "width": 11,
+      "height": 7
+    }
+  },
+  {
+    "id": 18,
+    "label": "File Explorer Icon",
+    "description": "The icon for the Windows File Explorer, pinned to the taskbar.",
+    "coordinates": {
+      "x": 583,
+      "y": 743,
+      "width": 12,
+      "height": 7
+    }
+  },
+  {
+    "id": 19,
+    "label": "Weather Information",
+    "description": "Displays the current temperature and weather condition, '29\u00b0C Sunny'.",
+    "coordinates": {
+      "x": 158,
+      "y": 749,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 20,
+    "label": "Microsoft Edge Icon",
+    "description": "The icon for the Microsoft Edge web browser, pinned to the taskbar.",
+    "coordinates": {
+      "x": 626,
+      "y": 740,
+      "width": 9,
+      "height": 10
+    }
+  },
+  {
+    "id": 21,
+    "label": "Google Chrome Icon",
+    "description": "The icon for the Google Chrome web browser, pinned to the taskbar.",
+    "coordinates": {
+      "x": 551,
+      "y": 679,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 22,
+    "label": "File Name: api_vision_processor.py",
+    "description": "The name of a Python file, 'api_vision_processor.py', within a file path.",
+    "coordinates": {
+      "x": 1201,
+      "y": 246,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 23,
+    "label": "Button: Go to output",
+    "description": "A button to navigate to the output log or console related to the server initialization.",
+    "coordinates": {
+      "x": 1131,
+      "y": 228,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 24,
+    "label": "Microsoft Store Icon",
+    "description": "The icon for the Microsoft Store, pinned to the taskbar.",
+    "coordinates": {
+      "x": 611,
+      "y": 727,
+      "width": 17,
+      "height": 6
+    }
+  },
+  {
+    "id": 25,
+    "label": "Text: Antigravity - Settings",
+    "description": "Text indicating the settings section for an application or project named 'Antigravity'.",
+    "coordinates": {
+      "x": 1266,
+      "y": 701,
+      "width": 17,
+      "height": 6
+    }
+  },
+  {
+    "id": 26,
+    "label": "Time Display",
+    "description": "Displays the current time, '15:52'.",
+    "coordinates": {
+      "x": 190,
+      "y": 739,
+      "width": 13,
+      "height": 8
+    }
+  },
+  {
+    "id": 27,
+    "label": "Notification Icon",
+    "description": "A bell icon indicating pending notifications.",
+    "coordinates": {
+      "x": 786,
+      "y": 727,
+      "width": 15,
+      "height": 7
+    }
+  },
+  {
+    "id": 28,
+    "label": "Show Hidden Icons Arrow",
+    "description": "An arrow icon to reveal hidden icons in the system tray.",
+    "coordinates": {
+      "x": 1014,
+      "y": 755,
+      "width": 12,
+      "height": 9
+    }
+  },
+  {
+    "id": 29,
+    "label": "Button/Label: Gemini 3 Flash",
+    "description": "A button or label indicating the use of 'Gemini 3 Flash' model or feature.",
+    "coordinates": {
+      "x": 1330,
+      "y": 680,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 30,
+    "label": "File Name: execute_live_task.py",
+    "description": "The name of a Python file, 'execute_live_task.py', mentioned in the 'Verification Plan'.",
+    "coordinates": {
+      "x": 533,
+      "y": 679,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 31,
+    "label": "Button: Always run",
+    "description": "A button to set a process or task to always run.",
+    "coordinates": {
+      "x": 1330,
+      "y": 660,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 32,
+    "label": "Command: python",
+    "description": "The 'python' command used to execute a Python script.",
+    "coordinates": {
+      "x": 1199,
+      "y": 190,
+      "width": 16,
+      "height": 7
+    }
+  },
+  {
+    "id": 33,
+    "label": "Language Indicator: ENG",
+    "description": "Indicates the currently selected input language, English.",
+    "coordinates": {
+      "x": 1190,
+      "y": 761,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 34,
+    "label": "Text: Source: Antigravity",
+    "description": "Indicates that the 'Server initialization failed' error originated from 'Antigravity'.",
+    "coordinates": {
+      "x": 166,
+      "y": 761,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 35,
+    "label": "Close Button",
+    "description": "A button to close the 'Server initialization failed' notification.",
+    "coordinates": {
+      "x": 99,
+      "y": 727,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 36,
+    "label": "Settings Icon",
+    "description": "An icon to access settings or configuration options.",
+    "coordinates": {
+      "x": 1333,
+      "y": 667,
+      "width": 11,
+      "height": 11
+    }
+  },
+  {
+    "id": 37,
+    "label": "Button/Label: Planning",
+    "description": "A button or label indicating a 'Planning' phase or feature.",
+    "coordinates": {
+      "x": 957,
+      "y": 739,
+      "width": 9,
+      "height": 14
+    }
+  },
+  {
+    "id": 38,
+    "label": "Close Tab Button",
+    "description": "A button to close the 'main*' tab in Visual Studio Code.",
+    "coordinates": {
+      "x": 208,
+      "y": 737,
+      "width": 14,
+      "height": 9
+    }
+  },
+  {
+    "id": 39,
+    "label": "Text: Starting API-Based Static GUI Labeling",
+    "description": "A log message indicating the start of an API-based static GUI labeling process.",
+    "coordinates": {
+      "x": 1239,
+      "y": 337,
+      "width": 21,
+      "height": 6
+    }
+  },
+  {
+    "id": 40,
+    "label": "Folder Name: micro gravity",
+    "description": "The name of a folder, 'micro gravity', within a file path.",
+    "coordinates": {
+      "x": 1115,
+      "y": 227,
+      "width": 16,
+      "height": 8
+    }
+  },
+  {
+    "id": 41,
+    "label": "Text: \"the semantic Atlas.\"",
+    "description": "A fragment of text from the output log, likely describing a component or goal.",
+    "coordinates": {
+      "x": 1114,
+      "y": 175,
+      "width": 16,
+      "height": 8
+    }
+  },
+  {
+    "id": 42,
+    "label": "Text: \"C:\\Users\\HP\\Downloads\\micro\"",
+    "description": "A fragment of a file path displayed in the output log.",
+    "coordinates": {
+      "x": 1349,
+      "y": 734,
+      "width": 11,
+      "height": 12
+    }
+  },
+  {
+    "id": 43,
+    "label": "Text: \"ity - Copy\\ui_ag\"",
+    "description": "A fragment of a file path displayed in the output log, continuing from the previous line.",
+    "coordinates": {
+      "x": 1171,
+      "y": 246,
+      "width": 22,
+      "height": 6
+    }
+  },
+  {
+    "id": 44,
+    "label": "Folder Icon with Text \"microgravity\"",
+    "description": "A folder named 'microgravity' in the file explorer sidebar.",
+    "coordinates": {
+      "x": 88,
+      "y": 117,
+      "width": 23,
+      "height": 6
+    }
+  },
+  {
+    "id": 45,
+    "label": "Tab: \"Implementation Plan\"",
+    "description": "An active tab displaying the 'Implementation Plan' document.",
+    "coordinates": {
+      "x": 717,
+      "y": 40,
+      "width": 23,
+      "height": 6
+    }
+  },
+  {
+    "id": 46,
+    "label": "Windows Start Button",
+    "description": "Button to open the Windows Start menu.",
+    "coordinates": {
+      "x": 274,
+      "y": 727,
+      "width": 20,
+      "height": 7
+    }
+  },
+  {
+    "id": 47,
+    "label": "Text: \"IN\"",
+    "description": "Part of the language indicator 'ENG IN' on the Windows taskbar, indicating the input language.",
+    "coordinates": {
+      "x": 1107,
+      "y": 762,
+      "width": 24,
+      "height": 6
+    }
+  },
+  {
+    "id": 48,
+    "label": "Search Icon",
+    "description": "Icon to open the Windows search bar or search functionality.",
+    "coordinates": {
+      "x": 583,
+      "y": 733,
+      "width": 18,
+      "height": 8
+    }
+  },
+  {
+    "id": 49,
+    "label": "File Explorer Icon",
+    "description": "Icon to open the Windows File Explorer.",
+    "coordinates": {
+      "x": 559,
+      "y": 762,
+      "width": 25,
+      "height": 6
+    }
+  },
+  {
+    "id": 50,
+    "label": "Microsoft Edge Icon",
+    "description": "Icon for the Microsoft Edge web browser, pinned to the taskbar.",
+    "coordinates": {
+      "x": 1091,
+      "y": 734,
+      "width": 13,
+      "height": 12
+    }
+  },
+  {
+    "id": 51,
+    "label": "Show Hidden Icons Arrow",
+    "description": "Arrow to expand the system tray and show hidden icons.",
+    "coordinates": {
+      "x": 1044,
+      "y": 727,
+      "width": 23,
+      "height": 7
+    }
+  },
+  {
+    "id": 52,
+    "label": "Task View Icon",
+    "description": "Icon to open Windows Task View, showing open applications and virtual desktops.",
+    "coordinates": {
+      "x": 245,
+      "y": 741,
+      "width": 21,
+      "height": 8
+    }
+  },
+  {
+    "id": 53,
+    "label": "Opera Browser Icon",
+    "description": "Icon for the Opera web browser, pinned to the taskbar.",
+    "coordinates": {
+      "x": 803,
+      "y": 738,
+      "width": 12,
+      "height": 14
+    }
+  },
+  {
+    "id": 54,
+    "label": "Error Message: \"Server initialization failed.\"",
+    "description": "A notification message indicating that a server failed to initialize.",
+    "coordinates": {
+      "x": 43,
+      "y": 701,
+      "width": 24,
+      "height": 7
+    }
+  },
+  {
+    "id": 55,
+    "label": "Weather Widget",
+    "description": "Displays current weather information (temperature and condition) on the taskbar.",
+    "coordinates": {
+      "x": 25,
+      "y": 737,
+      "width": 13,
+      "height": 13
+    }
+  },
+  {
+    "id": 56,
+    "label": "Google Chrome Icon",
+    "description": "Icon for the Google Chrome web browser, pinned to the taskbar.",
+    "coordinates": {
+      "x": 699,
+      "y": 761,
+      "width": 25,
+      "height": 7
+    }
+  },
+  {
+    "id": 57,
+    "label": "Button: \"Cancel\"",
+    "description": "Button to stop or cancel the current operation or process.",
+    "coordinates": {
+      "x": 1244,
+      "y": 12,
+      "width": 16,
+      "height": 11
+    }
+  },
+  {
+    "id": 58,
+    "label": "Tab: \"Fixing Live Stream Connection\"",
+    "description": "An inactive tab, likely for a document related to fixing a live stream connection.",
+    "coordinates": {
+      "x": 634,
+      "y": 40,
+      "width": 30,
+      "height": 6
+    }
+  },
+  {
+    "id": 59,
+    "label": "Wi-Fi Icon",
+    "description": "Indicates the status of the wireless network connection.",
+    "coordinates": {
+      "x": 1181,
+      "y": 738,
+      "width": 16,
+      "height": 12
+    }
+  },
+  {
+    "id": 60,
+    "label": "Microsoft Teams Icon",
+    "description": "Icon for the Microsoft Teams communication application, pinned to the taskbar.",
+    "coordinates": {
+      "x": 730,
+      "y": 726,
+      "width": 24,
+      "height": 8
+    }
+  },
+  {
+    "id": 61,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1069,
+      "y": 58,
+      "width": 32,
+      "height": 6
+    }
+  },
+  {
+    "id": 62,
+    "label": "Play Button Icon",
+    "description": "Button to start or run a process or script.",
+    "coordinates": {
+      "x": 1034,
+      "y": 46,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 63,
+    "label": "Folder Icon with Text \"micro gravity - Copy\"",
+    "description": "The root folder of the current project in the file explorer sidebar.",
+    "coordinates": {
+      "x": 309,
+      "y": 49,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 64,
+    "label": "Text: \"main*\"",
+    "description": "Status indicator in the VS Code status bar, likely showing the current Git branch or file status.",
+    "coordinates": {
+      "x": 1140,
+      "y": 749,
+      "width": 23,
+      "height": 9
+    }
+  },
+  {
+    "id": 65,
+    "label": "Speaker Icon",
+    "description": "Indicates the audio output status and allows volume control.",
+    "coordinates": {
+      "x": 1355,
+      "y": 568,
+      "width": 11,
+      "height": 19
+    }
+  },
+  {
+    "id": 66,
+    "label": "VS Code Icon",
+    "description": "Icon for Visual Studio Code, pinned to the taskbar.",
+    "coordinates": {
+      "x": 630,
+      "y": 759,
+      "width": 35,
+      "height": 6
+    }
+  },
+  {
+    "id": 67,
+    "label": "Battery Icon",
+    "description": "Displays the current battery level and charging status.",
+    "coordinates": {
+      "x": 1211,
+      "y": 758,
+      "width": 21,
+      "height": 10
+    }
+  },
+  {
+    "id": 68,
+    "label": "Text: \"api_v\"",
+    "description": "A fragment of a filename 'api_vision_processor.py' displayed in the output log.",
+    "coordinates": {
+      "x": 1221,
+      "y": 246,
+      "width": 30,
+      "height": 7
+    }
+  },
+  {
+    "id": 69,
+    "label": "Green Dot Status Indicator",
+    "description": "A status indicator, likely showing that the 'ui_agent_engine' folder or its contents are active or in a specific state.",
+    "coordinates": {
+      "x": 313,
+      "y": 405,
+      "width": 15,
+      "height": 14
+    }
+  },
+  {
+    "id": 70,
+    "label": "Green Dot Status Indicator",
+    "description": "A status indicator, likely showing that the 'temp_vision' folder or its contents are active or in a specific state.",
+    "coordinates": {
+      "x": 313,
+      "y": 273,
+      "width": 15,
+      "height": 14
+    }
+  },
+  {
+    "id": 71,
+    "label": "OneDrive Icon",
+    "description": "Icon for Microsoft OneDrive cloud storage, pinned to the taskbar.",
+    "coordinates": {
+      "x": 864,
+      "y": 738,
+      "width": 13,
+      "height": 17
+    }
+  },
+  {
+    "id": 72,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1193,
+      "y": 228,
+      "width": 32,
+      "height": 7
+    }
+  },
+  {
+    "id": 73,
+    "label": "Green Dot Status Indicator",
+    "description": "A status indicator, likely showing that the 'microgravity' folder or its contents are active or in a specific state.",
+    "coordinates": {
+      "x": 313,
+      "y": 97,
+      "width": 16,
+      "height": 14
+    }
+  },
+  {
+    "id": 74,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 134,
+      "y": 731,
+      "width": 25,
+      "height": 9
+    }
+  },
+  {
+    "id": 75,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1116,
+      "y": 473,
+      "width": 33,
+      "height": 7
+    }
+  },
+  {
+    "id": 76,
+    "label": "Text: \"1. Capturing static scre\"",
+    "description": "A fragment of text from the output log, indicating a step in a process.",
+    "coordinates": {
+      "x": 1131,
+      "y": 376,
+      "width": 21,
+      "height": 11
+    }
+  },
+  {
+    "id": 77,
+    "label": "Text: \"Starting API-Based Stat\"",
+    "description": "A fragment of text from the output log, indicating the start of a process.",
+    "coordinates": {
+      "x": 1131,
+      "y": 291,
+      "width": 21,
+      "height": 11
+    }
+  },
+  {
+    "id": 78,
+    "label": "Text: \"ys run\"",
+    "description": "Part of the text 'Always run' next to a checkbox, indicating a setting for continuous execution.",
+    "coordinates": {
+      "x": 1096,
+      "y": 78,
+      "width": 33,
+      "height": 7
+    }
+  },
+  {
+    "id": 79,
+    "label": "Date and Time",
+    "description": "Displays the current date and time on the Windows taskbar.",
+    "coordinates": {
+      "x": 1310,
+      "y": 760,
+      "width": 29,
+      "height": 8
+    }
+  },
+  {
+    "id": 80,
+    "label": "Notification Badge \"80\"",
+    "description": "A numerical badge indicating 80 pending notifications or items, associated with the VS Code icon.",
+    "coordinates": {
+      "x": 183,
+      "y": 728,
+      "width": 26,
+      "height": 9
+    }
+  },
+  {
+    "id": 81,
+    "label": "Date and Time",
+    "description": "Taskbar display of the current time and date.",
+    "coordinates": {
+      "x": 1228,
+      "y": 737,
+      "width": 17,
+      "height": 14
+    }
+  },
+  {
+    "id": 82,
+    "label": "Speaker/Volume Icon",
+    "description": "Taskbar icon to control system volume and audio settings.",
+    "coordinates": {
+      "x": 1178,
+      "y": 701,
+      "width": 17,
+      "height": 14
+    }
+  },
+  {
+    "id": 83,
+    "label": "OneDrive Icon",
+    "description": "Taskbar icon for Microsoft OneDrive cloud storage service.",
+    "coordinates": {
+      "x": 256,
+      "y": 727,
+      "width": 16,
+      "height": 15
+    }
+  },
+  {
+    "id": 84,
+    "label": "Search Icon (Windows)",
+    "description": "Windows taskbar icon to open the system search utility.",
+    "coordinates": {
+      "x": 356,
+      "y": 737,
+      "width": 15,
+      "height": 16
+    }
+  },
+  {
+    "id": 85,
+    "label": "Text: agent_eng",
+    "description": "Part of a directory name 'agent_engine' in a file path.",
+    "coordinates": {
+      "x": 1115,
+      "y": 190,
+      "width": 35,
+      "height": 7
+    }
+  },
+  {
+    "id": 86,
+    "label": "Text: api_vision_processor.py",
+    "description": "Part of a file path or script name displayed in the console output.",
+    "coordinates": {
+      "x": 1189,
+      "y": 175,
+      "width": 35,
+      "height": 7
+    }
+  },
+  {
+    "id": 87,
+    "label": "Text: gravity",
+    "description": "Part of a directory name 'gravity' in a file path.",
+    "coordinates": {
+      "x": 1243,
+      "y": 224,
+      "width": 25,
+      "height": 10
+    }
+  },
+  {
+    "id": 88,
+    "label": "Battery Status Icon",
+    "description": "Taskbar icon displaying the current battery level and charging status.",
+    "coordinates": {
+      "x": 1204,
+      "y": 738,
+      "width": 18,
+      "height": 14
+    }
+  },
+  {
+    "id": 89,
+    "label": "Wi-Fi/Network Status Icon",
+    "description": "Taskbar icon showing the current Wi-Fi or network connection status.",
+    "coordinates": {
+      "x": 1201,
+      "y": 701,
+      "width": 15,
+      "height": 17
+    }
+  },
+  {
+    "id": 90,
+    "label": "Branch Indicator: main*",
+    "description": "Status bar item showing the current Git branch is 'main' with uncommitted changes.",
+    "coordinates": {
+      "x": 104,
+      "y": 701,
+      "width": 15,
+      "height": 17
+    }
+  },
+  {
+    "id": 91,
+    "label": "Close Button",
+    "description": "Button to close the VS Code application window.",
+    "coordinates": {
+      "x": 1341,
+      "y": 43,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 92,
+    "label": "Restore Down Button",
+    "description": "Button to restore the VS Code window to its previous size or maximize it.",
+    "coordinates": {
+      "x": 1336,
+      "y": 10,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 93,
+    "label": "Plus Icon",
+    "description": "Icon to add new content or options in the chat/input area.",
+    "coordinates": {
+      "x": 1087,
+      "y": 665,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 94,
+    "label": "Close Button",
+    "description": "Button to dismiss the 'Server initialization failed.' notification.",
+    "coordinates": {
+      "x": 431,
+      "y": 620,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 95,
+    "label": "Calendar and Clock Icon",
+    "description": "Taskbar icon displaying the current date and time, and opening the calendar.",
+    "coordinates": {
+      "x": 797,
+      "y": 762,
+      "width": 43,
+      "height": 6
+    }
+  },
+  {
+    "id": 96,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 117,
+      "y": 759,
+      "width": 43,
+      "height": 6
+    }
+  },
+  {
+    "id": 97,
+    "label": "Partial Text: Starting API-Based Stat",
+    "description": "Partial text from the console output indicating the start of a process.",
+    "coordinates": {
+      "x": 1264,
+      "y": 337,
+      "width": 43,
+      "height": 6
+    }
+  },
+  {
+    "id": 98,
+    "label": "Microsoft Edge Icon",
+    "description": "Taskbar icon for the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 293,
+      "y": 759,
+      "width": 30,
+      "height": 9
+    }
+  },
+  {
+    "id": 99,
+    "label": "Hamburger Menu Icon",
+    "description": "Icon to toggle the visibility of the primary sidebar or main menu.",
+    "coordinates": {
+      "x": 7,
+      "y": 64,
+      "width": 31,
+      "height": 9
+    }
+  },
+  {
+    "id": 100,
+    "label": "Notifications Icon",
+    "description": "Icon to view notifications or alerts from the application.",
+    "coordinates": {
+      "x": 40,
+      "y": 759,
+      "width": 32,
+      "height": 9
+    }
+  },
+  {
+    "id": 101,
+    "label": "Explorer Icon",
+    "description": "Icon in the activity bar to open the file explorer sidebar in VS Code.",
+    "coordinates": {
+      "x": 6,
+      "y": 41,
+      "width": 32,
+      "height": 9
+    }
+  },
+  {
+    "id": 102,
+    "label": "Text: gravity",
+    "description": "Part of a directory name 'gravity' in a file path.",
+    "coordinates": {
+      "x": 1150,
+      "y": 228,
+      "width": 42,
+      "height": 7
+    }
+  },
+  {
+    "id": 103,
+    "label": "File Tab: Implementation Plan",
+    "description": "Tab representing an open file named 'Implementation Plan' in the editor.",
+    "coordinates": {
+      "x": 666,
+      "y": 40,
+      "width": 49,
+      "height": 6
+    }
+  },
+  {
+    "id": 104,
+    "label": "Warning Icon",
+    "description": "Icon indicating the presence of warnings in the current project or file.",
+    "coordinates": {
+      "x": 47,
+      "y": 732,
+      "width": 30,
+      "height": 10
+    }
+  },
+  {
+    "id": 105,
+    "label": "VS Code Icon (Taskbar)",
+    "description": "Taskbar icon for the Visual Studio Code application.",
+    "coordinates": {
+      "x": 878,
+      "y": 755,
+      "width": 34,
+      "height": 9
+    }
+  },
+  {
+    "id": 106,
+    "label": "File Explorer Icon",
+    "description": "Taskbar icon for the Windows File Explorer application.",
+    "coordinates": {
+      "x": 878,
+      "y": 726,
+      "width": 34,
+      "height": 9
+    }
+  },
+  {
+    "id": 107,
+    "label": "Error Icon",
+    "description": "Icon indicating the presence of errors in the current project or file.",
+    "coordinates": {
+      "x": 0,
+      "y": 727,
+      "width": 16,
+      "height": 20
+    }
+  },
+  {
+    "id": 108,
+    "label": "Text: api_vision_processor.py",
+    "description": "Part of a file path or script name displayed in the console output.",
+    "coordinates": {
+      "x": 1149,
+      "y": 175,
+      "width": 40,
+      "height": 8
+    }
+  },
+  {
+    "id": 109,
+    "label": "Close Button",
+    "description": "Button to close the 'Fixing Live Stream Connection' tab.",
+    "coordinates": {
+      "x": 1289,
+      "y": 9,
+      "width": 18,
+      "height": 18
+    }
+  },
+  {
+    "id": 110,
+    "label": "Text: OVR",
+    "description": "Text indicating an 'Over' status or a specific mode.",
+    "coordinates": {
+      "x": 1135,
+      "y": 699,
+      "width": 41,
+      "height": 8
+    }
+  },
+  {
+    "id": 111,
+    "label": "Number: 29",
+    "description": "Count of warnings in the current project or file.",
+    "coordinates": {
+      "x": 82,
+      "y": 733,
+      "width": 30,
+      "height": 11
+    }
+  },
+  {
+    "id": 112,
+    "label": "Number: 1",
+    "description": "Count of errors in the current project or file.",
+    "coordinates": {
+      "x": 89,
+      "y": 745,
+      "width": 32,
+      "height": 11
+    }
+  },
+  {
+    "id": 113,
+    "label": "Dropdown Button: Review",
+    "description": "A dropdown button labeled 'Review', likely for code review or version control actions.",
+    "coordinates": {
+      "x": 1009,
+      "y": 42,
+      "width": 19,
+      "height": 19
+    }
+  },
+  {
+    "id": 114,
+    "label": "Text: Antigravity",
+    "description": "Text indicating the source or context of a notification or status message.",
+    "coordinates": {
+      "x": 164,
+      "y": 743,
+      "width": 39,
+      "height": 10
+    }
+  },
+  {
+    "id": 115,
+    "label": "Text: python",
+    "description": "Indicates the Python interpreter being used for the command.",
+    "coordinates": {
+      "x": 1223,
+      "y": 188,
+      "width": 44,
+      "height": 9
+    }
+  },
+  {
+    "id": 116,
+    "label": "Menu Item: File",
+    "description": "Top-level menu item for file-related operations in VS Code.",
+    "coordinates": {
+      "x": 9,
+      "y": 8,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": 117,
+    "label": "Microsoft Teams Icon",
+    "description": "Taskbar icon for the Microsoft Teams communication platform.",
+    "coordinates": {
+      "x": 733,
+      "y": 756,
+      "width": 34,
+      "height": 12
+    }
+  },
+  {
+    "id": 118,
+    "label": "Menu Item: Go",
+    "description": "Top-level menu item for navigation-related operations in VS Code.",
+    "coordinates": {
+      "x": 225,
+      "y": 10,
+      "width": 24,
+      "height": 17
+    }
+  },
+  {
+    "id": 119,
+    "label": "Keyboard Language Indicator: ENG",
+    "description": "Taskbar indicator showing the currently selected keyboard input language (English).",
+    "coordinates": {
+      "x": 1139,
+      "y": 733,
+      "width": 44,
+      "height": 10
+    }
+  },
+  {
+    "id": 120,
+    "label": "Text: cute_live_task.py",
+    "description": "Part of a file name 'execute_live_task.py' mentioned in the instructions.",
+    "coordinates": {
+      "x": 463,
+      "y": 675,
+      "width": 44,
+      "height": 10
+    }
+  },
+  {
+    "id": 121,
+    "label": "Weather Icon",
+    "description": "Taskbar icon displaying current weather conditions (sunny).",
+    "coordinates": {
+      "x": 22,
+      "y": 734,
+      "width": 21,
+      "height": 21
+    }
+  },
+  {
+    "id": 122,
+    "label": "Scrollbar",
+    "description": "Vertical scrollbar for navigating content within the output/terminal panel.",
+    "coordinates": {
+      "x": 1307,
+      "y": 275,
+      "width": 12,
+      "height": 37
+    }
+  },
+  {
+    "id": 123,
+    "label": "Microphone Icon",
+    "description": "Taskbar icon indicating microphone status or quick access to microphone settings.",
+    "coordinates": {
+      "x": 1045,
+      "y": 742,
+      "width": 52,
+      "height": 9
+    }
+  },
+  {
+    "id": 124,
+    "label": "Notifications Icon",
+    "description": "Visual Studio Code activity bar icon for displaying notifications.",
+    "coordinates": {
+      "x": 12,
+      "y": 297,
+      "width": 20,
+      "height": 24
+    }
+  },
+  {
+    "id": 125,
+    "label": "Settings Icon",
+    "description": "Gear icon to access settings or options for the current panel (output/terminal).",
+    "coordinates": {
+      "x": 402,
+      "y": 617,
+      "width": 22,
+      "height": 22
+    }
+  },
+  {
+    "id": 126,
+    "label": "Text: ion_processor.py",
+    "description": "Filename or script name mentioned in the output/terminal log.",
+    "coordinates": {
+      "x": 1158,
+      "y": 154,
+      "width": 61,
+      "height": 8
+    }
+  },
+  {
+    "id": 127,
+    "label": "Windows Search Box",
+    "description": "Input field on the Windows taskbar to search for applications, files, or web content.",
+    "coordinates": {
+      "x": 382,
+      "y": 739,
+      "width": 41,
+      "height": 12
+    }
+  },
+  {
+    "id": 128,
+    "label": "Text: live_streamer.py",
+    "description": "Filename mentioned in the main editor content, likely a Python script.",
+    "coordinates": {
+      "x": 468,
+      "y": 192,
+      "width": 82,
+      "height": 6
+    }
+  },
+  {
+    "id": 129,
+    "label": "Menu Item: Edit",
+    "description": "Top-level menu item for editing operations in Visual Studio Code.",
+    "coordinates": {
+      "x": 40,
+      "y": 9,
+      "width": 28,
+      "height": 18
+    }
+  },
+  {
+    "id": 130,
+    "label": "Text: Sunny",
+    "description": "Text description of the current weather condition.",
+    "coordinates": {
+      "x": 46,
+      "y": 748,
+      "width": 39,
+      "height": 13
+    }
+  },
+  {
+    "id": 131,
+    "label": "Menu Item: Run",
+    "description": "Top-level menu item for running and debugging operations in Visual Studio Code.",
+    "coordinates": {
+      "x": 258,
+      "y": 10,
+      "width": 30,
+      "height": 17
+    }
+  },
+  {
+    "id": 132,
+    "label": "Menu Item: Selection",
+    "description": "Top-level menu item for text selection operations in Visual Studio Code.",
+    "coordinates": {
+      "x": 76,
+      "y": 9,
+      "width": 29,
+      "height": 18
+    }
+  },
+  {
+    "id": 133,
+    "label": "Extensions Icon",
+    "description": "Visual Studio Code activity bar icon for managing and discovering extensions.",
+    "coordinates": {
+      "x": 11,
+      "y": 256,
+      "width": 23,
+      "height": 23
+    }
+  },
+  {
+    "id": 134,
+    "label": "Antigravity Settings Icon",
+    "description": "Gear icon in the status bar, likely for accessing settings related to the 'Antigravity' extension or project.",
+    "coordinates": {
+      "x": 1310,
+      "y": 701,
+      "width": 33,
+      "height": 17
+    }
+  },
+  {
+    "id": 135,
+    "label": "Google Chrome Application Icon",
+    "description": "Taskbar icon for the Google Chrome web browser application.",
+    "coordinates": {
+      "x": 709,
+      "y": 733,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "id": 136,
+    "label": "Text: Capturing static scre en...",
+    "description": "Partial text from the output/terminal log indicating a screen capture process.",
+    "coordinates": {
+      "x": 1130,
+      "y": 408,
+      "width": 41,
+      "height": 15
+    }
+  },
+  {
+    "id": 137,
+    "label": "Run and Debug Icon",
+    "description": "Visual Studio Code activity bar icon for running and debugging code.",
+    "coordinates": {
+      "x": 9,
+      "y": 171,
+      "width": 25,
+      "height": 25
+    }
+  },
+  {
+    "id": 138,
+    "label": "Menu Item: Terminal",
+    "description": "Top-level menu item for managing and opening terminal instances in Visual Studio Code.",
+    "coordinates": {
+      "x": 182,
+      "y": 9,
+      "width": 35,
+      "height": 18
+    }
+  },
+  {
+    "id": 139,
+    "label": "File Explorer Application Icon",
+    "description": "Taskbar icon for the Windows File Explorer application.",
+    "coordinates": {
+      "x": 972,
+      "y": 735,
+      "width": 33,
+      "height": 20
+    }
+  },
+  {
+    "id": 140,
+    "label": "Text: LIVE_MODELS",
+    "description": "Code variable or constant name in the main editor content.",
+    "coordinates": {
+      "x": 546,
+      "y": 210,
+      "width": 75,
+      "height": 9
+    }
+  },
+  {
+    "id": 141,
+    "label": "Volume Icon",
+    "description": "Taskbar icon for controlling system volume.",
+    "coordinates": {
+      "x": 1019,
+      "y": 728,
+      "width": 31,
+      "height": 22
+    }
+  },
+  {
+    "id": 142,
+    "label": "Menu Item: Help",
+    "description": "Top-level menu item for accessing help documentation and resources in Visual Studio Code.",
+    "coordinates": {
+      "x": 361,
+      "y": 9,
+      "width": 34,
+      "height": 21
+    }
+  },
+  {
+    "id": 143,
+    "label": "Text: ui_agent_engine/agent_memory/short_term/predicted_outputs/",
+    "description": "File path or directory path mentioned in the main editor content.",
+    "coordinates": {
+      "x": 450,
+      "y": 596,
+      "width": 105,
+      "height": 7
+    }
+  },
+  {
+    "id": 144,
+    "label": "Date and Time Display",
+    "description": "Taskbar display showing the current time and date.",
+    "coordinates": {
+      "x": 1250,
+      "y": 748,
+      "width": 79,
+      "height": 10
+    }
+  },
+  {
+    "id": 145,
+    "label": "Source Control Icon",
+    "description": "Visual Studio Code activity bar icon for managing source control (e.g., Git).",
+    "coordinates": {
+      "x": 984,
+      "y": 73,
+      "width": 68,
+      "height": 12
+    }
+  },
+  {
+    "id": 146,
+    "label": "Log In Button",
+    "description": "Button in the top right corner to log into a service or account.",
+    "coordinates": {
+      "x": 1166,
+      "y": 10,
+      "width": 48,
+      "height": 17
+    }
+  },
+  {
+    "id": 147,
+    "label": "Text: bidioenerateContent",
+    "description": "Text string in the main editor content, possibly a function or API endpoint name.",
+    "coordinates": {
+      "x": 637,
+      "y": 214,
+      "width": 138,
+      "height": 6
+    }
+  },
+  {
+    "id": 148,
+    "label": "Microsoft Edge Application Icon",
+    "description": "Taskbar icon for the Microsoft Edge web browser application.",
+    "coordinates": {
+      "x": 1107,
+      "y": 727,
+      "width": 33,
+      "height": 26
+    }
+  },
+  {
+    "id": 149,
+    "label": "File Explorer Application Icon",
+    "description": "Taskbar icon for the Windows File Explorer application.",
+    "coordinates": {
+      "x": 653,
+      "y": 734,
+      "width": 36,
+      "height": 24
+    }
+  },
+  {
+    "id": 150,
+    "label": "Microsoft Edge Application Icon",
+    "description": "Taskbar icon for the Microsoft Edge web browser application.",
+    "coordinates": {
+      "x": 747,
+      "y": 733,
+      "width": 39,
+      "height": 24
+    }
+  },
+  {
+    "id": 151,
+    "label": "Text: Review",
+    "description": "Text label associated with the Source Control icon in the activity bar.",
+    "coordinates": {
+      "x": 985,
+      "y": 85,
+      "width": 67,
+      "height": 14
+    }
+  },
+  {
+    "id": 152,
+    "label": "Menu Item: View",
+    "description": "Top-level menu item for controlling the visibility and layout of UI elements in Visual Studio Code.",
+    "coordinates": {
+      "x": 297,
+      "y": 9,
+      "width": 55,
+      "height": 18
+    }
+  },
+  {
+    "id": 153,
+    "label": "Text: execute_live_task.py",
+    "description": "Filename or script name mentioned in the main editor content, likely a Python script.",
+    "coordinates": {
+      "x": 478,
+      "y": 657,
+      "width": 146,
+      "height": 7
+    }
+  },
+  {
+    "id": 154,
+    "label": "Text: Explorer",
+    "description": "Text label associated with the File Explorer icon in the activity bar.",
+    "coordinates": {
+      "x": 59,
+      "y": 45,
+      "width": 52,
+      "height": 20
+    }
+  },
+  {
+    "id": 155,
+    "label": "Menu Item: Go",
+    "description": "Top-level menu item for navigation within Visual Studio Code.",
+    "coordinates": {
+      "x": 114,
+      "y": 9,
+      "width": 59,
+      "height": 18
+    }
+  },
+  {
+    "id": 156,
+    "label": "Windows Start Button",
+    "description": "Button on the Windows taskbar to open the Start menu.",
+    "coordinates": {
+      "x": 205,
+      "y": 744,
+      "width": 45,
+      "height": 24
+    }
+  },
+  {
+    "id": 157,
+    "label": "Text: Planning",
+    "description": "Status indicator in the bottom right status bar, possibly related to a task or process state.",
+    "coordinates": {
+      "x": 1114,
+      "y": 665,
+      "width": 63,
+      "height": 18
+    }
+  },
+  {
+    "id": 158,
+    "label": "Folder Icon: case",
+    "description": "Folder icon representing a directory named 'case' in the VS Code file explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 205,
+      "width": 68,
+      "height": 18
+    }
+  },
+  {
+    "id": 159,
+    "label": "Folder Icon: tests",
+    "description": "Folder icon representing a directory named 'tests' in the VS Code file explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 381,
+      "width": 70,
+      "height": 18
+    }
+  },
+  {
+    "id": 160,
+    "label": "GitHub Icon",
+    "description": "Icon in the top right corner, likely indicating integration with GitHub or a source control repository.",
+    "coordinates": {
+      "x": 1046,
+      "y": 23,
+      "width": 115,
+      "height": 11
+    }
+  },
+  {
+    "id": 161,
+    "label": "Vertical Scrollbar",
+    "description": "Allows scrolling through the content of the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1307,
+      "y": 323,
+      "width": 12,
+      "height": 106
+    }
+  },
+  {
+    "id": 162,
+    "label": "Editor Tab: Implementation Plan",
+    "description": "The active tab in the editor, showing the name of the currently open file or document.",
+    "coordinates": {
+      "x": 746,
+      "y": 40,
+      "width": 204,
+      "height": 7
+    }
+  },
+  {
+    "id": 163,
+    "label": "Folder: swarm",
+    "description": "A folder in the file explorer, possibly related to a 'swarm' or distributed system.",
+    "coordinates": {
+      "x": 56,
+      "y": 249,
+      "width": 80,
+      "height": 18
+    }
+  },
+  {
+    "id": 164,
+    "label": "Button: Go to output",
+    "description": "A button to navigate to the output or log of a process, often associated with an error or notification.",
+    "coordinates": {
+      "x": 366,
+      "y": 655,
+      "width": 76,
+      "height": 19
+    }
+  },
+  {
+    "id": 165,
+    "label": "Status Text: Generating.",
+    "description": "Indicates that a process of generation is currently underway.",
+    "coordinates": {
+      "x": 1080,
+      "y": 521,
+      "width": 73,
+      "height": 20
+    }
+  },
+  {
+    "id": 166,
+    "label": "Dropdown: Gemini 3 Flash",
+    "description": "A dropdown menu for selecting a specific model or version, in this case, 'Gemini 3 Flash'.",
+    "coordinates": {
+      "x": 1186,
+      "y": 665,
+      "width": 92,
+      "height": 16
+    }
+  },
+  {
+    "id": 167,
+    "label": "Folder: .microgravity",
+    "description": "A folder in the file explorer, likely containing configuration or data for a 'microgravity' project.",
+    "coordinates": {
+      "x": 56,
+      "y": 96,
+      "width": 94,
+      "height": 16
+    }
+  },
+  {
+    "id": 168,
+    "label": "Button: Log in",
+    "description": "A button to initiate the login process for a service or application.",
+    "coordinates": {
+      "x": 1157,
+      "y": 5,
+      "width": 64,
+      "height": 25
+    }
+  },
+  {
+    "id": 169,
+    "label": "Folder: microgravity",
+    "description": "A folder in the file explorer, likely containing files related to a 'microgravity' project.",
+    "coordinates": {
+      "x": 56,
+      "y": 227,
+      "width": 91,
+      "height": 18
+    }
+  },
+  {
+    "id": 170,
+    "label": "System Tray Time",
+    "description": "Displays the current time in the system tray.",
+    "coordinates": {
+      "x": 1280,
+      "y": 727,
+      "width": 66,
+      "height": 26
+    }
+  },
+  {
+    "id": 171,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1244,
+      "y": 108,
+      "width": 87,
+      "height": 20
+    }
+  },
+  {
+    "id": 172,
+    "label": "Text: gemini-2.5-flash-native-audio-latest.",
+    "description": "A specific version or identifier for a model or component, likely related to audio processing.",
+    "coordinates": {
+      "x": 620,
+      "y": 192,
+      "width": 257,
+      "height": 7
+    }
+  },
+  {
+    "id": 173,
+    "label": "Subsection Header: Automated Tests",
+    "description": "A header for a subsection related to automated testing procedures.",
+    "coordinates": {
+      "x": 390,
+      "y": 508,
+      "width": 114,
+      "height": 18
+    }
+  },
+  {
+    "id": 174,
+    "label": "Button: Review Changes",
+    "description": "A button to view and review modifications made to the code or project.",
+    "coordinates": {
+      "x": 1222,
+      "y": 593,
+      "width": 117,
+      "height": 18
+    }
+  },
+  {
+    "id": 175,
+    "label": "Action Icons",
+    "description": "A group of icons representing actions such as save, print, and share.",
+    "coordinates": {
+      "x": 1088,
+      "y": 589,
+      "width": 93,
+      "height": 23
+    }
+  },
+  {
+    "id": 176,
+    "label": "Folder: temp_vision",
+    "description": "A folder in the file explorer, likely for temporary files related to a vision system.",
+    "coordinates": {
+      "x": 56,
+      "y": 271,
+      "width": 111,
+      "height": 20
+    }
+  },
+  {
+    "id": 177,
+    "label": "File: .dockerignore",
+    "description": "A file in the project explorer, typically used to specify files and directories to be ignored by Docker.",
+    "coordinates": {
+      "x": 70,
+      "y": 491,
+      "width": 108,
+      "height": 21
+    }
+  },
+  {
+    "id": 178,
+    "label": "Taskbar Icon: File Explorer",
+    "description": "An icon on the taskbar to open the Windows File Explorer.",
+    "coordinates": {
+      "x": 577,
+      "y": 727,
+      "width": 67,
+      "height": 34
+    }
+  },
+  {
+    "id": 179,
+    "label": "Folder: test_vector_ws",
+    "description": "A folder in the file explorer, likely containing test files for a 'vector workspace'.",
+    "coordinates": {
+      "x": 56,
+      "y": 337,
+      "width": 125,
+      "height": 20
+    }
+  },
+  {
+    "id": 180,
+    "label": "Section Header: Verification Plan",
+    "description": "A header for a section detailing the plan for verification.",
+    "coordinates": {
+      "x": 390,
+      "y": 463,
+      "width": 125,
+      "height": 20
+    }
+  },
+  {
+    "id": 181,
+    "label": "Folder: test_swarm_ws",
+    "description": "A folder in the file explorer, likely containing test files for a 'swarm' workspace.",
+    "coordinates": {
+      "x": 56,
+      "y": 293,
+      "width": 127,
+      "height": 20
+    }
+  },
+  {
+    "id": 182,
+    "label": "Navigation Icons",
+    "description": "A set of icons for navigating back, forward, and showing more options within the editor's history or view.",
+    "coordinates": {
+      "x": 971,
+      "y": 37,
+      "width": 95,
+      "height": 27
+    }
+  },
+  {
+    "id": 183,
+    "label": "Folder: pytest_cache",
+    "description": "A folder in the file explorer, typically used by pytest to store cached test results or data.",
+    "coordinates": {
+      "x": 56,
+      "y": 139,
+      "width": 129,
+      "height": 21
+    }
+  },
+  {
+    "id": 184,
+    "label": "Folder: test_workspace",
+    "description": "A folder in the file explorer, likely containing test files for a general workspace.",
+    "coordinates": {
+      "x": 56,
+      "y": 359,
+      "width": 130,
+      "height": 21
+    }
+  },
+  {
+    "id": 185,
+    "label": "Button: Go to output",
+    "description": "A button to navigate to the output or log of a process, often associated with an error or notification.",
+    "coordinates": {
+      "x": 357,
+      "y": 648,
+      "width": 93,
+      "height": 30
+    }
+  },
+  {
+    "id": 186,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 56,
+      "y": 403,
+      "width": 136,
+      "height": 21
+    }
+  },
+  {
+    "id": 187,
+    "label": "List Item: 1. Mapping Success:",
+    "description": "The first item in a list, indicating a successful mapping operation.",
+    "coordinates": {
+      "x": 393,
+      "y": 543,
+      "width": 136,
+      "height": 21
+    }
+  },
+  {
+    "id": 188,
+    "label": "Instruction Text",
+    "description": "Provides instructions to check a specific directory for a generated JSON file.",
+    "coordinates": {
+      "x": 491,
+      "y": 573,
+      "width": 409,
+      "height": 7
+    }
+  },
+  {
+    "id": 189,
+    "label": "Dropdown Button: Review",
+    "description": "A button with a dropdown menu, likely for initiating or managing code reviews or similar processes.",
+    "coordinates": {
+      "x": 958,
+      "y": 71,
+      "width": 96,
+      "height": 30
+    }
+  },
+  {
+    "id": 190,
+    "label": "Text: Implementation Plan path",
+    "description": "Displays the current file path or breadcrumbs within the editor.",
+    "coordinates": {
+      "x": 344,
+      "y": 37,
+      "width": 116,
+      "height": 27
+    }
+  },
+  {
+    "id": 191,
+    "label": "Vertical Scrollbar",
+    "description": "Allows scrolling through the content of the main editor panel.",
+    "coordinates": {
+      "x": 1054,
+      "y": 297,
+      "width": 10,
+      "height": 316
+    }
+  },
+  {
+    "id": 192,
+    "label": "Section Header: Live Stream Connection Fix",
+    "description": "A header for a section describing a fix related to live stream connections.",
+    "coordinates": {
+      "x": 390,
+      "y": 119,
+      "width": 178,
+      "height": 18
+    }
+  },
+  {
+    "id": 193,
+    "label": "Log Message: Starting screen stream",
+    "description": "A log message indicating the initiation of a screen streaming process.",
+    "coordinates": {
+      "x": 406,
+      "y": 393,
+      "width": 158,
+      "height": 21
+    }
+  },
+  {
+    "id": 194,
+    "label": "Button: Cancel",
+    "description": "A button to stop or abort an ongoing process or operation.",
+    "coordinates": {
+      "x": 1134,
+      "y": 67,
+      "width": 194,
+      "height": 18
+    }
+  },
+  {
+    "id": 195,
+    "label": "Text: Always run",
+    "description": "A label indicating a setting or option to always execute a particular task or script.",
+    "coordinates": {
+      "x": 1086,
+      "y": 84,
+      "width": 252,
+      "height": 14
+    }
+  },
+  {
+    "id": 196,
+    "label": "Folder: test_vector_workspace",
+    "description": "A folder in the file explorer, likely containing test files for a 'vector workspace'.",
+    "coordinates": {
+      "x": 56,
+      "y": 315,
+      "width": 171,
+      "height": 21
+    }
+  },
+  {
+    "id": 197,
+    "label": "Folder: agent_memory",
+    "description": "A folder in the file explorer, likely storing data related to an agent's memory.",
+    "coordinates": {
+      "x": 56,
+      "y": 161,
+      "width": 87,
+      "height": 43
+    }
+  },
+  {
+    "id": 198,
+    "label": "Icon: Walkthrough",
+    "description": "An icon indicating a walkthrough or guided tour feature.",
+    "coordinates": {
+      "x": 463,
+      "y": 37,
+      "width": 145,
+      "height": 27
+    }
+  },
+  {
+    "id": 199,
+    "label": "Action Item: [MODIFY] hud_overlay.py",
+    "description": "An item indicating a modification to the 'hud_overlay.py' file.",
+    "coordinates": {
+      "x": 390,
+      "y": 258,
+      "width": 183,
+      "height": 22
+    }
+  },
+  {
+    "id": 200,
+    "label": "Action Item: [MODIFY] live_streamer.py",
+    "description": "An item indicating a modification to the 'live_streamer.py' file.",
+    "coordinates": {
+      "x": 390,
+      "y": 158,
+      "width": 190,
+      "height": 22
+    }
+  },
+  {
+    "id": 201,
+    "label": "Executable File Entry",
+    "description": "Identifies a script named 'execute_live_task.py' that is designated for execution.",
+    "coordinates": {
+      "x": 390,
+      "y": 335,
+      "width": 220,
+      "height": 22
+    }
+  },
+  {
+    "id": 202,
+    "label": "Current File/Tab Name",
+    "description": "Indicates the name of the currently active file or tab, 'Implementation Plan'.",
+    "coordinates": {
+      "x": 356,
+      "y": 76,
+      "width": 256,
+      "height": 22
+    }
+  },
+  {
+    "id": 203,
+    "label": "Action Buttons",
+    "description": "Provides options to either 'Always run' a specific task or 'Cancel' it, typically associated with a prompt or process.",
+    "coordinates": {
+      "x": 1115,
+      "y": 452,
+      "width": 204,
+      "height": 28
+    }
+  },
+  {
+    "id": 204,
+    "label": "AI Assistant/Command Input Field",
+    "description": "An input field for interacting with an AI assistant or entering commands/workflows, with prompts for mentions and workflows.",
+    "coordinates": {
+      "x": 1085,
+      "y": 627,
+      "width": 260,
+      "height": 23
+    }
+  },
+  {
+    "id": 205,
+    "label": "Application/Project Title",
+    "description": "Displays the title of the current project or document open in the application, 'micro gravity - Copy - Antigravity - Implementation Plan'.",
+    "coordinates": {
+      "x": 504,
+      "y": 10,
+      "width": 305,
+      "height": 20
+    }
+  },
+  {
+    "id": 206,
+    "label": "Windows Taskbar System Tray",
+    "description": "Displays system icons, notifications, date, time, and other background applications on the right side of the Windows taskbar.",
+    "coordinates": {
+      "x": 346,
+      "y": 730,
+      "width": 215,
+      "height": 30
+    }
+  },
+  {
+    "id": 207,
+    "label": "File Explorer Root Folder",
+    "description": "Represents the top-level directory of the current project in the file explorer sidebar, 'micro gravity - Copy'.",
+    "coordinates": {
+      "x": 42,
+      "y": 92,
+      "width": 301,
+      "height": 23
+    }
+  },
+  {
+    "id": 208,
+    "label": "Windows Taskbar Search Bar",
+    "description": "Allows users to search for applications, files, and information on their Windows system directly from the taskbar.",
+    "coordinates": {
+      "x": 792,
+      "y": 725,
+      "width": 177,
+      "height": 40
+    }
+  },
+  {
+    "id": 209,
+    "label": "File Explorer Item List",
+    "description": "A list of various files and configuration items ('dockerignore', '.gitignore', 'browser_actions.log', 'clean_ledger.py', 'clean_remaining.py') within a directory.",
+    "coordinates": {
+      "x": 71,
+      "y": 512,
+      "width": 141,
+      "height": 66
+    }
+  },
+  {
+    "id": 210,
+    "label": "File Explorer Folder Group",
+    "description": "A group of related folders ('ui_agent_engine', 'ui_agent_prototype', 'ui_agent_standalone', 'workspace') within the project's file structure.",
+    "coordinates": {
+      "x": 56,
+      "y": 425,
+      "width": 160,
+      "height": 65
+    }
+  },
+  {
+    "id": 211,
+    "label": "Windows Start Button",
+    "description": "Opens the Windows Start Menu, providing access to applications, settings, and system functions.",
+    "coordinates": {
+      "x": 277,
+      "y": 726,
+      "width": 288,
+      "height": 37
+    }
+  },
+  {
+    "id": 212,
+    "label": "Modified File Entry (hud_overlay.py)",
+    "description": "Indicates a file named 'hud_overlay.py' that has been modified, often part of a task list or change log.",
+    "coordinates": {
+      "x": 389,
+      "y": 293,
+      "width": 593,
+      "height": 21
+    }
+  },
+  {
+    "id": 213,
+    "label": "Verification Step Description",
+    "description": "Provides instructions and expected outcomes for a verification task, ensuring the HUD shows 'ONLINE' and terminal logs confirm 'Starting screen stream'.",
+    "coordinates": {
+      "x": 389,
+      "y": 370,
+      "width": 608,
+      "height": 21
+    }
+  },
+  {
+    "id": 214,
+    "label": "Menu Item: File",
+    "description": "Provides access to file-related operations such as creating, opening, saving, and closing files within the application.",
+    "coordinates": {
+      "x": 44,
+      "y": 37,
+      "width": 297,
+      "height": 54
+    }
+  },
+  {
+    "id": 215,
+    "label": "Application Status Bar",
+    "description": "Shows various status indicators for the application, including the current branch ('main*'), local weather ('29\u00b0C Sunny'), and notification counts.",
+    "coordinates": {
+      "x": 176,
+      "y": 701,
+      "width": 958,
+      "height": 17
+    }
+  },
+  {
+    "id": 216,
+    "label": "Review Changes Icons",
+    "description": "Icons indicating options or actions related to reviewing changes, possibly in a version control system or code review interface.",
+    "coordinates": {
+      "x": 1075,
+      "y": 616,
+      "width": 284,
+      "height": 76
+    }
+  },
+  {
+    "id": 217,
+    "label": "Progress Updates Section Header",
+    "description": "Marks a section dedicated to displaying ongoing progress or status updates within the application, with an option to 'Collapse all'.",
+    "coordinates": {
+      "x": 1086,
+      "y": 101,
+      "width": 252,
+      "height": 94
+    }
+  },
+  {
+    "id": 218,
+    "label": "Change Description Text",
+    "description": "Provides detailed information about a specific update, including the addition of 'gemini-2.5-flash-native-audio-latest' to LIVE_MODELS and its WebSocket endpoint support.",
+    "coordinates": {
+      "x": 389,
+      "y": 190,
+      "width": 526,
+      "height": 47
+    }
+  },
+  {
+    "id": 219,
+    "label": "Error Notification",
+    "description": "Displays an error message indicating a failure in server initialization, with 'Source: Antigravity'.",
+    "coordinates": {
+      "x": 9,
+      "y": 607,
+      "width": 449,
+      "height": 86
+    }
+  },
+  {
+    "id": 220,
+    "label": "Menu Item: Help",
+    "description": "Offers access to help documentation, tutorials, support, and information about the application.",
+    "coordinates": {
+      "x": 343,
+      "y": 40,
+      "width": 724,
+      "height": 65
+    }
+  },
+  {
+    "id": 221,
+    "label": "Terminal Command Output",
+    "description": "Displays the command being executed in a terminal or console, showing the full path to the Python script.",
+    "coordinates": {
+      "x": 1115,
+      "y": 188,
+      "width": 204,
+      "height": 261
+    }
+  },
+  {
+    "id": 222,
+    "label": "Process Status Message",
+    "description": "Informs the user about a background process currently running, specifically 'Running api_vision_processor.py to refresh the semantic Atlas'.",
+    "coordinates": {
+      "x": 1086,
+      "y": 153,
+      "width": 252,
+      "height": 349
+    }
+  },
+  {
+    "id": 223,
+    "label": "File Explorer Subfolder",
+    "description": "A subfolder within the project structure displayed in the file explorer, '.microgravity'.",
+    "coordinates": {
+      "x": 43,
+      "y": 117,
+      "width": 298,
+      "height": 487
+    }
+  },
+  {
+    "id": 224,
+    "label": "Last Modified Timestamp",
+    "description": "Shows when the current file or document was last modified or accessed, 'about 2 hours ago'.",
+    "coordinates": {
+      "x": 343,
+      "y": 108,
+      "width": 724,
+      "height": 591
+    }
+  },
+  {
+    "id": 225,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 0,
+      "y": 2,
+      "width": 1366,
+      "height": 720
+    }
+  }
+]

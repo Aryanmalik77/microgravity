@@ -1,0 +1,2455 @@
+[
+  {
+    "id": 1,
+    "label": "Document Title: Implementation Plan",
+    "description": "The main title of the document or section being viewed in the editor.",
+    "coordinates": {
+      "x": 1170,
+      "y": 752,
+      "width": 6,
+      "height": 6
+    }
+  },
+  {
+    "id": 2,
+    "label": "Text: gui_map_*.json",
+    "description": "A placeholder text indicating a JSON file pattern related to GUI mapping, mentioned in the 'Mapping Success' verification step.",
+    "coordinates": {
+      "x": 1036,
+      "y": 750,
+      "width": 7,
+      "height": 6
+    }
+  },
+  {
+    "id": 3,
+    "label": "Text: semantic_labels_*.png",
+    "description": "A placeholder text indicating a PNG image file pattern related to semantic labels, mentioned in the 'Manual Verification' step.",
+    "coordinates": {
+      "x": 1038,
+      "y": 757,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 4,
+    "label": "VS Code Tab: Antigravity - Implementation Plan",
+    "description": "A tab in Visual Studio Code displaying the full title of the current implementation plan document.",
+    "coordinates": {
+      "x": 1002,
+      "y": 753,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 5,
+    "label": "Folder: ui_agent_engine",
+    "description": "A folder in the VS Code Explorer panel, likely containing code related to the UI agent engine.",
+    "coordinates": {
+      "x": 317,
+      "y": 475,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 6,
+    "label": "VS Code Tab: ui_agent.py",
+    "description": "A tab in Visual Studio Code displaying a Python file named 'ui_agent.py'.",
+    "coordinates": {
+      "x": 317,
+      "y": 343,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 7,
+    "label": "Folder: .microgravity",
+    "description": "A hidden folder in the VS Code Explorer panel, likely containing configuration or data for 'microgravity'.",
+    "coordinates": {
+      "x": 317,
+      "y": 101,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 8,
+    "label": "Folder: temp_vision",
+    "description": "A folder in the VS Code Explorer panel, likely containing temporary vision-related files or modules.",
+    "coordinates": {
+      "x": 1013,
+      "y": 726,
+      "width": 8,
+      "height": 7
+    }
+  },
+  {
+    "id": 9,
+    "label": "Date Display",
+    "description": "Displays the current date on the Windows taskbar system tray.",
+    "coordinates": {
+      "x": 1231,
+      "y": 759,
+      "width": 11,
+      "height": 6
+    }
+  },
+  {
+    "id": 10,
+    "label": "File: .dockerignore",
+    "description": "A file in the VS Code Explorer panel, used to specify files and directories that should be ignored by Docker.",
+    "coordinates": {
+      "x": 74,
+      "y": 565,
+      "width": 11,
+      "height": 6
+    }
+  },
+  {
+    "id": 11,
+    "label": "Windows Taskbar Search Icon",
+    "description": "An icon on the Windows taskbar to open the search utility.",
+    "coordinates": {
+      "x": 402,
+      "y": 740,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 12,
+    "label": "Antigravity Application Icon",
+    "description": "An icon on the Windows taskbar representing the 'Antigravity' application.",
+    "coordinates": {
+      "x": 936,
+      "y": 739,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 13,
+    "label": "Volume Control Icon",
+    "description": "An icon on the Windows taskbar system tray to control the system volume.",
+    "coordinates": {
+      "x": 1187,
+      "y": 727,
+      "width": 12,
+      "height": 6
+    }
+  },
+  {
+    "id": 14,
+    "label": "VS Code Source Control Icon",
+    "description": "An icon in the VS Code Activity Bar for managing source control (e.g., Git).",
+    "coordinates": {
+      "x": 163,
+      "y": 727,
+      "width": 12,
+      "height": 6
+    }
+  },
+  {
+    "id": 15,
+    "label": "VS Code Tests Icon",
+    "description": "An icon in the VS Code Activity Bar for running and managing tests.",
+    "coordinates": {
+      "x": 245,
+      "y": 726,
+      "width": 12,
+      "height": 6
+    }
+  },
+  {
+    "id": 16,
+    "label": "Windows Start Button",
+    "description": "The button on the Windows taskbar to open the Start menu.",
+    "coordinates": {
+      "x": 329,
+      "y": 737,
+      "width": 12,
+      "height": 7
+    }
+  },
+  {
+    "id": 17,
+    "label": "File Explorer Icon",
+    "description": "An icon on the Windows taskbar to open the File Explorer.",
+    "coordinates": {
+      "x": 627,
+      "y": 743,
+      "width": 12,
+      "height": 7
+    }
+  },
+  {
+    "id": 18,
+    "label": "Battery Status Icon",
+    "description": "An icon on the Windows taskbar system tray displaying the current battery level and charging status.",
+    "coordinates": {
+      "x": 316,
+      "y": 746,
+      "width": 10,
+      "height": 9
+    }
+  },
+  {
+    "id": 19,
+    "label": "Microsoft Edge Icon",
+    "description": "An icon on the Windows taskbar to launch the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 670,
+      "y": 740,
+      "width": 9,
+      "height": 10
+    }
+  },
+  {
+    "id": 20,
+    "label": "Text: vision_processor.py",
+    "description": "Text in the right-hand panel's progress updates, indicating a Python file related to vision processing.",
+    "coordinates": {
+      "x": 1201,
+      "y": 183,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 21,
+    "label": "Text: ui_agent_.py",
+    "description": "Text in the right-hand panel's progress updates, indicating a Python file related to the UI agent.",
+    "coordinates": {
+      "x": 1131,
+      "y": 165,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 22,
+    "label": "Text: execute_live_task.py",
+    "description": "Text in the main content area, under the [EXECUTE] section, referring to a Python script for executing live tasks.",
+    "coordinates": {
+      "x": 551,
+      "y": 556,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 23,
+    "label": "VS Code Tab: Live Zoom Implementation",
+    "description": "A tab in Visual Studio Code displaying a document or file related to 'Live Zoom Implementation'.",
+    "coordinates": {
+      "x": 189,
+      "y": 745,
+      "width": 12,
+      "height": 8
+    }
+  },
+  {
+    "id": 24,
+    "label": "Review Dropdown Button",
+    "description": "A button with a dropdown arrow, labeled 'Review', likely for managing code reviews or status.",
+    "coordinates": {
+      "x": 946,
+      "y": 58,
+      "width": 16,
+      "height": 6
+    }
+  },
+  {
+    "id": 25,
+    "label": "User Profile Icon",
+    "description": "An icon representing the current user's profile or account in the application header.",
+    "coordinates": {
+      "x": 1032,
+      "y": 12,
+      "width": 8,
+      "height": 12
+    }
+  },
+  {
+    "id": 26,
+    "label": "Text: Open Agent Manager",
+    "description": "Text in the top header, possibly a title or a link to an 'Open Agent Manager'.",
+    "coordinates": {
+      "x": 208,
+      "y": 737,
+      "width": 14,
+      "height": 7
+    }
+  },
+  {
+    "id": 27,
+    "label": "Network Status Icon",
+    "description": "An icon on the Windows taskbar system tray indicating the network connection status.",
+    "coordinates": {
+      "x": 1161,
+      "y": 733,
+      "width": 14,
+      "height": 7
+    }
+  },
+  {
+    "id": 28,
+    "label": "Panel Title: Antigravity - Settings",
+    "description": "The title of a panel or section, indicating settings for the 'Antigravity' application.",
+    "coordinates": {
+      "x": 1266,
+      "y": 701,
+      "width": 17,
+      "height": 6
+    }
+  },
+  {
+    "id": 29,
+    "label": "VS Code Sidebar Section Title: Outline",
+    "description": "A title in the VS Code sidebar, indicating the 'Outline' view which shows the structure of the active editor.",
+    "coordinates": {
+      "x": 73,
+      "y": 679,
+      "width": 17,
+      "height": 6
+    }
+  },
+  {
+    "id": 30,
+    "label": "VS Code Run and Debug Icon",
+    "description": "An icon in the VS Code Activity Bar for running and debugging code.",
+    "coordinates": {
+      "x": 162,
+      "y": 743,
+      "width": 13,
+      "height": 8
+    }
+  },
+  {
+    "id": 31,
+    "label": "VS Code Search Icon",
+    "description": "An icon in the VS Code Activity Bar for searching within the workspace.",
+    "coordinates": {
+      "x": 190,
+      "y": 739,
+      "width": 13,
+      "height": 8
+    }
+  },
+  {
+    "id": 32,
+    "label": "Microsoft Teams Icon",
+    "description": "An icon on the Windows taskbar to launch Microsoft Teams.",
+    "coordinates": {
+      "x": 994,
+      "y": 759,
+      "width": 12,
+      "height": 9
+    }
+  },
+  {
+    "id": 33,
+    "label": "Outlook Icon",
+    "description": "An icon on the Windows taskbar to launch Microsoft Outlook.",
+    "coordinates": {
+      "x": 1014,
+      "y": 755,
+      "width": 12,
+      "height": 9
+    }
+  },
+  {
+    "id": 34,
+    "label": "Camera Icon",
+    "description": "An icon, likely indicating camera status or controls, in the bottom right panel.",
+    "coordinates": {
+      "x": 1330,
+      "y": 680,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 35,
+    "label": "Microphone Icon",
+    "description": "An icon, likely indicating microphone status or controls, in the bottom right panel.",
+    "coordinates": {
+      "x": 1330,
+      "y": 660,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 36,
+    "label": "Text: execute_live_task.py (Verification Step)",
+    "description": "Text in the main content area, under 'Task Success', referring to a Python script for executing live tasks as part of verification.",
+    "coordinates": {
+      "x": 533,
+      "y": 556,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 37,
+    "label": "Settings Icon",
+    "description": "A gear icon, typically used to access settings or preferences.",
+    "coordinates": {
+      "x": 1088,
+      "y": 11,
+      "width": 8,
+      "height": 14
+    }
+  },
+  {
+    "id": 38,
+    "label": "VS Code Remote Explorer Icon",
+    "description": "An icon in the VS Code Activity Bar for managing remote development environments.",
+    "coordinates": {
+      "x": 248,
+      "y": 761,
+      "width": 19,
+      "height": 6
+    }
+  },
+  {
+    "id": 39,
+    "label": "Google Chrome Icon",
+    "description": "An icon on the Windows taskbar to launch the Google Chrome web browser.",
+    "coordinates": {
+      "x": 678,
+      "y": 761,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 40,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 166,
+      "y": 761,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 41,
+    "label": "Volume Control Icon",
+    "description": "An icon to adjust the system's audio volume or access sound settings.",
+    "coordinates": {
+      "x": 1088,
+      "y": 755,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 42,
+    "label": "Keyboard Layout Indicator: IN",
+    "description": "Displays the currently selected keyboard layout, likely for India.",
+    "coordinates": {
+      "x": 1123,
+      "y": 727,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 43,
+    "label": "Calendar Icon",
+    "description": "An icon to open the system calendar application.",
+    "coordinates": {
+      "x": 867,
+      "y": 727,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 44,
+    "label": "File Explorer Icon",
+    "description": "An icon to launch the Windows File Explorer application for managing files and folders.",
+    "coordinates": {
+      "x": 99,
+      "y": 727,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 45,
+    "label": "Microphone Icon",
+    "description": "An icon indicating microphone input, likely within a chat or AI assistant interface.",
+    "coordinates": {
+      "x": 1333,
+      "y": 667,
+      "width": 11,
+      "height": 11
+    }
+  },
+  {
+    "id": 46,
+    "label": "File Icon",
+    "description": "An icon representing the 'ui_agent.py' file, indicating it has been edited.",
+    "coordinates": {
+      "x": 1275,
+      "y": 441,
+      "width": 11,
+      "height": 11
+    }
+  },
+  {
+    "id": 47,
+    "label": "Discord Icon",
+    "description": "An icon to launch the Discord communication application.",
+    "coordinates": {
+      "x": 627,
+      "y": 734,
+      "width": 18,
+      "height": 7
+    }
+  },
+  {
+    "id": 48,
+    "label": "Log Message: Starting API-Based Static GUI Labeling",
+    "description": "A log message indicating the initiation of a process to label graphical user interface elements using an API.",
+    "coordinates": {
+      "x": 1239,
+      "y": 309,
+      "width": 21,
+      "height": 6
+    }
+  },
+  {
+    "id": 49,
+    "label": "Progress Message: Refreshing UI Atlas (mapping)",
+    "description": "A status message indicating that the UI Atlas is currently being refreshed and mapped.",
+    "coordinates": {
+      "x": 1114,
+      "y": 149,
+      "width": 18,
+      "height": 7
+    }
+  },
+  {
+    "id": 50,
+    "label": "Log Output Text: micro",
+    "description": "A fragment of text from a log or console output, likely part of a larger message.",
+    "coordinates": {
+      "x": 1115,
+      "y": 164,
+      "width": 16,
+      "height": 8
+    }
+  },
+  {
+    "id": 51,
+    "label": "Microsoft Teams Icon",
+    "description": "An icon to launch the Microsoft Teams collaboration platform.",
+    "coordinates": {
+      "x": 728,
+      "y": 727,
+      "width": 13,
+      "height": 10
+    }
+  },
+  {
+    "id": 52,
+    "label": "Log Output Text: y 'ui_ag",
+    "description": "A fragment of text from a log or console output, possibly part of a file path or identifier.",
+    "coordinates": {
+      "x": 1171,
+      "y": 183,
+      "width": 22,
+      "height": 6
+    }
+  },
+  {
+    "id": 53,
+    "label": "Tab Title: ui_agent.py M",
+    "description": "The title of an open Python file named 'ui_agent.py', with 'M' indicating that the file has unsaved modifications.",
+    "coordinates": {
+      "x": 689,
+      "y": 57,
+      "width": 19,
+      "height": 7
+    }
+  },
+  {
+    "id": 54,
+    "label": "Spotify Icon",
+    "description": "An icon to launch the Spotify music streaming application.",
+    "coordinates": {
+      "x": 736,
+      "y": 758,
+      "width": 14,
+      "height": 10
+    }
+  },
+  {
+    "id": 55,
+    "label": "Microsoft Store Icon",
+    "description": "An icon to open the Microsoft Store for downloading applications and content.",
+    "coordinates": {
+      "x": 908,
+      "y": 742,
+      "width": 13,
+      "height": 11
+    }
+  },
+  {
+    "id": 56,
+    "label": "Google Chrome Icon",
+    "description": "An icon to launch the Google Chrome web browser.",
+    "coordinates": {
+      "x": 284,
+      "y": 743,
+      "width": 18,
+      "height": 8
+    }
+  },
+  {
+    "id": 57,
+    "label": "Tab Title: Implementation Plan Live Zoom Implementation",
+    "description": "The title of an open document or tab in the editor, indicating a plan for live zoom implementation.",
+    "coordinates": {
+      "x": 450,
+      "y": 40,
+      "width": 24,
+      "height": 6
+    }
+  },
+  {
+    "id": 58,
+    "label": "Visual Studio Code Icon",
+    "description": "An icon to launch the Visual Studio Code integrated development environment.",
+    "coordinates": {
+      "x": 276,
+      "y": 727,
+      "width": 22,
+      "height": 7
+    }
+  },
+  {
+    "id": 59,
+    "label": "Date Display",
+    "description": "Shows the current date, 'March 5, 2024'.",
+    "coordinates": {
+      "x": 1310,
+      "y": 760,
+      "width": 24,
+      "height": 7
+    }
+  },
+  {
+    "id": 60,
+    "label": "Settings Icon",
+    "description": "An icon to open the system settings or configuration panel.",
+    "coordinates": {
+      "x": 847,
+      "y": 738,
+      "width": 12,
+      "height": 14
+    }
+  },
+  {
+    "id": 61,
+    "label": "Git Branch Indicator: main*",
+    "description": "Displays the current Git branch as 'main', with an asterisk indicating uncommitted changes.",
+    "coordinates": {
+      "x": 43,
+      "y": 701,
+      "width": 24,
+      "height": 7
+    }
+  },
+  {
+    "id": 62,
+    "label": "Weather Widget",
+    "description": "A taskbar widget showing the current temperature (19\u00b0C) and weather condition (Sunny).",
+    "coordinates": {
+      "x": 25,
+      "y": 737,
+      "width": 13,
+      "height": 13
+    }
+  },
+  {
+    "id": 63,
+    "label": "Battery Status Icon",
+    "description": "An icon displaying the current battery charge level and charging status of the device.",
+    "coordinates": {
+      "x": 1054,
+      "y": 760,
+      "width": 22,
+      "height": 8
+    }
+  },
+  {
+    "id": 64,
+    "label": "Text: Open Agent Manager",
+    "description": "Title of the current application or section in the top right panel.",
+    "coordinates": {
+      "x": 1244,
+      "y": 12,
+      "width": 16,
+      "height": 11
+    }
+  },
+  {
+    "id": 65,
+    "label": "Close Tab Icon",
+    "description": "An icon to close the 'Implementation Plan Live Zoom Implementation' tab.",
+    "coordinates": {
+      "x": 368,
+      "y": 40,
+      "width": 30,
+      "height": 6
+    }
+  },
+  {
+    "id": 66,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 221,
+      "y": 756,
+      "width": 16,
+      "height": 12
+    }
+  },
+  {
+    "id": 67,
+    "label": "Wi-Fi Status Icon",
+    "description": "An icon indicating the status of the wireless network connection.",
+    "coordinates": {
+      "x": 1181,
+      "y": 738,
+      "width": 16,
+      "height": 12
+    }
+  },
+  {
+    "id": 68,
+    "label": "More Actions Icon (three dots)",
+    "description": "A menu icon indicating more options or actions for the 'Live Zoom Implementation' panel.",
+    "coordinates": {
+      "x": 1034,
+      "y": 46,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 69,
+    "label": "Notification Indicator (red dot)",
+    "description": "A visual cue indicating a notification or status update, possibly related to the 'Help' menu or the overall application.",
+    "coordinates": {
+      "x": 309,
+      "y": 49,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 70,
+    "label": "Language Indicator: ENG",
+    "description": "Displays the currently selected input language, English.",
+    "coordinates": {
+      "x": 1088,
+      "y": 733,
+      "width": 16,
+      "height": 13
+    }
+  },
+  {
+    "id": 71,
+    "label": "Microsoft Edge Icon",
+    "description": "An icon to launch the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 183,
+      "y": 729,
+      "width": 26,
+      "height": 8
+    }
+  },
+  {
+    "id": 72,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1332,
+      "y": 738,
+      "width": 14,
+      "height": 15
+    }
+  },
+  {
+    "id": 73,
+    "label": "Log Output Text: eng [73] api_v",
+    "description": "A fragment of text from a log or console output, likely indicating an engine or API version.",
+    "coordinates": {
+      "x": 1221,
+      "y": 183,
+      "width": 30,
+      "height": 7
+    }
+  },
+  {
+    "id": 74,
+    "label": "Notification Indicator (red dot)",
+    "description": "A visual cue indicating a notification or status update related to the 'ui_agent_engine' folder in the file explorer.",
+    "coordinates": {
+      "x": 313,
+      "y": 471,
+      "width": 15,
+      "height": 14
+    }
+  },
+  {
+    "id": 75,
+    "label": "Notification Indicator (red dot)",
+    "description": "A visual cue indicating a notification or status update related to the 'temp_vision' folder in the file explorer.",
+    "coordinates": {
+      "x": 313,
+      "y": 339,
+      "width": 15,
+      "height": 14
+    }
+  },
+  {
+    "id": 76,
+    "label": "Windows Search Bar",
+    "description": "An input field on the taskbar for searching applications, files, and web content.",
+    "coordinates": {
+      "x": 1021,
+      "y": 727,
+      "width": 18,
+      "height": 12
+    }
+  },
+  {
+    "id": 77,
+    "label": "Time Display",
+    "description": "Shows the current time, '12:43'.",
+    "coordinates": {
+      "x": 1349,
+      "y": 733,
+      "width": 17,
+      "height": 13
+    }
+  },
+  {
+    "id": 78,
+    "label": "WhatsApp Icon",
+    "description": "An icon to launch the WhatsApp desktop messaging application.",
+    "coordinates": {
+      "x": 798,
+      "y": 762,
+      "width": 37,
+      "height": 6
+    }
+  },
+  {
+    "id": 79,
+    "label": "Log Output Text: gravity - Cop",
+    "description": "A fragment of text from a log or console output, likely part of a larger message.",
+    "coordinates": {
+      "x": 1193,
+      "y": 165,
+      "width": 32,
+      "height": 7
+    }
+  },
+  {
+    "id": 80,
+    "label": "Notification Indicator (red dot)",
+    "description": "A visual cue indicating a notification or status update related to the '.microgravity' folder in the file explorer.",
+    "coordinates": {
+      "x": 313,
+      "y": 97,
+      "width": 16,
+      "height": 14
+    }
+  },
+  {
+    "id": 81,
+    "label": "Warning Icon",
+    "description": "An icon indicating a warning or an issue in the status bar.",
+    "coordinates": {
+      "x": 134,
+      "y": 731,
+      "width": 25,
+      "height": 9
+    }
+  },
+  {
+    "id": 82,
+    "label": "Text: pp",
+    "description": "Part of a file path or code snippet displayed in the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1243,
+      "y": 162,
+      "width": 25,
+      "height": 9
+    }
+  },
+  {
+    "id": 83,
+    "label": "Text: ys run ^",
+    "description": "Text indicating a status or command output in the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1116,
+      "y": 411,
+      "width": 33,
+      "height": 7
+    }
+  },
+  {
+    "id": 84,
+    "label": "Separator Line",
+    "description": "A horizontal line used to visually separate sections within the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1131,
+      "y": 348,
+      "width": 21,
+      "height": 11
+    }
+  },
+  {
+    "id": 85,
+    "label": "Separator Line",
+    "description": "A horizontal line used to visually separate sections within the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1131,
+      "y": 263,
+      "width": 21,
+      "height": 11
+    }
+  },
+  {
+    "id": 86,
+    "label": "Date Display",
+    "description": "Current date displayed in the Windows taskbar.",
+    "coordinates": {
+      "x": 1228,
+      "y": 737,
+      "width": 17,
+      "height": 14
+    }
+  },
+  {
+    "id": 87,
+    "label": "Search Box",
+    "description": "Input field in the Windows taskbar for searching applications, files, and web content.",
+    "coordinates": {
+      "x": 400,
+      "y": 737,
+      "width": 15,
+      "height": 16
+    }
+  },
+  {
+    "id": 88,
+    "label": "Speaker Icon",
+    "description": "Icon representing the system volume control in the Windows taskbar.",
+    "coordinates": {
+      "x": 1178,
+      "y": 702,
+      "width": 15,
+      "height": 16
+    }
+  },
+  {
+    "id": 89,
+    "label": "Button: Accept all",
+    "description": "A button to accept all pending changes or suggestions.",
+    "coordinates": {
+      "x": 1218,
+      "y": 609,
+      "width": 41,
+      "height": 6
+    }
+  },
+  {
+    "id": 90,
+    "label": "File Explorer Icon",
+    "description": "Icon to open the Windows File Explorer.",
+    "coordinates": {
+      "x": 625,
+      "y": 759,
+      "width": 28,
+      "height": 9
+    }
+  },
+  {
+    "id": 91,
+    "label": "Notification Bell Icon",
+    "description": "Icon for system notifications in the Windows taskbar.",
+    "coordinates": {
+      "x": 1204,
+      "y": 738,
+      "width": 18,
+      "height": 14
+    }
+  },
+  {
+    "id": 92,
+    "label": "Microsoft Edge Icon",
+    "description": "Icon for the Microsoft Edge web browser in the Windows taskbar.",
+    "coordinates": {
+      "x": 885,
+      "y": 738,
+      "width": 23,
+      "height": 11
+    }
+  },
+  {
+    "id": 93,
+    "label": "Battery Icon",
+    "description": "Icon showing the battery level and charging status in the Windows taskbar.",
+    "coordinates": {
+      "x": 1201,
+      "y": 701,
+      "width": 15,
+      "height": 17
+    }
+  },
+  {
+    "id": 94,
+    "label": "Git Branch Indicator",
+    "description": "Status bar item showing the current Git branch as 'main*'.",
+    "coordinates": {
+      "x": 104,
+      "y": 701,
+      "width": 15,
+      "height": 17
+    }
+  },
+  {
+    "id": 95,
+    "label": "Close Tab Button",
+    "description": "Button to close the 'Live Zoom Implementation' tab.",
+    "coordinates": {
+      "x": 1341,
+      "y": 43,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 96,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1336,
+      "y": 10,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 97,
+    "label": "Add Icon",
+    "description": "A plus icon, typically used to add new items or elements.",
+    "coordinates": {
+      "x": 1087,
+      "y": 665,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 98,
+    "label": "Search Icon",
+    "description": "Icon to open the Windows search interface.",
+    "coordinates": {
+      "x": 117,
+      "y": 759,
+      "width": 43,
+      "height": 6
+    }
+  },
+  {
+    "id": 99,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1264,
+      "y": 309,
+      "width": 43,
+      "height": 6
+    }
+  },
+  {
+    "id": 100,
+    "label": "Scrollbar",
+    "description": "Vertical scrollbar for navigating content within the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1307,
+      "y": 209,
+      "width": 12,
+      "height": 23
+    }
+  },
+  {
+    "id": 101,
+    "label": "Folder Icon",
+    "description": "Icon representing the root folder 'micro gravity - Copy' in the file explorer.",
+    "coordinates": {
+      "x": 7,
+      "y": 64,
+      "width": 31,
+      "height": 9
+    }
+  },
+  {
+    "id": 102,
+    "label": "Speaker Icon",
+    "description": "Icon representing the system volume control in the Windows taskbar.",
+    "coordinates": {
+      "x": 211,
+      "y": 727,
+      "width": 32,
+      "height": 9
+    }
+  },
+  {
+    "id": 103,
+    "label": "Text: Explorer",
+    "description": "Label for the file explorer panel in Visual Studio Code.",
+    "coordinates": {
+      "x": 6,
+      "y": 41,
+      "width": 32,
+      "height": 9
+    }
+  },
+  {
+    "id": 104,
+    "label": "Tab: Implementation Plan Live Zoom Implementation",
+    "description": "An open tab in the editor displaying an 'Implementation Plan' document.",
+    "coordinates": {
+      "x": 400,
+      "y": 40,
+      "width": 49,
+      "height": 6
+    }
+  },
+  {
+    "id": 105,
+    "label": "Google Chrome Icon",
+    "description": "Icon for the Google Chrome web browser in the Windows taskbar.",
+    "coordinates": {
+      "x": 1019,
+      "y": 740,
+      "width": 30,
+      "height": 10
+    }
+  },
+  {
+    "id": 106,
+    "label": "Modified File Indicator",
+    "description": "An 'M' icon indicating that the 'ui_agent.py' file has been modified.",
+    "coordinates": {
+      "x": 312,
+      "y": 162,
+      "width": 18,
+      "height": 17
+    }
+  },
+  {
+    "id": 107,
+    "label": "Progress Indicator Line",
+    "description": "A vertical line indicating a point in a sequence or a progress step.",
+    "coordinates": {
+      "x": 1307,
+      "y": 335,
+      "width": 12,
+      "height": 26
+    }
+  },
+  {
+    "id": 108,
+    "label": "Progress Indicator Line",
+    "description": "A vertical line indicating a point in a sequence or a progress step.",
+    "coordinates": {
+      "x": 1307,
+      "y": 298,
+      "width": 12,
+      "height": 26
+    }
+  },
+  {
+    "id": 109,
+    "label": "Progress Indicator Line",
+    "description": "A vertical line indicating a point in a sequence or a progress step.",
+    "coordinates": {
+      "x": 1307,
+      "y": 258,
+      "width": 12,
+      "height": 26
+    }
+  },
+  {
+    "id": 110,
+    "label": "Close Panel Button",
+    "description": "Button to close the 'Timeline' panel in Visual Studio Code.",
+    "coordinates": {
+      "x": 0,
+      "y": 727,
+      "width": 16,
+      "height": 20
+    }
+  },
+  {
+    "id": 111,
+    "label": "Grid Icon",
+    "description": "An icon likely used to switch layout or view options in the application header.",
+    "coordinates": {
+      "x": 1289,
+      "y": 9,
+      "width": 18,
+      "height": 18
+    }
+  },
+  {
+    "id": 112,
+    "label": "Wi-Fi Icon",
+    "description": "Icon showing the status of the wireless network connection in the Windows taskbar.",
+    "coordinates": {
+      "x": 1135,
+      "y": 699,
+      "width": 41,
+      "height": 8
+    }
+  },
+  {
+    "id": 113,
+    "label": "Weather Widget",
+    "description": "Windows taskbar widget displaying current weather information (29\u00b0C, Sunny).",
+    "coordinates": {
+      "x": 30,
+      "y": 759,
+      "width": 37,
+      "height": 9
+    }
+  },
+  {
+    "id": 114,
+    "label": "Text: gravity",
+    "description": "Part of a file path or code snippet displayed in the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1150,
+      "y": 164,
+      "width": 42,
+      "height": 8
+    }
+  },
+  {
+    "id": 115,
+    "label": "Microsoft Edge Icon",
+    "description": "Icon for the Microsoft Edge web browser in the Windows taskbar.",
+    "coordinates": {
+      "x": 922,
+      "y": 754,
+      "width": 34,
+      "height": 10
+    }
+  },
+  {
+    "id": 116,
+    "label": "Microsoft Edge Icon",
+    "description": "Icon for the Microsoft Edge web browser in the Windows taskbar.",
+    "coordinates": {
+      "x": 922,
+      "y": 726,
+      "width": 34,
+      "height": 10
+    }
+  },
+  {
+    "id": 117,
+    "label": "Dropdown Arrow",
+    "description": "An arrow indicating a dropdown menu associated with the 'Accept all' button.",
+    "coordinates": {
+      "x": 1261,
+      "y": 592,
+      "width": 59,
+      "height": 6
+    }
+  },
+  {
+    "id": 118,
+    "label": "Ellipsis Menu Icon",
+    "description": "Icon indicating a dropdown menu with more options for the 'Open Agent Manager' section.",
+    "coordinates": {
+      "x": 1009,
+      "y": 42,
+      "width": 19,
+      "height": 19
+    }
+  },
+  {
+    "id": 119,
+    "label": "Microphone Icon",
+    "description": "Icon indicating microphone status or input options in the Windows taskbar.",
+    "coordinates": {
+      "x": 1051,
+      "y": 742,
+      "width": 43,
+      "height": 9
+    }
+  },
+  {
+    "id": 120,
+    "label": "Language Input Indicator",
+    "description": "Text 'ENG IN' indicating the current keyboard input language and layout in the Windows taskbar.",
+    "coordinates": {
+      "x": 1102,
+      "y": 735,
+      "width": 22,
+      "height": 18
+    }
+  },
+  {
+    "id": 121,
+    "label": "Menu: File",
+    "description": "Dropdown menu for file-related operations like New File, Open File, Save, etc.",
+    "coordinates": {
+      "x": 9,
+      "y": 8,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": 122,
+    "label": "Menu: Run",
+    "description": "Dropdown menu for running and debugging code.",
+    "coordinates": {
+      "x": 225,
+      "y": 10,
+      "width": 24,
+      "height": 17
+    }
+  },
+  {
+    "id": 123,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 22,
+      "y": 734,
+      "width": 21,
+      "height": 21
+    }
+  },
+  {
+    "id": 124,
+    "label": "Taskbar Icon: Search",
+    "description": "Windows taskbar icon to open the search interface.",
+    "coordinates": {
+      "x": 311,
+      "y": 733,
+      "width": 35,
+      "height": 13
+    }
+  },
+  {
+    "id": 125,
+    "label": "VS Code Activity Bar Icon: Extensions",
+    "description": "Icon in the VS Code activity bar to manage and discover extensions.",
+    "coordinates": {
+      "x": 12,
+      "y": 297,
+      "width": 20,
+      "height": 24
+    }
+  },
+  {
+    "id": 126,
+    "label": "Taskbar: Search Box",
+    "description": "Input field on the Windows taskbar for searching applications, files, and web content.",
+    "coordinates": {
+      "x": 426,
+      "y": 739,
+      "width": 41,
+      "height": 12
+    }
+  },
+  {
+    "id": 127,
+    "label": "Menu: Edit",
+    "description": "Dropdown menu for editing operations like Undo, Redo, Cut, Copy, Paste.",
+    "coordinates": {
+      "x": 40,
+      "y": 9,
+      "width": 28,
+      "height": 18
+    }
+  },
+  {
+    "id": 128,
+    "label": "Text: Zoom Implementation",
+    "description": "Text label indicating the current implementation context or status related to 'Zoom'.",
+    "coordinates": {
+      "x": 1069,
+      "y": 58,
+      "width": 84,
+      "height": 6
+    }
+  },
+  {
+    "id": 129,
+    "label": "Menu: Terminal",
+    "description": "Dropdown menu for opening and managing integrated terminals.",
+    "coordinates": {
+      "x": 258,
+      "y": 10,
+      "width": 30,
+      "height": 17
+    }
+  },
+  {
+    "id": 130,
+    "label": "Menu: Selection",
+    "description": "Dropdown menu for text selection operations.",
+    "coordinates": {
+      "x": 76,
+      "y": 9,
+      "width": 29,
+      "height": 18
+    }
+  },
+  {
+    "id": 131,
+    "label": "Taskbar Icon: Show hidden icons",
+    "description": "Arrow icon on the Windows taskbar to reveal hidden system tray icons.",
+    "coordinates": {
+      "x": 1139,
+      "y": 733,
+      "width": 44,
+      "height": 12
+    }
+  },
+  {
+    "id": 132,
+    "label": "VS Code Activity Bar Icon: Source Control",
+    "description": "Icon in the VS Code activity bar for managing source control (e.g., Git).",
+    "coordinates": {
+      "x": 11,
+      "y": 256,
+      "width": 23,
+      "height": 23
+    }
+  },
+  {
+    "id": 133,
+    "label": "Taskbar Icon: Settings",
+    "description": "Windows taskbar icon to open system settings.",
+    "coordinates": {
+      "x": 1310,
+      "y": 701,
+      "width": 33,
+      "height": 17
+    }
+  },
+  {
+    "id": 134,
+    "label": "Taskbar Icon: Windows Start Button",
+    "description": "Button to open the Windows Start menu.",
+    "coordinates": {
+      "x": 252,
+      "y": 728,
+      "width": 30,
+      "height": 19
+    }
+  },
+  {
+    "id": 135,
+    "label": "VS Code Activity Bar Icon: Search",
+    "description": "Icon in the VS Code activity bar to search within the workspace.",
+    "coordinates": {
+      "x": 9,
+      "y": 171,
+      "width": 25,
+      "height": 25
+    }
+  },
+  {
+    "id": 136,
+    "label": "Menu: Go",
+    "description": "Dropdown menu for navigation operations like Go to File, Go to Definition.",
+    "coordinates": {
+      "x": 182,
+      "y": 9,
+      "width": 35,
+      "height": 18
+    }
+  },
+  {
+    "id": 137,
+    "label": "Text: gui_map_*.json",
+    "description": "File pattern text indicating a JSON file related to GUI maps.",
+    "coordinates": {
+      "x": 450,
+      "y": 473,
+      "width": 105,
+      "height": 6
+    }
+  },
+  {
+    "id": 138,
+    "label": "Icon: Download",
+    "description": "Icon indicating a download action or status.",
+    "coordinates": {
+      "x": 986,
+      "y": 73,
+      "width": 65,
+      "height": 10
+    }
+  },
+  {
+    "id": 139,
+    "label": "Taskbar Widget: Weather",
+    "description": "Windows taskbar widget displaying current weather information (Sunny, 29\u00b0C).",
+    "coordinates": {
+      "x": 44,
+      "y": 732,
+      "width": 58,
+      "height": 12
+    }
+  },
+  {
+    "id": 140,
+    "label": "Button: Close Tab",
+    "description": "Button to close the 'Implementation Plan' editor tab.",
+    "coordinates": {
+      "x": 361,
+      "y": 9,
+      "width": 34,
+      "height": 21
+    }
+  },
+  {
+    "id": 141,
+    "label": "Icon: Up Arrow",
+    "description": "An up arrow icon, possibly indicating an upload, expand, or move up action.",
+    "coordinates": {
+      "x": 986,
+      "y": 87,
+      "width": 65,
+      "height": 11
+    }
+  },
+  {
+    "id": 142,
+    "label": "Text: short_term_dir",
+    "description": "Text referring to a 'short_term_dir' directory, likely a variable or path.",
+    "coordinates": {
+      "x": 410,
+      "y": 192,
+      "width": 105,
+      "height": 7
+    }
+  },
+  {
+    "id": 143,
+    "label": "Taskbar Icon: File Explorer",
+    "description": "Windows taskbar icon to open the File Explorer.",
+    "coordinates": {
+      "x": 702,
+      "y": 734,
+      "width": 31,
+      "height": 24
+    }
+  },
+  {
+    "id": 144,
+    "label": "Taskbar: Date and Time",
+    "description": "Displays the current time and date (12:43 05-03-2026).",
+    "coordinates": {
+      "x": 1250,
+      "y": 748,
+      "width": 79,
+      "height": 10
+    }
+  },
+  {
+    "id": 145,
+    "label": "Taskbar Icon: Network Status",
+    "description": "Windows taskbar icon indicating network connectivity status.",
+    "coordinates": {
+      "x": 1120,
+      "y": 745,
+      "width": 42,
+      "height": 19
+    }
+  },
+  {
+    "id": 146,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 269,
+      "y": 753,
+      "width": 55,
+      "height": 15
+    }
+  },
+  {
+    "id": 147,
+    "label": "Taskbar Icon: Microsoft Edge",
+    "description": "Windows taskbar icon for the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 786,
+      "y": 732,
+      "width": 35,
+      "height": 25
+    }
+  },
+  {
+    "id": 148,
+    "label": "Taskbar Icon: Google Chrome",
+    "description": "Windows taskbar icon for the Google Chrome web browser.",
+    "coordinates": {
+      "x": 748,
+      "y": 733,
+      "width": 38,
+      "height": 24
+    }
+  },
+  {
+    "id": 149,
+    "label": "Menu: Help",
+    "description": "Dropdown menu for accessing help documentation, tutorials, and support.",
+    "coordinates": {
+      "x": 297,
+      "y": 9,
+      "width": 55,
+      "height": 18
+    }
+  },
+  {
+    "id": 150,
+    "label": "Taskbar Icon: Microsoft Teams",
+    "description": "Windows taskbar icon for the Microsoft Teams communication platform.",
+    "coordinates": {
+      "x": 658,
+      "y": 734,
+      "width": 42,
+      "height": 24
+    }
+  },
+  {
+    "id": 151,
+    "label": "Taskbar Icon: Notifications",
+    "description": "Windows taskbar icon to view system notifications.",
+    "coordinates": {
+      "x": 1269,
+      "y": 726,
+      "width": 63,
+      "height": 16
+    }
+  },
+  {
+    "id": 152,
+    "label": "Text: execute_live_task.py",
+    "description": "File name text indicating a Python script for executing a live task.",
+    "coordinates": {
+      "x": 478,
+      "y": 534,
+      "width": 146,
+      "height": 7
+    }
+  },
+  {
+    "id": 153,
+    "label": "VS Code Activity Bar Icon: Explorer",
+    "description": "Icon in the VS Code activity bar to open the file explorer panel.",
+    "coordinates": {
+      "x": 59,
+      "y": 45,
+      "width": 52,
+      "height": 20
+    }
+  },
+  {
+    "id": 154,
+    "label": "Menu: View",
+    "description": "Dropdown menu for controlling the visibility of UI elements and editor layout.",
+    "coordinates": {
+      "x": 114,
+      "y": 9,
+      "width": 59,
+      "height": 18
+    }
+  },
+  {
+    "id": 155,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 406,
+      "y": 666,
+      "width": 59,
+      "height": 18
+    }
+  },
+  {
+    "id": 156,
+    "label": "Text: semantic_labels_*.png",
+    "description": "File pattern text indicating a PNG image file related to semantic labels.",
+    "coordinates": {
+      "x": 456,
+      "y": 643,
+      "width": 154,
+      "height": 7
+    }
+  },
+  {
+    "id": 157,
+    "label": "Taskbar Icon: Opera GX",
+    "description": "Windows taskbar icon for the Opera GX web browser.",
+    "coordinates": {
+      "x": 825,
+      "y": 733,
+      "width": 45,
+      "height": 24
+    }
+  },
+  {
+    "id": 158,
+    "label": "Text Input Field: Planning",
+    "description": "An input field labeled 'Planning', likely for entering text or comments in a chat or task management context.",
+    "coordinates": {
+      "x": 1114,
+      "y": 665,
+      "width": 63,
+      "height": 18
+    }
+  },
+  {
+    "id": 159,
+    "label": "Taskbar Icon: Volume",
+    "description": "Windows taskbar icon to control system volume.",
+    "coordinates": {
+      "x": 1190,
+      "y": 755,
+      "width": 89,
+      "height": 13
+    }
+  },
+  {
+    "id": 160,
+    "label": "VS Code Explorer Icon: Folder 'case'",
+    "description": "Folder icon representing the 'case' directory in the VS Code file explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 271,
+      "width": 68,
+      "height": 18
+    }
+  },
+  {
+    "id": 161,
+    "label": "Folder Name: _tests",
+    "description": "A folder named '_tests' in the VS Code Explorer, containing test files.",
+    "coordinates": {
+      "x": 56,
+      "y": 447,
+      "width": 70,
+      "height": 18
+    }
+  },
+  {
+    "id": 162,
+    "label": "Date and Time Display",
+    "description": "Displays the current date and time (12:43 05-03-2026) in the Windows taskbar.",
+    "coordinates": {
+      "x": 611,
+      "y": 727,
+      "width": 45,
+      "height": 30
+    }
+  },
+  {
+    "id": 163,
+    "label": "Weather Information: Sunny",
+    "description": "Text displaying current weather conditions, 'Sunny', in the Windows taskbar.",
+    "coordinates": {
+      "x": 41,
+      "y": 745,
+      "width": 86,
+      "height": 16
+    }
+  },
+  {
+    "id": 164,
+    "label": "Folder Name: swarm",
+    "description": "A folder named 'swarm' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 315,
+      "width": 80,
+      "height": 18
+    }
+  },
+  {
+    "id": 165,
+    "label": "Text Label: Gemini 3 Flash",
+    "description": "A text label indicating the use of 'Gemini 3 Flash', likely a model or feature.",
+    "coordinates": {
+      "x": 1186,
+      "y": 665,
+      "width": 92,
+      "height": 16
+    }
+  },
+  {
+    "id": 166,
+    "label": "Tab Title: Implementation Plan Live Zoom implementation",
+    "description": "Title of an open tab, likely a document or plan related to a live zoom implementation.",
+    "coordinates": {
+      "x": 480,
+      "y": 40,
+      "width": 187,
+      "height": 8
+    }
+  },
+  {
+    "id": 167,
+    "label": "Panel Header: Live Zoom Implementation",
+    "description": "Header for a panel or section titled 'Live Zoom Implementation'.",
+    "coordinates": {
+      "x": 1087,
+      "y": 67,
+      "width": 250,
+      "height": 6
+    }
+  },
+  {
+    "id": 168,
+    "label": "Status Message: Generating..",
+    "description": "A status message indicating that a generation process is currently underway.",
+    "coordinates": {
+      "x": 1080,
+      "y": 495,
+      "width": 76,
+      "height": 20
+    }
+  },
+  {
+    "id": 169,
+    "label": "Folder Name: micro gravity - Copy",
+    "description": "Root folder of the project in the VS Code Explorer.",
+    "coordinates": {
+      "x": 54,
+      "y": 96,
+      "width": 96,
+      "height": 16
+    }
+  },
+  {
+    "id": 170,
+    "label": "Folder Name: microgravity",
+    "description": "A folder named 'microgravity' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 293,
+      "width": 91,
+      "height": 18
+    }
+  },
+  {
+    "id": 171,
+    "label": "Button: Collapse all",
+    "description": "A button to collapse all expandable items within the current section.",
+    "coordinates": {
+      "x": 1244,
+      "y": 83,
+      "width": 87,
+      "height": 20
+    }
+  },
+  {
+    "id": 172,
+    "label": "File Name: config.json",
+    "description": "A JSON configuration file within the project structure.",
+    "coordinates": {
+      "x": 79,
+      "y": 161,
+      "width": 90,
+      "height": 21
+    }
+  },
+  {
+    "id": 173,
+    "label": "List Item: 2. Task Success:",
+    "description": "A list item indicating the successful completion of a task.",
+    "coordinates": {
+      "x": 392,
+      "y": 505,
+      "width": 106,
+      "height": 18
+    }
+  },
+  {
+    "id": 174,
+    "label": "Section Header: Automated Tests",
+    "description": "Header for the 'Automated Tests' section.",
+    "coordinates": {
+      "x": 390,
+      "y": 386,
+      "width": 114,
+      "height": 18
+    }
+  },
+  {
+    "id": 175,
+    "label": "Folder Name: temp_vision",
+    "description": "A folder named 'temp_vision' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 337,
+      "width": 111,
+      "height": 20
+    }
+  },
+  {
+    "id": 176,
+    "label": "File Name: .dockerignore",
+    "description": "A file specifying patterns for files and directories to be ignored by Docker.",
+    "coordinates": {
+      "x": 70,
+      "y": 557,
+      "width": 108,
+      "height": 21
+    }
+  },
+  {
+    "id": 177,
+    "label": "Section Header: Manual Verification",
+    "description": "Header for the 'Manual Verification' section.",
+    "coordinates": {
+      "x": 390,
+      "y": 609,
+      "width": 131,
+      "height": 18
+    }
+  },
+  {
+    "id": 178,
+    "label": "Folder Name: _test_vector_ws",
+    "description": "A folder named '_test_vector_ws' in the VS Code Explorer, likely for test workspaces.",
+    "coordinates": {
+      "x": 56,
+      "y": 403,
+      "width": 125,
+      "height": 20
+    }
+  },
+  {
+    "id": 179,
+    "label": "Section Header: Verification Plan",
+    "description": "Header for the 'Verification Plan' section.",
+    "coordinates": {
+      "x": 390,
+      "y": 341,
+      "width": 125,
+      "height": 20
+    }
+  },
+  {
+    "id": 180,
+    "label": "Folder Name: _test_swarm_ws",
+    "description": "A folder named '_test_swarm_ws' in the VS Code Explorer, likely for test workspaces.",
+    "coordinates": {
+      "x": 56,
+      "y": 359,
+      "width": 127,
+      "height": 20
+    }
+  },
+  {
+    "id": 181,
+    "label": "Navigation Buttons",
+    "description": "A set of navigation buttons (back, forward, and more options) in a toolbar.",
+    "coordinates": {
+      "x": 971,
+      "y": 37,
+      "width": 95,
+      "height": 27
+    }
+  },
+  {
+    "id": 182,
+    "label": "Application Icon: Camera",
+    "description": "An icon for a camera application in the Windows taskbar.",
+    "coordinates": {
+      "x": 56,
+      "y": 205,
+      "width": 129,
+      "height": 21
+    }
+  },
+  {
+    "id": 183,
+    "label": "Folder Name: _test_workspace",
+    "description": "A folder named '_test_workspace' in the VS Code Explorer, likely for test workspaces.",
+    "coordinates": {
+      "x": 56,
+      "y": 425,
+      "width": 130,
+      "height": 21
+    }
+  },
+  {
+    "id": 184,
+    "label": "Folder Name: ui_agent_engine",
+    "description": "A folder named 'ui_agent_engine' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 469,
+      "width": 136,
+      "height": 21
+    }
+  },
+  {
+    "id": 185,
+    "label": "List Item: 1. Mapping Success",
+    "description": "A list item indicating the successful completion of a mapping step.",
+    "coordinates": {
+      "x": 393,
+      "y": 420,
+      "width": 136,
+      "height": 21
+    }
+  },
+  {
+    "id": 186,
+    "label": "Instruction Text",
+    "description": "Instruction to check a specific file path for a new GUI map JSON file.",
+    "coordinates": {
+      "x": 491,
+      "y": 450,
+      "width": 409,
+      "height": 7
+    }
+  },
+  {
+    "id": 187,
+    "label": "Button: Review",
+    "description": "A button or dropdown menu for initiating review actions.",
+    "coordinates": {
+      "x": 958,
+      "y": 71,
+      "width": 96,
+      "height": 30
+    }
+  },
+  {
+    "id": 188,
+    "label": "Action Bar: 1 File Wit... Reject all Accept all",
+    "description": "An action bar presenting options to 'Reject all' or 'Accept all' changes for 1 file.",
+    "coordinates": {
+      "x": 1118,
+      "y": 590,
+      "width": 140,
+      "height": 25
+    }
+  },
+  {
+    "id": 189,
+    "label": "Action Item Text: [MODIFY] ui_agent.py",
+    "description": "An action item indicating that the 'ui_agent.py' file needs to be modified.",
+    "coordinates": {
+      "x": 390,
+      "y": 135,
+      "width": 162,
+      "height": 22
+    }
+  },
+  {
+    "id": 190,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1054,
+      "y": 321,
+      "width": 10,
+      "height": 359
+    }
+  },
+  {
+    "id": 191,
+    "label": "Folder Name: _test_vector_workspace",
+    "description": "A folder named '_test_vector_workspace' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 381,
+      "width": 171,
+      "height": 21
+    }
+  },
+  {
+    "id": 192,
+    "label": "Status Message: Edited ui_agent.py",
+    "description": "A status message indicating that the 'ui_agent.py' file has been edited.",
+    "coordinates": {
+      "x": 1112,
+      "y": 435,
+      "width": 157,
+      "height": 23
+    }
+  },
+  {
+    "id": 193,
+    "label": "Folder Name: Agentic",
+    "description": "A folder named 'Agentic' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 56,
+      "y": 227,
+      "width": 87,
+      "height": 43
+    }
+  },
+  {
+    "id": 194,
+    "label": "Tab Title: ui_agent.py M",
+    "description": "Title of an open tab for the 'ui_agent.py' file, with 'M' indicating it has been modified.",
+    "coordinates": {
+      "x": 669,
+      "y": 37,
+      "width": 139,
+      "height": 27
+    }
+  },
+  {
+    "id": 195,
+    "label": "Tab Title: Task Live Zoom Impl",
+    "description": "Title of an open tab, likely related to a task for live zoom implementation.",
+    "coordinates": {
+      "x": 811,
+      "y": 37,
+      "width": 151,
+      "height": 27
+    }
+  },
+  {
+    "id": 196,
+    "label": "Section Header: Outline",
+    "description": "Header for the 'Outline' section in the VS Code sidebar, showing the structure of the active file.",
+    "coordinates": {
+      "x": 96,
+      "y": 679,
+      "width": 245,
+      "height": 19
+    }
+  },
+  {
+    "id": 197,
+    "label": "File Name: clean_ledger.py",
+    "description": "A Python file named 'clean_ledger.py' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 90,
+      "y": 657,
+      "width": 251,
+      "height": 19
+    }
+  },
+  {
+    "id": 198,
+    "label": "Action Item Text: [EXECUTE] execute_live_task.py",
+    "description": "An action item indicating that the 'execute_live_task.py' script needs to be executed.",
+    "coordinates": {
+      "x": 390,
+      "y": 235,
+      "width": 220,
+      "height": 22
+    }
+  },
+  {
+    "id": 199,
+    "label": "Input Field: Ask anything, @ to mention, / for workflows",
+    "description": "An input field for typing questions, mentioning users, or initiating workflows.",
+    "coordinates": {
+      "x": 1086,
+      "y": 631,
+      "width": 259,
+      "height": 19
+    }
+  },
+  {
+    "id": 200,
+    "label": "Status Message: Refreshing UI Atlas (mapping features)...",
+    "description": "A status message indicating that the UI Atlas is being refreshed and features are being mapped.",
+    "coordinates": {
+      "x": 1093,
+      "y": 111,
+      "width": 195,
+      "height": 26
+    }
+  },
+  {
+    "id": 201,
+    "label": "Instruction Text",
+    "description": "An instruction to run a specific script, 'execute_live_task.py', as part of an execution step.",
+    "coordinates": {
+      "x": 389,
+      "y": 270,
+      "width": 247,
+      "height": 21
+    }
+  },
+  {
+    "id": 202,
+    "label": "Taskbar Application Icons",
+    "description": "A collection of icons representing open or pinned applications on the Windows taskbar.",
+    "coordinates": {
+      "x": 872,
+      "y": 725,
+      "width": 129,
+      "height": 43
+    }
+  },
+  {
+    "id": 203,
+    "label": "Action Buttons",
+    "description": "Buttons to control the execution of a task, offering options to 'Always run' or 'Cancel'.",
+    "coordinates": {
+      "x": 1115,
+      "y": 390,
+      "width": 204,
+      "height": 28
+    }
+  },
+  {
+    "id": 204,
+    "label": "Document Title",
+    "description": "The title of the currently active document or project, 'micro gravity - Copy - Antigravity - Implementation Plan'.",
+    "coordinates": {
+      "x": 536,
+      "y": 10,
+      "width": 305,
+      "height": 20
+    }
+  },
+  {
+    "id": 205,
+    "label": "Document Tab Title",
+    "description": "The title of an open tab or document, 'Implementation Plan'.",
+    "coordinates": {
+      "x": 356,
+      "y": 76,
+      "width": 278,
+      "height": 22
+    }
+  },
+  {
+    "id": 206,
+    "label": "Timestamp/Status Indicator",
+    "description": "Indicates when the 'Implementation Plan' was last updated or accessed, 'less than a minute ago'.",
+    "coordinates": {
+      "x": 390,
+      "y": 730,
+      "width": 215,
+      "height": 30
+    }
+  },
+  {
+    "id": 207,
+    "label": "File Explorer Folder",
+    "description": "A folder named '.microgravity' displayed within the file explorer pane.",
+    "coordinates": {
+      "x": 42,
+      "y": 92,
+      "width": 301,
+      "height": 23
+    }
+  },
+  {
+    "id": 208,
+    "label": "File Change Summary",
+    "description": "A summary indicating changes (+31, -13 lines) to the 'ui_agent.py' file within a specific path, likely from a version control system.",
+    "coordinates": {
+      "x": 1082,
+      "y": 559,
+      "width": 270,
+      "height": 30
+    }
+  },
+  {
+    "id": 209,
+    "label": "File Explorer Item",
+    "description": "A file or folder named '.dockerignore' displayed within the file explorer pane, typically used for Docker build context exclusion.",
+    "coordinates": {
+      "x": 71,
+      "y": 578,
+      "width": 141,
+      "height": 66
+    }
+  },
+  {
+    "id": 210,
+    "label": "Windows Search Bar",
+    "description": "The search input field on the Windows taskbar, used to find applications, files, or information.",
+    "coordinates": {
+      "x": 344,
+      "y": 726,
+      "width": 271,
+      "height": 36
+    }
+  },
+  {
+    "id": 211,
+    "label": "File Explorer Folder",
+    "description": "A folder named 'ui_agent_engine' displayed within the file explorer pane.",
+    "coordinates": {
+      "x": 56,
+      "y": 491,
+      "width": 160,
+      "height": 65
+    }
+  },
+  {
+    "id": 212,
+    "label": "Instruction Text",
+    "description": "An instruction for manual verification, directing the user to review image files in a diagnostics folder.",
+    "coordinates": {
+      "x": 389,
+      "y": 641,
+      "width": 563,
+      "height": 25
+    }
+  },
+  {
+    "id": 213,
+    "label": "Application Menu Bar",
+    "description": "The standard menu bar of the application, providing access to various functions like 'File', 'Edit', 'View', 'Run', 'Terminal', and 'Help'.",
+    "coordinates": {
+      "x": 44,
+      "y": 37,
+      "width": 297,
+      "height": 54
+    }
+  },
+  {
+    "id": 214,
+    "label": "Application Status Bar",
+    "description": "The status bar at the bottom of the application, displaying information such as the current branch ('main*'), weather ('29\u00b0C Sunny'), and other status indicators.",
+    "coordinates": {
+      "x": 176,
+      "y": 701,
+      "width": 958,
+      "height": 17
+    }
+  },
+  {
+    "id": 215,
+    "label": "Instruction Text",
+    "description": "Instructions for verifying task success, including running a script and observing command window behavior.",
+    "coordinates": {
+      "x": 429,
+      "y": 532,
+      "width": 367,
+      "height": 47
+    }
+  },
+  {
+    "id": 216,
+    "label": "Action Buttons",
+    "description": "Buttons to either 'Reject all' or 'Accept all' pending changes or updates.",
+    "coordinates": {
+      "x": 1075,
+      "y": 616,
+      "width": 284,
+      "height": 76
+    }
+  },
+  {
+    "id": 217,
+    "label": "Instruction Text",
+    "description": "An instruction to check a specific directory for a newly generated JSON file as part of mapping success verification.",
+    "coordinates": {
+      "x": 429,
+      "y": 448,
+      "width": 537,
+      "height": 48
+    }
+  },
+  {
+    "id": 218,
+    "label": "Instruction Text",
+    "description": "An instruction to ensure a memory management function correctly prioritizes newly generated maps.",
+    "coordinates": {
+      "x": 389,
+      "y": 169,
+      "width": 600,
+      "height": 46
+    }
+  },
+  {
+    "id": 219,
+    "label": "Application Tab",
+    "description": "An open tab in the application, titled 'Implementation Plan Live Zoom Implementation'.",
+    "coordinates": {
+      "x": 343,
+      "y": 40,
+      "width": 724,
+      "height": 65
+    }
+  },
+  {
+    "id": 220,
+    "label": "Section Title",
+    "description": "The title of a section displaying ongoing 'Progress Updates'.",
+    "coordinates": {
+      "x": 1086,
+      "y": 76,
+      "width": 252,
+      "height": 400
+    }
+  },
+  {
+    "id": 221,
+    "label": "File Explorer Folder",
+    "description": "A folder named 'cron' displayed within the file explorer pane.",
+    "coordinates": {
+      "x": 44,
+      "y": 117,
+      "width": 297,
+      "height": 537
+    }
+  },
+  {
+    "id": 222,
+    "label": "Document Tab Title",
+    "description": "The title of an open tab or document, 'Implementation Plan'.",
+    "coordinates": {
+      "x": 343,
+      "y": 108,
+      "width": 724,
+      "height": 591
+    }
+  },
+  {
+    "id": 223,
+    "label": "Pane Title",
+    "description": "The title of the left-hand pane, indicating it is the 'Explorer' (file navigation).",
+    "coordinates": {
+      "x": 0,
+      "y": 4,
+      "width": 1366,
+      "height": 718
+    }
+  }
+]

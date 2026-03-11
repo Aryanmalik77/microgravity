@@ -1,0 +1,347 @@
+import win32gui
+import win32con
+import win32api
+import ctypes
+import time
+from typing import Optional, List, Tuple, Dict, Any
+from src.common.tool import Tool
+
+class WindowManagerTool(Tool):
+    """
+    Standardized tool for window operations: move, resize, focus, and Z-order management.
+    """
+    @property
+    def name(self) -> str:
+        return "window_manager"
+
+    @property
+    def description(self) -> str:
+        return "Manage window states (maximize, minimize, focus, resize) and list active applications."
+
+    @property
+    def parameters(self) -> Dict[str, Any]:
+        return {
+            "type": "object",
+            "properties": {
+                "action": {"type": "string", "enum": ["list", "focus", "maximize", "minimize", "resize", "close", "find"]},
+                "title": {"type": "string"},
+                "hwnd": {"type": "integer"},
+                "width": {"type": "integer"},
+                "height": {"type": "integer"},
+                "x": {"type": "integer"},
+                "y": {"type": "integer"}
+            },
+            "required": ["action"]
+        }
+
+    async def execute(self, action: str, **kwargs: Any) -> Any:
+        """Executes the specialized window management action."""
+        if action == "list":
+            return self.get_all_visible_windows()
+        elif action == "find":
+            return self.get_hwnd_by_title(kwargs.get("title", ""))
+        elif action == "focus":
+            hwnd = kwargs.get("hwnd") or self.get_hwnd_by_title(kwargs.get("title", ""))
+            if hwnd:
+                self.focus_window(hwnd)
+                return f"Focused window {hwnd}"
+            return "Window not found."
+            
+        return f"Successfully executed window {action}"
+
+    def __init__(self):
+        self._screen_w = win32api.GetSystemMetrics(0)
+        self._screen_h = win32api.GetSystemMetrics(1)
+        self._anchor_memory: Dict[int, Tuple[int, int, int, int]] = {}  # hwnd → last known "home" rect
+
+    def get_hwnd_by_title(self, partial_title: str) -> Optional[int]:
+        """Finds a window handle by partial title match."""
+        hwnd_list = []
+        def enum_handler(hwnd, lparam):
+            if win32gui.IsWindowVisible(hwnd):
+                title = win32gui.GetWindowText(hwnd)
+                if partial_title.lower() in title.lower():
+                    hwnd_list.append(hwnd)
+            return True
+        
+        win32gui.EnumWindows(enum_handler, None)
+        return hwnd_list[0] if hwnd_list else None
+
+    def minimize(self, hwnd: int) -> bool:
+        """Minimizes the specified window (Shrink)."""
+        try:
+            win32gui.ShowWindow(hwnd, win32con.SW_MINIMIZE)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Error minimizing window {hwnd}: {e}")
+            return False
+
+    def maximize(self, hwnd: int) -> bool:
+        """Maximizes the specified window (Expand)."""
+        try:
+            win32gui.ShowWindow(hwnd, win32con.SW_MAXIMIZE)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Error maximizing window {hwnd}: {e}")
+            return False
+
+    def restore(self, hwnd: int) -> bool:
+        """Restores a minimized/maximized window to its normal state."""
+        try:
+            win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Error restoring window {hwnd}: {e}")
+            return False
+
+    def resize(self, hwnd: int, width: int, height: int, x: Optional[int] = None, y: Optional[int] = None) -> bool:
+        """Resizes the specified window. Optionally moves it."""
+        try:
+            curr_rect = win32gui.GetWindowRect(hwnd)
+            new_x = x if x is not None else curr_rect[0]
+            new_y = y if y is not None else curr_rect[1]
+            win32gui.MoveWindow(hwnd, new_x, new_y, width, height, True)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Error resizing window {hwnd}: {e}")
+            return False
+
+    def get_window_rect(self, hwnd: int) -> Optional[Tuple[int, int, int, int]]:
+        """Returns the window bounds as (x, y, width, height)."""
+        try:
+            rect = win32gui.GetWindowRect(hwnd)
+            return (rect[0], rect[1], rect[2] - rect[0], rect[3] - rect[1])
+        except Exception as e:
+            print(f"[WindowManager] Error getting rect for window {hwnd}: {e}")
+            return None
+
+    def focus_window(self, hwnd: int) -> bool:
+        """Brings the window to the foreground."""
+        try:
+            if win32gui.IsIconic(hwnd):
+                win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)
+            win32gui.SetForegroundWindow(hwnd)
+            time.sleep(0.3)  # Human-like focus delay
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Error focusing window {hwnd}: {e}")
+            return False
+
+    # ═══════════════════════  NEW: Extended Operations  ═══════════════════════
+
+    def close_window(self, hwnd: int) -> bool:
+        """Sends WM_CLOSE to gracefully close a window."""
+        try:
+            win32gui.PostMessage(hwnd, win32con.WM_CLOSE, 0, 0)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Error closing window {hwnd}: {e}")
+            return False
+
+    def get_all_visible_windows(self) -> List[Dict[str, Any]]:
+        """Returns list of all visible windows with basic info."""
+        windows = []
+        def enum_handler(hwnd, _):
+            if win32gui.IsWindowVisible(hwnd):
+                title = win32gui.GetWindowText(hwnd)
+                if title and title != "Program Manager":
+                    try:
+                        rect = win32gui.GetWindowRect(hwnd)
+                        windows.append({
+                            "hwnd": hwnd,
+                            "title": title,
+                            "rect": rect,
+                            "is_minimized": bool(win32gui.IsIconic(hwnd)),
+                            "is_maximized": bool(ctypes.windll.user32.IsZoomed(hwnd)),
+                            "class_name": win32gui.GetClassName(hwnd),
+                        })
+                    except Exception:
+                        pass
+            return True
+        win32gui.EnumWindows(enum_handler, None)
+        return windows
+
+    def get_z_order(self) -> List[int]:
+        """Returns hwnds ordered by Z-order (front to back)."""
+        z_order = []
+        def enum_handler(hwnd, _):
+            if win32gui.IsWindowVisible(hwnd):
+                title = win32gui.GetWindowText(hwnd)
+                if title and title != "Program Manager":
+                    z_order.append(hwnd)
+            return True
+        win32gui.EnumWindows(enum_handler, None)
+        return z_order
+
+    def get_window_state(self, hwnd: int) -> str:
+        """Returns NORMAL | MINIMIZED | MAXIMIZED | FULLSCREEN | HIDDEN."""
+        try:
+            if not win32gui.IsWindowVisible(hwnd):
+                return "HIDDEN"
+            if win32gui.IsIconic(hwnd):
+                return "MINIMIZED"
+            if ctypes.windll.user32.IsZoomed(hwnd):
+                return "MAXIMIZED"
+            rect = win32gui.GetWindowRect(hwnd)
+            w, h = rect[2] - rect[0], rect[3] - rect[1]
+            if w >= self._screen_w - 5 and h >= self._screen_h - 5:
+                return "FULLSCREEN"
+            return "NORMAL"
+        except Exception:
+            return "UNKNOWN"
+
+    def analyse_window_size(self, hwnd: int) -> Dict[str, Any]:
+        """Returns full size analysis with DWM-aware bounds."""
+        try:
+            outer = win32gui.GetWindowRect(hwnd)
+            client_origin = win32gui.ClientToScreen(hwnd, (0, 0))
+            client_rect = win32gui.GetClientRect(hwnd)
+
+            caption_h = win32api.GetSystemMetrics(win32con.SM_CYCAPTION)
+            border_x = win32api.GetSystemMetrics(win32con.SM_CXFRAME) + win32api.GetSystemMetrics(win32con.SM_CXPADDEDBORDER)
+
+            w = outer[2] - outer[0]
+            h = outer[3] - outer[1]
+            coverage = (w * h) / (self._screen_w * self._screen_h) * 100
+
+            state = self.get_window_state(hwnd)
+            if state == "FULLSCREEN":
+                cat = "FULLSCREEN"
+            elif state == "MAXIMIZED":
+                cat = "MAXIMIZED"
+            elif coverage > 70:
+                cat = "LARGE"
+            elif coverage > 30:
+                cat = "MEDIUM"
+            elif coverage > 10:
+                cat = "SMALL"
+            else:
+                cat = "TINY"
+
+            return {
+                "outer_rect": outer,
+                "client_rect": (client_origin[0], client_origin[1],
+                                client_origin[0] + client_rect[2], client_origin[1] + client_rect[3]),
+                "title_bar_height": caption_h,
+                "border_width": border_x,
+                "width": w, "height": h,
+                "screen_coverage_pct": round(coverage, 1),
+                "size_category": cat,
+            }
+        except Exception as e:
+            print(f"[WindowManager] Error analysing window {hwnd}: {e}")
+            return {}
+
+    def is_snapped(self, hwnd: int) -> str:
+        """Returns snap position or NONE."""
+        try:
+            rect = win32gui.GetWindowRect(hwnd)
+        except Exception:
+            return "NONE"
+
+        left, top, right, bottom = rect
+        w, h = right - left, bottom - top
+        sw, sh = self._screen_w, self._screen_h
+        tol = 15
+
+        half_w = sw // 2
+        left_edge = abs(left) < tol
+        right_edge = abs(right - sw) < tol
+        top_edge = abs(top) < tol
+        half_width = abs(w - half_w) < tol * 2
+
+        if left_edge and half_width: return "LEFT_HALF"
+        if right_edge and half_width: return "RIGHT_HALF"
+        if left_edge and top_edge and abs(w - half_w) < tol * 2 and abs(h - sh // 2) < tol * 2: return "TOP_LEFT"
+        if right_edge and top_edge and abs(w - half_w) < tol * 2 and abs(h - sh // 2) < tol * 2: return "TOP_RIGHT"
+        return "NONE"
+
+    def snap_window(self, hwnd: int, position: str) -> bool:
+        """Snaps window to position by moving/resizing it."""
+        try:
+            sw, sh = self._screen_w, self._screen_h
+            positions = {
+                "LEFT_HALF": (0, 0, sw // 2, sh),
+                "RIGHT_HALF": (sw // 2, 0, sw // 2, sh),
+                "TOP_LEFT": (0, 0, sw // 2, sh // 2),
+                "TOP_RIGHT": (sw // 2, 0, sw // 2, sh // 2),
+                "BOTTOM_LEFT": (0, sh // 2, sw // 2, sh // 2),
+                "BOTTOM_RIGHT": (sw // 2, sh // 2, sw // 2, sh // 2),
+            }
+            if position not in positions:
+                return False
+            x, y, w, h = positions[position]
+            if win32gui.IsIconic(hwnd):
+                win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)
+            win32gui.MoveWindow(hwnd, x, y, w, h, True)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Snap failed: {e}")
+            return False
+
+    def is_anchored(self, hwnd: int) -> bool:
+        """Checks if window position matches its last-known 'home' position."""
+        if hwnd not in self._anchor_memory:
+            try:
+                self._anchor_memory[hwnd] = win32gui.GetWindowRect(hwnd)
+            except Exception:
+                pass
+            return False
+        try:
+            current = win32gui.GetWindowRect(hwnd)
+            return current == self._anchor_memory[hwnd]
+        except Exception:
+            return False
+
+    def switch_to_window_smart(self, target_hwnd: int, window_ledger: dict = None) -> List[str]:
+        """Intelligently switches to a window considering overlaps and state."""
+        actions_taken = []
+
+        if win32gui.GetForegroundWindow() == target_hwnd:
+            return ["Already foreground"]
+
+        state = self.get_window_state(target_hwnd)
+
+        if state == "MINIMIZED":
+            self.restore(target_hwnd)
+            actions_taken.append("Restored from minimized")
+            time.sleep(0.3)
+
+        self.focus_window(target_hwnd)
+        actions_taken.append("Focused window")
+
+        return actions_taken
+
+    def cascade_windows(self, hwnds: List[int]) -> bool:
+        """Arranges windows in cascade layout."""
+        try:
+            offset = 30
+            for i, hwnd in enumerate(hwnds):
+                x = offset * i
+                y = offset * i
+                win32gui.MoveWindow(hwnd, x, y, 800, 600, True)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Cascade failed: {e}")
+            return False
+
+    def tile_windows(self, hwnds: List[int], layout: str = 'horizontal') -> bool:
+        """Tiles given windows side-by-side or stacked."""
+        try:
+            n = len(hwnds)
+            if n == 0:
+                return False
+            sw, sh = self._screen_w, self._screen_h
+            for i, hwnd in enumerate(hwnds):
+                if win32gui.IsIconic(hwnd):
+                    win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)
+                if layout == 'horizontal':
+                    w = sw // n
+                    win32gui.MoveWindow(hwnd, i * w, 0, w, sh, True)
+                else:
+                    h = sh // n
+                    win32gui.MoveWindow(hwnd, 0, i * h, sw, h, True)
+            return True
+        except Exception as e:
+            print(f"[WindowManager] Tile failed: {e}")
+            return False

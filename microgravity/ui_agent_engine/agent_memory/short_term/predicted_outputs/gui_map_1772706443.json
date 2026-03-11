@@ -1,0 +1,2840 @@
+[
+  {
+    "id": 1,
+    "label": "Microsoft Edge Icon",
+    "description": "Icon for the Microsoft Edge web browser pinned to the taskbar.",
+    "coordinates": {
+      "x": 337,
+      "y": 748,
+      "width": 7,
+      "height": 6
+    }
+  },
+  {
+    "id": 2,
+    "label": "Outlook Icon",
+    "description": "Icon for the Microsoft Outlook email client pinned to the taskbar.",
+    "coordinates": {
+      "x": 996,
+      "y": 741,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 3,
+    "label": "Folder: ui_agent_engine",
+    "description": "A folder named 'ui_agent_engine' displayed in the VS Code Explorer panel.",
+    "coordinates": {
+      "x": 430,
+      "y": 423,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 4,
+    "label": "Folder: temp_vision",
+    "description": "A folder named 'temp_vision' displayed in the VS Code Explorer panel.",
+    "coordinates": {
+      "x": 430,
+      "y": 291,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 5,
+    "label": "Folder: .microgravity",
+    "description": "A hidden folder named '.microgravity' displayed in the VS Code Explorer panel.",
+    "coordinates": {
+      "x": 430,
+      "y": 115,
+      "width": 8,
+      "height": 6
+    }
+  },
+  {
+    "id": 6,
+    "label": "Scrollbar",
+    "description": "A vertical scrollbar for navigating content within the VS Code right panel.",
+    "coordinates": {
+      "x": 1258,
+      "y": 482,
+      "width": 9,
+      "height": 6
+    }
+  },
+  {
+    "id": 7,
+    "label": "Adobe Reader Icon",
+    "description": "Desktop shortcut icon for Adobe Acrobat Reader.",
+    "coordinates": {
+      "x": 44,
+      "y": 419,
+      "width": 10,
+      "height": 6
+    }
+  },
+  {
+    "id": 8,
+    "label": "Network Status Icon",
+    "description": "System tray icon indicating the current network and internet connection status.",
+    "coordinates": {
+      "x": 1014,
+      "y": 757,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 9,
+    "label": "Text: Review Changes",
+    "description": "Text label for a button in the VS Code right panel, likely used to review modifications.",
+    "coordinates": {
+      "x": 1092,
+      "y": 614,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 10,
+    "label": "Refresh Icon",
+    "description": "An icon representing a refresh or update action, part of a 'Review Changes' button in the VS Code right panel.",
+    "coordinates": {
+      "x": 1068,
+      "y": 614,
+      "width": 9,
+      "height": 7
+    }
+  },
+  {
+    "id": 11,
+    "label": "VS Code Editor Tab: Walkthrough",
+    "description": "The title of an open tab in the VS Code editor, indicating a walkthrough document.",
+    "coordinates": {
+      "x": 34,
+      "y": 422,
+      "width": 11,
+      "height": 6
+    }
+  },
+  {
+    "id": 12,
+    "label": "File: .dockerignore",
+    "description": "A file named '.dockerignore' displayed in the VS Code Explorer panel.",
+    "coordinates": {
+      "x": 187,
+      "y": 513,
+      "width": 11,
+      "height": 6
+    }
+  },
+  {
+    "id": 13,
+    "label": "Search Icon (Taskbar)",
+    "description": "A magnifying glass icon on the taskbar used to open the Windows search interface.",
+    "coordinates": {
+      "x": 402,
+      "y": 740,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 14,
+    "label": "VS Code Editor Tab: Fixing Live Stream Connection",
+    "description": "The title of an open tab in the VS Code editor, indicating a document related to fixing a live stream connection.",
+    "coordinates": {
+      "x": 980,
+      "y": 739,
+      "width": 10,
+      "height": 7
+    }
+  },
+  {
+    "id": 15,
+    "label": "Speaker/Volume Icon",
+    "description": "System tray icon indicating the current audio output volume and allowing adjustment.",
+    "coordinates": {
+      "x": 1187,
+      "y": 727,
+      "width": 12,
+      "height": 6
+    }
+  },
+  {
+    "id": 16,
+    "label": "Start Button",
+    "description": "The Windows Start button, used to access applications, settings, and power options.",
+    "coordinates": {
+      "x": 163,
+      "y": 727,
+      "width": 12,
+      "height": 6
+    }
+  },
+  {
+    "id": 17,
+    "label": "Recycle Bin Icon",
+    "description": "Desktop icon for the Recycle Bin, where deleted files are temporarily stored.",
+    "coordinates": {
+      "x": 22,
+      "y": 416,
+      "width": 11,
+      "height": 7
+    }
+  },
+  {
+    "id": 18,
+    "label": "VS Code Icon (Taskbar)",
+    "description": "Icon for the Visual Studio Code integrated development environment pinned to the taskbar.",
+    "coordinates": {
+      "x": 107,
+      "y": 27,
+      "width": 9,
+      "height": 9
+    }
+  },
+  {
+    "id": 19,
+    "label": "Microsoft Store Icon",
+    "description": "Icon for the Microsoft Store application, used to download apps and games, pinned to the taskbar.",
+    "coordinates": {
+      "x": 627,
+      "y": 743,
+      "width": 12,
+      "height": 7
+    }
+  },
+  {
+    "id": 20,
+    "label": "Task View Icon",
+    "description": "Icon on the taskbar to open Task View, showing open windows and virtual desktops.",
+    "coordinates": {
+      "x": 190,
+      "y": 727,
+      "width": 14,
+      "height": 6
+    }
+  },
+  {
+    "id": 21,
+    "label": "Desktop Folder: MiniTool Partition Wizard",
+    "description": "Desktop shortcut folder for MiniTool Partition Wizard software.",
+    "coordinates": {
+      "x": 44,
+      "y": 115,
+      "width": 12,
+      "height": 7
+    }
+  },
+  {
+    "id": 22,
+    "label": "Source Control Icon (VS Code)",
+    "description": "Icon in the VS Code activity bar for managing source control (e.g., Git).",
+    "coordinates": {
+      "x": 670,
+      "y": 740,
+      "width": 9,
+      "height": 10
+    }
+  },
+  {
+    "id": 23,
+    "label": "VS Code Icon (Taskbar)",
+    "description": "Icon for the Visual Studio Code integrated development environment pinned to the taskbar.",
+    "coordinates": {
+      "x": 726,
+      "y": 727,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 24,
+    "label": "Desktop Folder: HP",
+    "description": "Desktop folder named 'HP'.",
+    "coordinates": {
+      "x": 17,
+      "y": 13,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 25,
+    "label": "Text: vision_processor.py",
+    "description": "Part of a file path 'vision_processor.py' displayed in the VS Code output or console panel.",
+    "coordinates": {
+      "x": 1148,
+      "y": 226,
+      "width": 15,
+      "height": 6
+    }
+  },
+  {
+    "id": 26,
+    "label": "Search Icon (VS Code)",
+    "description": "Icon in the VS Code activity bar for searching within the workspace.",
+    "coordinates": {
+      "x": 118,
+      "y": 149,
+      "width": 9,
+      "height": 10
+    }
+  },
+  {
+    "id": 27,
+    "label": "File Explorer Icon (Taskbar)",
+    "description": "Icon on the taskbar to open the Windows File Explorer for managing files and folders.",
+    "coordinates": {
+      "x": 189,
+      "y": 745,
+      "width": 12,
+      "height": 8
+    }
+  },
+  {
+    "id": 28,
+    "label": "Problems/Errors Icon (VS Code)",
+    "description": "An icon in the VS Code status bar indicating the presence of problems, errors, or warnings in the workspace.",
+    "coordinates": {
+      "x": 979,
+      "y": 26,
+      "width": 8,
+      "height": 12
+    }
+  },
+  {
+    "id": 29,
+    "label": "Google Chrome Icon",
+    "description": "Icon for the Google Chrome web browser pinned to the taskbar.",
+    "coordinates": {
+      "x": 786,
+      "y": 727,
+      "width": 14,
+      "height": 7
+    }
+  },
+  {
+    "id": 30,
+    "label": "Desktop Folder: Aryan",
+    "description": "Desktop folder named 'Aryan'.",
+    "coordinates": {
+      "x": 23,
+      "y": 127,
+      "width": 14,
+      "height": 7
+    }
+  },
+  {
+    "id": 31,
+    "label": "Explorer Icon (VS Code)",
+    "description": "Icon in the VS Code activity bar for navigating files and folders in the workspace.",
+    "coordinates": {
+      "x": 101,
+      "y": 73,
+      "width": 14,
+      "height": 7
+    }
+  },
+  {
+    "id": 32,
+    "label": "Outline Icon (VS Code)",
+    "description": "Icon in the VS Code explorer panel to show the outline of the current file's structure.",
+    "coordinates": {
+      "x": 186,
+      "y": 693,
+      "width": 17,
+      "height": 6
+    }
+  },
+  {
+    "id": 33,
+    "label": "Python Code Block",
+    "description": "A block of Python code displayed in the VS Code editor, showing logic for bounding box processing.",
+    "coordinates": {
+      "x": 971,
+      "y": 294,
+      "width": 13,
+      "height": 8
+    }
+  },
+  {
+    "id": 34,
+    "label": "Microsoft Teams Icon",
+    "description": "Icon for the Microsoft Teams communication and collaboration platform pinned to the taskbar.",
+    "coordinates": {
+      "x": 738,
+      "y": 759,
+      "width": 12,
+      "height": 9
+    }
+  },
+  {
+    "id": 35,
+    "label": "Terminal Icon",
+    "description": "Icon for a terminal or command prompt application pinned to the taskbar.",
+    "coordinates": {
+      "x": 952,
+      "y": 740,
+      "width": 12,
+      "height": 9
+    }
+  },
+  {
+    "id": 36,
+    "label": "Text: Planning",
+    "description": "Text label indicating a 'Planning' section or category in the VS Code right panel.",
+    "coordinates": {
+      "x": 1277,
+      "y": 694,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 37,
+    "label": "Plus Icon",
+    "description": "A plus icon in the VS Code right panel, likely used to add a new item or expand a section.",
+    "coordinates": {
+      "x": 1277,
+      "y": 674,
+      "width": 18,
+      "height": 6
+    }
+  },
+  {
+    "id": 38,
+    "label": "Word Document Icon",
+    "description": "Desktop shortcut icon for a Microsoft Word document.",
+    "coordinates": {
+      "x": 49,
+      "y": 133,
+      "width": 11,
+      "height": 10
+    }
+  },
+  {
+    "id": 39,
+    "label": "File Explorer Icon (Taskbar)",
+    "description": "Icon on the taskbar to open the Windows File Explorer for managing files and folders.",
+    "coordinates": {
+      "x": 264,
+      "y": 757,
+      "width": 14,
+      "height": 8
+    }
+  },
+  {
+    "id": 40,
+    "label": "Weather Widget",
+    "description": "A taskbar widget displaying the current weather conditions and temperature (29\u00b0C Sunny).",
+    "coordinates": {
+      "x": 102,
+      "y": 726,
+      "width": 14,
+      "height": 8
+    }
+  },
+  {
+    "id": 41,
+    "label": "Search Icon",
+    "description": "Allows searching within the current VS Code window or project.",
+    "coordinates": {
+      "x": 1035,
+      "y": 25,
+      "width": 8,
+      "height": 14
+    }
+  },
+  {
+    "id": 42,
+    "label": "Show Hidden Icons Arrow",
+    "description": "An up arrow icon that reveals hidden icons in the system tray on the taskbar.",
+    "coordinates": {
+      "x": 240,
+      "y": 726,
+      "width": 13,
+      "height": 9
+    }
+  },
+  {
+    "id": 43,
+    "label": "Date Text",
+    "description": "Displays the current date, '05-03-2026', on the taskbar.",
+    "coordinates": {
+      "x": 1190,
+      "y": 761,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 44,
+    "label": "Google Chrome Taskbar Icon",
+    "description": "Shortcut to launch or switch to the Google Chrome web browser from the taskbar.",
+    "coordinates": {
+      "x": 678,
+      "y": 761,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 45,
+    "label": "Battery Icon",
+    "description": "Displays the current battery level and charging status of the device on the taskbar.",
+    "coordinates": {
+      "x": 867,
+      "y": 727,
+      "width": 17,
+      "height": 7
+    }
+  },
+  {
+    "id": 46,
+    "label": "Text: Re-running interrupted semantic",
+    "description": "Part of a status message indicating that a previously interrupted semantic script is being re-executed.",
+    "coordinates": {
+      "x": 1061,
+      "y": 189,
+      "width": 15,
+      "height": 8
+    }
+  },
+  {
+    "id": 47,
+    "label": "Microphone Icon",
+    "description": "Activates voice input or commands within the 'Ask anything...' input field for Gemini.",
+    "coordinates": {
+      "x": 1280,
+      "y": 681,
+      "width": 11,
+      "height": 11
+    }
+  },
+  {
+    "id": 48,
+    "label": "File Explorer Icon",
+    "description": "Launches File Explorer, allowing users to browse files and folders on their computer.",
+    "coordinates": {
+      "x": 627,
+      "y": 734,
+      "width": 18,
+      "height": 7
+    }
+  },
+  {
+    "id": 49,
+    "label": "Text: line",
+    "description": "The last part of the word 'Pipeline' in the status message 'Starting API-Based Static GUI Labeling Pipeline'.",
+    "coordinates": {
+      "x": 1186,
+      "y": 351,
+      "width": 21,
+      "height": 6
+    }
+  },
+  {
+    "id": 50,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1349,
+      "y": 734,
+      "width": 11,
+      "height": 12
+    }
+  },
+  {
+    "id": 51,
+    "label": "Text: ui_ag",
+    "description": "A partial segment of a file path, likely 'ui_agent' or similar, displayed in the progress updates.",
+    "coordinates": {
+      "x": 1118,
+      "y": 226,
+      "width": 22,
+      "height": 6
+    }
+  },
+  {
+    "id": 52,
+    "label": "Cloud Icon",
+    "description": "Represents cloud-related services or synchronization status within VS Code.",
+    "coordinates": {
+      "x": 1066,
+      "y": 19,
+      "width": 22,
+      "height": 6
+    }
+  },
+  {
+    "id": 53,
+    "label": "Settings Icon",
+    "description": "Opens the settings or preferences menu for VS Code.",
+    "coordinates": {
+      "x": 1096,
+      "y": 19,
+      "width": 17,
+      "height": 8
+    }
+  },
+  {
+    "id": 54,
+    "label": "Folder Icon",
+    "description": "Represents a directory named 'microgravity' in the VS Code Explorer pane.",
+    "coordinates": {
+      "x": 201,
+      "y": 131,
+      "width": 23,
+      "height": 6
+    }
+  },
+  {
+    "id": 55,
+    "label": "OneDrive Icon",
+    "description": "Indicates the status of OneDrive cloud storage synchronization on the taskbar.",
+    "coordinates": {
+      "x": 878,
+      "y": 761,
+      "width": 20,
+      "height": 7
+    }
+  },
+  {
+    "id": 56,
+    "label": "Network Status Icon (Wi-Fi)",
+    "description": "Indicates the status of the wireless network connection (Wi-Fi) on the taskbar.",
+    "coordinates": {
+      "x": 1024,
+      "y": 728,
+      "width": 15,
+      "height": 10
+    }
+  },
+  {
+    "id": 57,
+    "label": "Google Chrome Desktop Icon",
+    "description": "Shortcut to launch the Google Chrome web browser from the desktop.",
+    "coordinates": {
+      "x": 100,
+      "y": 55,
+      "width": 15,
+      "height": 10
+    }
+  },
+  {
+    "id": 58,
+    "label": "Temperature Text",
+    "description": "Shows the current temperature, '9\u00b0C', on the taskbar.",
+    "coordinates": {
+      "x": 85,
+      "y": 735,
+      "width": 17,
+      "height": 9
+    }
+  },
+  {
+    "id": 59,
+    "label": "Language Indicator Text: ENG",
+    "description": "Shows the currently selected input language, 'English', on the taskbar.",
+    "coordinates": {
+      "x": 1027,
+      "y": 740,
+      "width": 22,
+      "height": 7
+    }
+  },
+  {
+    "id": 60,
+    "label": "Region Indicator Text: IN",
+    "description": "Shows the currently selected region, 'India', on the taskbar.",
+    "coordinates": {
+      "x": 1091,
+      "y": 734,
+      "width": 13,
+      "height": 12
+    }
+  },
+  {
+    "id": 61,
+    "label": "Speaker/Volume Icon",
+    "description": "Indicates the current audio volume level and allows access to sound settings on the taskbar.",
+    "coordinates": {
+      "x": 248,
+      "y": 738,
+      "width": 18,
+      "height": 9
+    }
+  },
+  {
+    "id": 62,
+    "label": "Adobe Reader XI Desktop Icon",
+    "description": "Shortcut to launch Adobe Reader XI, a PDF viewer, from the desktop.",
+    "coordinates": {
+      "x": 107,
+      "y": 514,
+      "width": 9,
+      "height": 18
+    }
+  },
+  {
+    "id": 63,
+    "label": "Microsoft Edge Taskbar Icon",
+    "description": "Shortcut to launch or switch to the Microsoft Edge web browser from the taskbar.",
+    "coordinates": {
+      "x": 847,
+      "y": 738,
+      "width": 12,
+      "height": 14
+    }
+  },
+  {
+    "id": 64,
+    "label": "Weather Icon",
+    "description": "Displays the current weather conditions (sunny with clouds) on the taskbar.",
+    "coordinates": {
+      "x": 25,
+      "y": 737,
+      "width": 13,
+      "height": 13
+    }
+  },
+  {
+    "id": 65,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 905,
+      "y": 726,
+      "width": 25,
+      "height": 7
+    }
+  },
+  {
+    "id": 66,
+    "label": "Microsoft Edge Desktop Icon",
+    "description": "Shortcut to launch the Microsoft Edge web browser from the desktop.",
+    "coordinates": {
+      "x": 90,
+      "y": 532,
+      "width": 25,
+      "height": 7
+    }
+  },
+  {
+    "id": 67,
+    "label": "Recycle Bin Desktop Icon",
+    "description": "Contains files and folders that have been deleted, allowing for recovery or permanent deletion.",
+    "coordinates": {
+      "x": 33,
+      "y": 530,
+      "width": 22,
+      "height": 8
+    }
+  },
+  {
+    "id": 68,
+    "label": "Minimize Window Icon",
+    "description": "Minimizes the current VS Code window to the taskbar.",
+    "coordinates": {
+      "x": 1190,
+      "y": 26,
+      "width": 16,
+      "height": 11
+    }
+  },
+  {
+    "id": 69,
+    "label": "Send/More Options Arrow Icon",
+    "description": "An up arrow icon within the 'Ask anything...' input field, likely used to send the input or access more options.",
+    "coordinates": {
+      "x": 1061,
+      "y": 762,
+      "width": 30,
+      "height": 6
+    }
+  },
+  {
+    "id": 70,
+    "label": "Windows Start Button",
+    "description": "Opens the Start menu, providing access to applications, settings, and system functions.",
+    "coordinates": {
+      "x": 221,
+      "y": 756,
+      "width": 16,
+      "height": 12
+    }
+  },
+  {
+    "id": 71,
+    "label": "Network Status Icon (Wi-Fi)",
+    "description": "Indicates the status of the wireless network connection (Wi-Fi) on the taskbar. This is a duplicate highlight of the same icon as ID 56.",
+    "coordinates": {
+      "x": 1181,
+      "y": 738,
+      "width": 16,
+      "height": 12
+    }
+  },
+  {
+    "id": 72,
+    "label": "Text: Always run",
+    "description": "A label indicating that a process or script is configured to run continuously or automatically.",
+    "coordinates": {
+      "x": 1016,
+      "y": 72,
+      "width": 32,
+      "height": 6
+    }
+  },
+  {
+    "id": 73,
+    "label": "Text: Walkthrough",
+    "description": "The title of a tab in VS Code, indicating a walkthrough document or feature.",
+    "coordinates": {
+      "x": 669,
+      "y": 54,
+      "width": 32,
+      "height": 6
+    }
+  },
+  {
+    "id": 74,
+    "label": "Search Icon",
+    "description": "Opens the Windows search interface to find files, applications, and web content.",
+    "coordinates": {
+      "x": 375,
+      "y": 738,
+      "width": 15,
+      "height": 13
+    }
+  },
+  {
+    "id": 75,
+    "label": "More Actions Ellipsis Icon",
+    "description": "Provides additional options or a context menu for the 'Live Stream Connection' panel.",
+    "coordinates": {
+      "x": 981,
+      "y": 60,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 76,
+    "label": "More Actions Ellipsis Icon",
+    "description": "Provides additional options or a context menu for the 'Live Stream Connection' tab in VS Code.",
+    "coordinates": {
+      "x": 422,
+      "y": 63,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 77,
+    "label": "Notifications Icon",
+    "description": "Displays alerts or notifications from VS Code or its extensions.",
+    "coordinates": {
+      "x": 1119,
+      "y": 19,
+      "width": 20,
+      "height": 10
+    }
+  },
+  {
+    "id": 78,
+    "label": "Notifications Icon",
+    "description": "Opens the Action Center to view system notifications and quick settings on the taskbar.",
+    "coordinates": {
+      "x": 1332,
+      "y": 738,
+      "width": 14,
+      "height": 15
+    }
+  },
+  {
+    "id": 79,
+    "label": "Text: p_v",
+    "description": "A partial segment of a file path, likely 'processor_v' or similar, displayed in the progress updates.",
+    "coordinates": {
+      "x": 1168,
+      "y": 226,
+      "width": 30,
+      "height": 7
+    }
+  },
+  {
+    "id": 80,
+    "label": "Status Indicator Icon",
+    "description": "A green circle indicating a status, possibly 'active' or 'running', next to 'ui_agent_engine' in the VS Code Explorer pane.",
+    "coordinates": {
+      "x": 426,
+      "y": 419,
+      "width": 15,
+      "height": 14
+    }
+  },
+  {
+    "id": 81,
+    "label": "Green Dot Icon",
+    "description": "Indicates the status or presence of the 'temp_vision' item in the VS Code Explorer, possibly 'online' or 'active'.",
+    "coordinates": {
+      "x": 426,
+      "y": 287,
+      "width": 15,
+      "height": 14
+    }
+  },
+  {
+    "id": 82,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 1051,
+      "y": 749,
+      "width": 22,
+      "height": 10
+    }
+  },
+  {
+    "id": 83,
+    "label": "Recycle Bin Icon",
+    "description": "Desktop icon representing the Recycle Bin, where deleted files are temporarily stored.",
+    "coordinates": {
+      "x": 98,
+      "y": 627,
+      "width": 17,
+      "height": 13
+    }
+  },
+  {
+    "id": 84,
+    "label": "Green Dot Icon",
+    "description": "Indicates the status or presence of the '.microgravity' item in the VS Code Explorer, possibly 'online' or 'active'.",
+    "coordinates": {
+      "x": 426,
+      "y": 111,
+      "width": 16,
+      "height": 14
+    }
+  },
+  {
+    "id": 85,
+    "label": "Text: ny",
+    "description": "Partial text 'ny' from 'Sunny', indicating the weather condition on the taskbar.",
+    "coordinates": {
+      "x": 134,
+      "y": 731,
+      "width": 25,
+      "height": 9
+    }
+  },
+  {
+    "id": 86,
+    "label": "Code Line: await live_streamer.send_prompt(closeup_prompt)",
+    "description": "A line of Python code within the editor, representing an asynchronous function call.",
+    "coordinates": {
+      "x": 535,
+      "y": 663,
+      "width": 23,
+      "height": 10
+    }
+  },
+  {
+    "id": 87,
+    "label": "Text: ys run",
+    "description": "A partial phrase 'ys run' from 'Always run' in the 'Progress Updates' section.",
+    "coordinates": {
+      "x": 1063,
+      "y": 453,
+      "width": 33,
+      "height": 7
+    }
+  },
+  {
+    "id": 88,
+    "label": "Horizontal Line Separator",
+    "description": "A visual divider separating different sections or log entries in the 'Progress Updates' pane.",
+    "coordinates": {
+      "x": 1078,
+      "y": 390,
+      "width": 21,
+      "height": 11
+    }
+  },
+  {
+    "id": 89,
+    "label": "Horizontal Line Separator",
+    "description": "A visual divider separating different sections or log entries in the 'Progress Updates' pane.",
+    "coordinates": {
+      "x": 1078,
+      "y": 305,
+      "width": 21,
+      "height": 11
+    }
+  },
+  {
+    "id": 90,
+    "label": "Battery Icon",
+    "description": "Displays the current battery level and charging status of the device.",
+    "coordinates": {
+      "x": 1228,
+      "y": 737,
+      "width": 17,
+      "height": 14
+    }
+  },
+  {
+    "id": 91,
+    "label": "Search Text Box",
+    "description": "Input field on the taskbar for typing search queries.",
+    "coordinates": {
+      "x": 400,
+      "y": 737,
+      "width": 15,
+      "height": 16
+    }
+  },
+  {
+    "id": 92,
+    "label": "Text: 60x60",
+    "description": "Part of the descriptive text in the code editor, likely referring to dimensions or a threshold.",
+    "coordinates": {
+      "x": 802,
+      "y": 228,
+      "width": 40,
+      "height": 6
+    }
+  },
+  {
+    "id": 93,
+    "label": "Search Icon",
+    "description": "Activates the Windows search bar for finding files, applications, and web content.",
+    "coordinates": {
+      "x": 317,
+      "y": 751,
+      "width": 22,
+      "height": 11
+    }
+  },
+  {
+    "id": 94,
+    "label": "Chat Icon",
+    "description": "Taskbar icon for the Windows Chat feature, likely powered by Microsoft Teams.",
+    "coordinates": {
+      "x": 630,
+      "y": 759,
+      "width": 42,
+      "height": 6
+    }
+  },
+  {
+    "id": 95,
+    "label": "Microsoft Teams Icon",
+    "description": "Taskbar icon for the Microsoft Teams communication application.",
+    "coordinates": {
+      "x": 1121,
+      "y": 751,
+      "width": 18,
+      "height": 14
+    }
+  },
+  {
+    "id": 96,
+    "label": "Speaker/Volume Icon",
+    "description": "Controls the system volume and audio output settings.",
+    "coordinates": {
+      "x": 1204,
+      "y": 738,
+      "width": 18,
+      "height": 14
+    }
+  },
+  {
+    "id": 97,
+    "label": "Text: e",
+    "description": "A partial word 'e' from 'Pipeline' in the 'Progress Updates' section.",
+    "coordinates": {
+      "x": 1211,
+      "y": 351,
+      "width": 42,
+      "height": 6
+    }
+  },
+  {
+    "id": 98,
+    "label": "Google Chrome Icon",
+    "description": "Taskbar icon for the Google Chrome web browser.",
+    "coordinates": {
+      "x": 885,
+      "y": 738,
+      "width": 23,
+      "height": 11
+    }
+  },
+  {
+    "id": 99,
+    "label": "Microphone Icon",
+    "description": "Indicates the status of the microphone, possibly showing if it's active or muted.",
+    "coordinates": {
+      "x": 42,
+      "y": 502,
+      "width": 15,
+      "height": 17
+    }
+  },
+  {
+    "id": 100,
+    "label": "Plus Icon",
+    "description": "A button to add or initiate a new 'Planning' item or action in the VS Code bottom panel.",
+    "coordinates": {
+      "x": 1034,
+      "y": 679,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 101,
+    "label": "Close Button",
+    "description": "Closes the 'Fixing Live Stream Connection' tab in the VS Code interface.",
+    "coordinates": {
+      "x": 1282,
+      "y": 24,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": 102,
+    "label": "MiniTool Partition Wizard Icon",
+    "description": "Desktop shortcut for the MiniTool Partition Wizard software.",
+    "coordinates": {
+      "x": 27,
+      "y": 137,
+      "width": 24,
+      "height": 11
+    }
+  },
+  {
+    "id": 103,
+    "label": "HP Icon",
+    "description": "Desktop shortcut for an HP application or utility.",
+    "coordinates": {
+      "x": 29,
+      "y": 60,
+      "width": 19,
+      "height": 14
+    }
+  },
+  {
+    "id": 104,
+    "label": "Windows Start Button",
+    "description": "Opens the Windows Start menu, providing access to applications, settings, and power options.",
+    "coordinates": {
+      "x": 311,
+      "y": 735,
+      "width": 25,
+      "height": 11
+    }
+  },
+  {
+    "id": 105,
+    "label": "Folder Icon",
+    "description": "Represents a folder named '.microgravity' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 120,
+      "y": 78,
+      "width": 31,
+      "height": 9
+    }
+  },
+  {
+    "id": 106,
+    "label": "Folder Icon",
+    "description": "Represents a folder named 'micro gravity - Copy' in the VS Code Explorer.",
+    "coordinates": {
+      "x": 119,
+      "y": 55,
+      "width": 32,
+      "height": 9
+    }
+  },
+  {
+    "id": 107,
+    "label": "Google Chrome Icon",
+    "description": "Desktop shortcut for the Google Chrome web browser.",
+    "coordinates": {
+      "x": 97,
+      "y": 11,
+      "width": 32,
+      "height": 9
+    }
+  },
+  {
+    "id": 108,
+    "label": "Text: Microsoft Edge",
+    "description": "The name label for the Microsoft Edge desktop shortcut.",
+    "coordinates": {
+      "x": 98,
+      "y": 600,
+      "width": 17,
+      "height": 17
+    }
+  },
+  {
+    "id": 109,
+    "label": "Microsoft Edge Icon",
+    "description": "Taskbar icon for the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 1052,
+      "y": 742,
+      "width": 42,
+      "height": 7
+    }
+  },
+  {
+    "id": 110,
+    "label": "Date and Time",
+    "description": "Displays the current date and time on the taskbar.",
+    "coordinates": {
+      "x": 1310,
+      "y": 760,
+      "width": 37,
+      "height": 8
+    }
+  },
+  {
+    "id": 111,
+    "label": "Text: 29\u00b0C",
+    "description": "The current temperature displayed on the taskbar.",
+    "coordinates": {
+      "x": 47,
+      "y": 732,
+      "width": 30,
+      "height": 10
+    }
+  },
+  {
+    "id": 112,
+    "label": "Text: micro gravity - Cop",
+    "description": "Part of a file path or description in the 'Progress Updates' section of the VS Code right pane.",
+    "coordinates": {
+      "x": 1062,
+      "y": 206,
+      "width": 34,
+      "height": 9
+    }
+  },
+  {
+    "id": 113,
+    "label": "Adobe Reader XI Icon",
+    "description": "Desktop shortcut for Adobe Reader XI.",
+    "coordinates": {
+      "x": 19,
+      "y": 502,
+      "width": 13,
+      "height": 24
+    }
+  },
+  {
+    "id": 114,
+    "label": "Network Status Icon",
+    "description": "Displays the current network connection status, in this case, Wi-Fi.",
+    "coordinates": {
+      "x": 1140,
+      "y": 748,
+      "width": 32,
+      "height": 10
+    }
+  },
+  {
+    "id": 115,
+    "label": "File Explorer Icon",
+    "description": "Taskbar icon for the Windows File Explorer, used to browse files and folders.",
+    "coordinates": {
+      "x": 190,
+      "y": 737,
+      "width": 32,
+      "height": 10
+    }
+  },
+  {
+    "id": 116,
+    "label": "Weather Icon",
+    "description": "Taskbar icon displaying the current weather condition.",
+    "coordinates": {
+      "x": 0,
+      "y": 727,
+      "width": 16,
+      "height": 20
+    }
+  },
+  {
+    "id": 117,
+    "label": "Microsoft Edge Icon",
+    "description": "Desktop shortcut for the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 17,
+      "y": 610,
+      "width": 18,
+      "height": 18
+    }
+  },
+  {
+    "id": 118,
+    "label": "Microsoft Teams Icon",
+    "description": "Taskbar icon for the Microsoft Teams communication application.",
+    "coordinates": {
+      "x": 156,
+      "y": 737,
+      "width": 22,
+      "height": 15
+    }
+  },
+  {
+    "id": 119,
+    "label": "Text: Adobe Reader XI",
+    "description": "The name label for the Adobe Reader XI desktop shortcut.",
+    "coordinates": {
+      "x": 30,
+      "y": 759,
+      "width": 37,
+      "height": 9
+    }
+  },
+  {
+    "id": 120,
+    "label": "Microsoft Store Icon",
+    "description": "Taskbar icon for the Microsoft Store application.",
+    "coordinates": {
+      "x": 117,
+      "y": 757,
+      "width": 43,
+      "height": 8
+    }
+  },
+  {
+    "id": 121,
+    "label": "Text: ads",
+    "description": "Part of a file path or log message displayed in the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1095,
+      "y": 207,
+      "width": 45,
+      "height": 8
+    }
+  },
+  {
+    "id": 122,
+    "label": "Forward Navigation Button",
+    "description": "A button to navigate forward in the editor's history or a similar context.",
+    "coordinates": {
+      "x": 956,
+      "y": 56,
+      "width": 19,
+      "height": 19
+    }
+  },
+  {
+    "id": 123,
+    "label": "Show Hidden Icons Button",
+    "description": "An arrow icon in the taskbar to reveal hidden system tray icons.",
+    "coordinates": {
+      "x": 966,
+      "y": 754,
+      "width": 38,
+      "height": 10
+    }
+  },
+  {
+    "id": 124,
+    "label": "Vertical Scrollbar",
+    "description": "A scrollbar for navigating content within the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1254,
+      "y": 301,
+      "width": 12,
+      "height": 32
+    }
+  },
+  {
+    "id": 125,
+    "label": "Text: ui_agent_engine",
+    "description": "Part of a file path or log message displayed in the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1139,
+      "y": 207,
+      "width": 49,
+      "height": 8
+    }
+  },
+  {
+    "id": 126,
+    "label": "Minimize Window Button",
+    "description": "Standard window control to minimize the application window to the taskbar.",
+    "coordinates": {
+      "x": 1234,
+      "y": 22,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": 127,
+    "label": "Menu Item: Run",
+    "description": "A menu option in the VS Code editor, typically used to execute code or debug.",
+    "coordinates": {
+      "x": 338,
+      "y": 24,
+      "width": 24,
+      "height": 17
+    }
+  },
+  {
+    "id": 128,
+    "label": "Recycle Bin Icon",
+    "description": "A desktop shortcut for the Recycle Bin, where deleted files are temporarily stored.",
+    "coordinates": {
+      "x": 20,
+      "y": 406,
+      "width": 35,
+      "height": 12
+    }
+  },
+  {
+    "id": 129,
+    "label": "System Date",
+    "description": "Displays the current date (05-03-2026) in the taskbar.",
+    "coordinates": {
+      "x": 1222,
+      "y": 754,
+      "width": 39,
+      "height": 11
+    }
+  },
+  {
+    "id": 130,
+    "label": "Language Indicator",
+    "description": "Indicates the current input language setting (English - India) in the taskbar.",
+    "coordinates": {
+      "x": 1139,
+      "y": 733,
+      "width": 44,
+      "height": 10
+    }
+  },
+  {
+    "id": 131,
+    "label": "Weather Icon and Status",
+    "description": "Displays the current weather condition (Sunny) in the taskbar.",
+    "coordinates": {
+      "x": 22,
+      "y": 734,
+      "width": 21,
+      "height": 21
+    }
+  },
+  {
+    "id": 132,
+    "label": "Visual Separator",
+    "description": "A vertical line used as a visual separator or design element within the 'Progress Updates' panel.",
+    "coordinates": {
+      "x": 1254,
+      "y": 251,
+      "width": 12,
+      "height": 37
+    }
+  },
+  {
+    "id": 133,
+    "label": "Temperature Reading",
+    "description": "Displays a temperature reading (140) in the taskbar, likely related to the weather.",
+    "coordinates": {
+      "x": 91,
+      "y": 745,
+      "width": 35,
+      "height": 13
+    }
+  },
+  {
+    "id": 134,
+    "label": "Windows Start Button",
+    "description": "Opens the Windows Start menu, providing access to applications and system settings.",
+    "coordinates": {
+      "x": 966,
+      "y": 726,
+      "width": 38,
+      "height": 12
+    }
+  },
+  {
+    "id": 135,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 23,
+      "y": 664,
+      "width": 29,
+      "height": 16
+    }
+  },
+  {
+    "id": 136,
+    "label": "Folder Icon",
+    "description": "Represents a folder named 'temp_vision' in the file explorer sidebar.",
+    "coordinates": {
+      "x": 125,
+      "y": 311,
+      "width": 20,
+      "height": 24
+    }
+  },
+  {
+    "id": 137,
+    "label": "Search Bar",
+    "description": "A taskbar element for searching files, applications, and web content.",
+    "coordinates": {
+      "x": 426,
+      "y": 739,
+      "width": 41,
+      "height": 12
+    }
+  },
+  {
+    "id": 138,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 273,
+      "y": 741,
+      "width": 29,
+      "height": 17
+    }
+  },
+  {
+    "id": 139,
+    "label": "Menu Item: File",
+    "description": "A menu option in the VS Code editor, providing file-related actions like open, save, and close.",
+    "coordinates": {
+      "x": 153,
+      "y": 23,
+      "width": 28,
+      "height": 18
+    }
+  },
+  {
+    "id": 140,
+    "label": "Temperature Reading",
+    "description": "Displays a temperature reading (131) in the taskbar, likely related to the weather.",
+    "coordinates": {
+      "x": 46,
+      "y": 748,
+      "width": 39,
+      "height": 13
+    }
+  },
+  {
+    "id": 141,
+    "label": "Menu Item: Go",
+    "description": "A menu option in the VS Code editor, typically for navigation within code or files.",
+    "coordinates": {
+      "x": 371,
+      "y": 24,
+      "width": 30,
+      "height": 17
+    }
+  },
+  {
+    "id": 142,
+    "label": "Menu Item: Selection",
+    "description": "A menu option in the VS Code editor, providing tools for text selection and manipulation.",
+    "coordinates": {
+      "x": 189,
+      "y": 23,
+      "width": 29,
+      "height": 18
+    }
+  },
+  {
+    "id": 143,
+    "label": "Code Value",
+    "description": "A numeric value '143' within the Python code, likely an argument or identifier.",
+    "coordinates": {
+      "x": 753,
+      "y": 370,
+      "width": 44,
+      "height": 12
+    }
+  },
+  {
+    "id": 144,
+    "label": "Adobe Reader XI Icon",
+    "description": "A desktop shortcut for the Adobe Reader XI application.",
+    "coordinates": {
+      "x": 19,
+      "y": 550,
+      "width": 38,
+      "height": 14
+    }
+  },
+  {
+    "id": 145,
+    "label": "Code Value",
+    "description": "A numeric value '145' within the Python code, likely an argument or identifier.",
+    "coordinates": {
+      "x": 580,
+      "y": 574,
+      "width": 65,
+      "height": 9
+    }
+  },
+  {
+    "id": 146,
+    "label": "Pinned Taskbar Icon",
+    "description": "An application icon pinned to the taskbar, possibly for File Explorer or a similar file management tool.",
+    "coordinates": {
+      "x": 166,
+      "y": 756,
+      "width": 49,
+      "height": 12
+    }
+  },
+  {
+    "id": 147,
+    "label": "This PC Icon",
+    "description": "A desktop shortcut to 'This PC', providing access to drives and system folders.",
+    "coordinates": {
+      "x": 17,
+      "y": 256,
+      "width": 42,
+      "height": 14
+    }
+  },
+  {
+    "id": 148,
+    "label": "Partition Icon",
+    "description": "A desktop shortcut, likely representing a disk partition or drive.",
+    "coordinates": {
+      "x": 17,
+      "y": 173,
+      "width": 43,
+      "height": 14
+    }
+  },
+  {
+    "id": 149,
+    "label": "Pinned Taskbar Icon",
+    "description": "An application icon pinned to the taskbar, possibly for a calendar or scheduling application.",
+    "coordinates": {
+      "x": 257,
+      "y": 727,
+      "width": 41,
+      "height": 15
+    }
+  },
+  {
+    "id": 150,
+    "label": "System Time",
+    "description": "Displays the current time (15:57) in the taskbar.",
+    "coordinates": {
+      "x": 1280,
+      "y": 728,
+      "width": 44,
+      "height": 14
+    }
+  },
+  {
+    "id": 151,
+    "label": "Menu Item: View",
+    "description": "A menu option in the VS Code editor, controlling the visibility and layout of UI elements.",
+    "coordinates": {
+      "x": 295,
+      "y": 23,
+      "width": 35,
+      "height": 18
+    }
+  },
+  {
+    "id": 152,
+    "label": "Pinned Taskbar Icon",
+    "description": "An application icon pinned to the taskbar, resembling a video conferencing or communication app (e.g., Microsoft Teams).",
+    "coordinates": {
+      "x": 665,
+      "y": 734,
+      "width": 28,
+      "height": 23
+    }
+  },
+  {
+    "id": 153,
+    "label": "Network Icon",
+    "description": "A desktop shortcut to network settings or connections.",
+    "coordinates": {
+      "x": 14,
+      "y": 354,
+      "width": 48,
+      "height": 14
+    }
+  },
+  {
+    "id": 154,
+    "label": "HP Icon",
+    "description": "A desktop shortcut, likely for an HP utility, support application, or folder.",
+    "coordinates": {
+      "x": 14,
+      "y": 158,
+      "width": 49,
+      "height": 14
+    }
+  },
+  {
+    "id": 155,
+    "label": "Menu Item: Help",
+    "description": "A menu option in the VS Code editor, providing access to documentation, tutorials, and support.",
+    "coordinates": {
+      "x": 474,
+      "y": 23,
+      "width": 34,
+      "height": 21
+    }
+  },
+  {
+    "id": 156,
+    "label": "Text: Reader XI",
+    "description": "Part of the label for the Adobe Reader XI desktop shortcut.",
+    "coordinates": {
+      "x": 12,
+      "y": 565,
+      "width": 52,
+      "height": 14
+    }
+  },
+  {
+    "id": 157,
+    "label": "Code Value",
+    "description": "A numeric value '1' within the Python code, likely an array index or a specific value.",
+    "coordinates": {
+      "x": 608,
+      "y": 460,
+      "width": 62,
+      "height": 12
+    }
+  },
+  {
+    "id": 158,
+    "label": "Microsoft Edge Icon",
+    "description": "A desktop shortcut for the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 11,
+      "y": 648,
+      "width": 54,
+      "height": 14
+    }
+  },
+  {
+    "id": 159,
+    "label": "Desktop Separator",
+    "description": "A vertical line on the desktop, possibly part of a widget or a visual divider.",
+    "coordinates": {
+      "x": 97,
+      "y": 403,
+      "width": 18,
+      "height": 42
+    }
+  },
+  {
+    "id": 160,
+    "label": "Speaker Icon",
+    "description": "A system tray icon indicating volume control or audio status.",
+    "coordinates": {
+      "x": 1250,
+      "y": 748,
+      "width": 79,
+      "height": 10
+    }
+  },
+  {
+    "id": 161,
+    "label": "Back Arrow Icon",
+    "description": "Navigation icon to go back in the editor's history or view.",
+    "coordinates": {
+      "x": 931,
+      "y": 87,
+      "width": 68,
+      "height": 12
+    }
+  },
+  {
+    "id": 162,
+    "label": "Language Indicator: ENG IN",
+    "description": "Indicates the current input language and region (English, India) on the taskbar.",
+    "coordinates": {
+      "x": 1102,
+      "y": 727,
+      "width": 33,
+      "height": 26
+    }
+  },
+  {
+    "id": 163,
+    "label": "Microsoft Store Icon",
+    "description": "Taskbar icon to access the Microsoft Store application.",
+    "coordinates": {
+      "x": 702,
+      "y": 734,
+      "width": 36,
+      "height": 24
+    }
+  },
+  {
+    "id": 164,
+    "label": "Microsoft Edge Icon (Taskbar)",
+    "description": "Taskbar icon to launch the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 789,
+      "y": 732,
+      "width": 36,
+      "height": 25
+    }
+  },
+  {
+    "id": 165,
+    "label": "Google Chrome Icon (Taskbar)",
+    "description": "Taskbar icon to launch the Google Chrome web browser.",
+    "coordinates": {
+      "x": 748,
+      "y": 733,
+      "width": 38,
+      "height": 24
+    }
+  },
+  {
+    "id": 166,
+    "label": "Forward Arrow Icon",
+    "description": "Navigation icon to go forward in the editor's history or view.",
+    "coordinates": {
+      "x": 932,
+      "y": 99,
+      "width": 67,
+      "height": 14
+    }
+  },
+  {
+    "id": 167,
+    "label": "Microsoft Edge Icon",
+    "description": "Desktop shortcut to launch the Microsoft Edge web browser.",
+    "coordinates": {
+      "x": 20,
+      "y": 599,
+      "width": 41,
+      "height": 24
+    }
+  },
+  {
+    "id": 168,
+    "label": "Text: Terminal",
+    "description": "Menu item to open or manage terminal instances in VS Code.",
+    "coordinates": {
+      "x": 410,
+      "y": 23,
+      "width": 55,
+      "height": 18
+    }
+  },
+  {
+    "id": 169,
+    "label": "Opera GX Icon",
+    "description": "Taskbar icon to launch the Opera GX web browser.",
+    "coordinates": {
+      "x": 828,
+      "y": 733,
+      "width": 42,
+      "height": 24
+    }
+  },
+  {
+    "id": 170,
+    "label": "Text: Explorer",
+    "description": "Title of the file explorer panel in VS Code.",
+    "coordinates": {
+      "x": 172,
+      "y": 59,
+      "width": 52,
+      "height": 20
+    }
+  },
+  {
+    "id": 171,
+    "label": "Text: Selection",
+    "description": "Menu item for text selection options in VS Code.",
+    "coordinates": {
+      "x": 227,
+      "y": 23,
+      "width": 59,
+      "height": 18
+    }
+  },
+  {
+    "id": 172,
+    "label": "Text: Recycle Bin",
+    "description": "Text label for the Recycle Bin desktop icon.",
+    "coordinates": {
+      "x": 7,
+      "y": 452,
+      "width": 63,
+      "height": 17
+    }
+  },
+  {
+    "id": 173,
+    "label": "Network Icon",
+    "description": "Desktop shortcut to access network settings or resources.",
+    "coordinates": {
+      "x": 21,
+      "y": 314,
+      "width": 40,
+      "height": 28
+    }
+  },
+  {
+    "id": 174,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 18,
+      "y": 211,
+      "width": 40,
+      "height": 28
+    }
+  },
+  {
+    "id": 175,
+    "label": "Text: Planning",
+    "description": "A label or status indicator, possibly related to a task or workflow step.",
+    "coordinates": {
+      "x": 1061,
+      "y": 679,
+      "width": 63,
+      "height": 18
+    }
+  },
+  {
+    "id": 176,
+    "label": "Google Chrome Icon",
+    "description": "Desktop shortcut to launch the Google Chrome web browser.",
+    "coordinates": {
+      "x": 118,
+      "y": 87,
+      "width": 36,
+      "height": 32
+    }
+  },
+  {
+    "id": 177,
+    "label": "Folder Icon: bridge",
+    "description": "Represents a collapsed folder named 'bridge' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 219,
+      "width": 68,
+      "height": 18
+    }
+  },
+  {
+    "id": 178,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 16,
+      "y": 18,
+      "width": 43,
+      "height": 29
+    }
+  },
+  {
+    "id": 179,
+    "label": "Folder Icon: tests",
+    "description": "Represents a collapsed folder named 'tests' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 395,
+      "width": 70,
+      "height": 18
+    }
+  },
+  {
+    "id": 180,
+    "label": "Text: Generating",
+    "description": "Status indicator showing that a process is currently generating something.",
+    "coordinates": {
+      "x": 1027,
+      "y": 535,
+      "width": 71,
+      "height": 20
+    }
+  },
+  {
+    "id": 181,
+    "label": "Folder Icon: microgravity",
+    "description": "Represents a collapsed folder named 'microgravity' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 263,
+      "width": 80,
+      "height": 18
+    }
+  },
+  {
+    "id": 182,
+    "label": "Microphone Icon (Taskbar)",
+    "description": "Indicates microphone status or allows access to microphone settings on the taskbar.",
+    "coordinates": {
+      "x": 118,
+      "y": 114,
+      "width": 36,
+      "height": 40
+    }
+  },
+  {
+    "id": 183,
+    "label": "VS Code Icon (Taskbar)",
+    "description": "Active icon for Visual Studio Code on the Windows taskbar.",
+    "coordinates": {
+      "x": 611,
+      "y": 727,
+      "width": 50,
+      "height": 30
+    }
+  },
+  {
+    "id": 184,
+    "label": "Folder Icon: .microgravity",
+    "description": "Represents a collapsed folder named '.microgravity' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 110,
+      "width": 94,
+      "height": 16
+    }
+  },
+  {
+    "id": 185,
+    "label": "Text: Walkthrough Fixing Live Stream Connection",
+    "description": "Title of the currently open tab/document in VS Code.",
+    "coordinates": {
+      "x": 703,
+      "y": 54,
+      "width": 194,
+      "height": 8
+    }
+  },
+  {
+    "id": 186,
+    "label": "Text: Gemini 3.1 Pro",
+    "description": "Indicates the version or model of Gemini being used or referenced.",
+    "coordinates": {
+      "x": 1133,
+      "y": 679,
+      "width": 102,
+      "height": 16
+    }
+  },
+  {
+    "id": 187,
+    "label": "Folder Icon: case",
+    "description": "Represents a collapsed folder named 'case' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 241,
+      "width": 91,
+      "height": 18
+    }
+  },
+  {
+    "id": 188,
+    "label": "This PC Icon",
+    "description": "Desktop shortcut to open 'This PC' (File Explorer).",
+    "coordinates": {
+      "x": 16,
+      "y": 209,
+      "width": 44,
+      "height": 39
+    }
+  },
+  {
+    "id": 189,
+    "label": "Dropdown: Collapse all",
+    "description": "Dropdown menu to collapse all expandable sections in the current panel.",
+    "coordinates": {
+      "x": 1191,
+      "y": 123,
+      "width": 87,
+      "height": 20
+    }
+  },
+  {
+    "id": 190,
+    "label": "File Explorer Icon",
+    "description": "Taskbar icon to launch the Windows File Explorer application.",
+    "coordinates": {
+      "x": 866,
+      "y": 734,
+      "width": 57,
+      "height": 34
+    }
+  },
+  {
+    "id": 191,
+    "label": "Folder Icon",
+    "description": "An empty folder icon on the desktop.",
+    "coordinates": {
+      "x": 13,
+      "y": 11,
+      "width": 50,
+      "height": 39
+    }
+  },
+  {
+    "id": 192,
+    "label": "Recycle Bin Icon",
+    "description": "Desktop icon representing the Recycle Bin.",
+    "coordinates": {
+      "x": 17,
+      "y": 399,
+      "width": 42,
+      "height": 47
+    }
+  },
+  {
+    "id": 193,
+    "label": "Code Comment: # Pass 1: OVERVIEW",
+    "description": "A comment in the code indicating the start of 'Pass 1: OVERVIEW'.",
+    "coordinates": {
+      "x": 481,
+      "y": 336,
+      "width": 126,
+      "height": 16
+    }
+  },
+  {
+    "id": 194,
+    "label": "Vertical Scrollbar",
+    "description": "Allows scrolling vertically through the content of the panel.",
+    "coordinates": {
+      "x": 1001,
+      "y": 172,
+      "width": 10,
+      "height": 202
+    }
+  },
+  {
+    "id": 195,
+    "label": "Text: Review Changes",
+    "description": "A button or link to review changes, likely in a version control context.",
+    "coordinates": {
+      "x": 1169,
+      "y": 607,
+      "width": 117,
+      "height": 18
+    }
+  },
+  {
+    "id": 196,
+    "label": "Group of Action Icons",
+    "description": "A group of small icons, possibly for actions like copy, open in browser, or other utilities related to the output.",
+    "coordinates": {
+      "x": 1035,
+      "y": 603,
+      "width": 93,
+      "height": 23
+    }
+  },
+  {
+    "id": 197,
+    "label": "Folder Icon: swarm",
+    "description": "Represents a collapsed folder named 'swarm' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 285,
+      "width": 111,
+      "height": 20
+    }
+  },
+  {
+    "id": 198,
+    "label": "File Icon: .dockerignore",
+    "description": "Represents a file named '.dockerignore' in the VS Code explorer.",
+    "coordinates": {
+      "x": 183,
+      "y": 505,
+      "width": 108,
+      "height": 21
+    }
+  },
+  {
+    "id": 199,
+    "label": "Folder Icon: test_vector_ws",
+    "description": "Represents a collapsed folder named 'test_vector_ws' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 351,
+      "width": 125,
+      "height": 20
+    }
+  },
+  {
+    "id": 200,
+    "label": "Folder Icon: temp_vision",
+    "description": "Represents a collapsed folder named 'temp_vision' in the VS Code explorer.",
+    "coordinates": {
+      "x": 169,
+      "y": 307,
+      "width": 127,
+      "height": 20
+    }
+  },
+  {
+    "id": 201,
+    "label": "Desktop Icon: Network",
+    "description": "An icon representing the Network access point, allowing users to browse network resources.",
+    "coordinates": {
+      "x": 13,
+      "y": 300,
+      "width": 50,
+      "height": 51
+    }
+  },
+  {
+    "id": 202,
+    "label": "Editor Tab: Open Agent Manager",
+    "description": "A tab displaying the title of another open file or view, likely related to an agent management interface.",
+    "coordinates": {
+      "x": 918,
+      "y": 51,
+      "width": 95,
+      "height": 27
+    }
+  },
+  {
+    "id": 203,
+    "label": "Walkthrough Description Text",
+    "description": "Descriptive text providing context or details about the current walkthrough section, specifically 'a full-screen overview.'",
+    "coordinates": {
+      "x": 468,
+      "y": 126,
+      "width": 144,
+      "height": 18
+    }
+  },
+  {
+    "id": 204,
+    "label": "Desktop Icon: Adobe Reader XI",
+    "description": "An icon representing the Adobe Reader XI application, used for viewing PDF documents.",
+    "coordinates": {
+      "x": 10,
+      "y": 498,
+      "width": 51,
+      "height": 51
+    }
+  },
+  {
+    "id": 205,
+    "label": "Explorer File: COMMUNICATION.md",
+    "description": "A Markdown file named 'COMMUNICATION.md' in the file explorer sidebar, likely containing communication guidelines or documentation.",
+    "coordinates": {
+      "x": 184,
+      "y": 638,
+      "width": 158,
+      "height": 17
+    }
+  },
+  {
+    "id": 206,
+    "label": "Desktop Icon: Microsoft Edge",
+    "description": "An icon representing the Microsoft Edge web browser application.",
+    "coordinates": {
+      "x": 10,
+      "y": 595,
+      "width": 52,
+      "height": 52
+    }
+  },
+  {
+    "id": 207,
+    "label": "Explorer Folder: pytest_cache",
+    "description": "A folder named 'pytest_cache' in the file explorer sidebar, likely containing cached data for pytest.",
+    "coordinates": {
+      "x": 169,
+      "y": 153,
+      "width": 129,
+      "height": 21
+    }
+  },
+  {
+    "id": 208,
+    "label": "Explorer Folder: test_workspace",
+    "description": "A folder named 'test_workspace' in the file explorer sidebar, likely containing general test files or a test environment.",
+    "coordinates": {
+      "x": 169,
+      "y": 373,
+      "width": 130,
+      "height": 21
+    }
+  },
+  {
+    "id": 209,
+    "label": "Desktop Folder Icon: Aryan proble",
+    "description": "An icon representing a folder named 'Aryan proble' on the desktop.",
+    "coordinates": {
+      "x": 118,
+      "y": 165,
+      "width": 36,
+      "height": 76
+    }
+  },
+  {
+    "id": 210,
+    "label": "Desktop Icon: MiniTool Partition Wizard",
+    "description": "An icon representing the MiniTool Partition Wizard application, used for disk partition management.",
+    "coordinates": {
+      "x": 10,
+      "y": 104,
+      "width": 53,
+      "height": 53
+    }
+  },
+  {
+    "id": 211,
+    "label": "Explorer Folder: ui_agent_engine",
+    "description": "A folder named 'ui_agent_engine' in the file explorer sidebar, likely containing files for a UI agent engine.",
+    "coordinates": {
+      "x": 169,
+      "y": 417,
+      "width": 136,
+      "height": 21
+    }
+  },
+  {
+    "id": 212,
+    "label": "Button: Review",
+    "description": "A button labeled 'Review', likely used to review changes or a process.",
+    "coordinates": {
+      "x": 905,
+      "y": 85,
+      "width": 96,
+      "height": 30
+    }
+  },
+  {
+    "id": 213,
+    "label": "Status Bar Item: Planning",
+    "description": "A status bar item indicating the current state or activity is 'Planning'.",
+    "coordinates": {
+      "x": 1016,
+      "y": 702,
+      "width": 294,
+      "height": 10
+    }
+  },
+  {
+    "id": 214,
+    "label": "Walkthrough Description Text",
+    "description": "Descriptive text providing context or details about the current walkthrough section, specifically 'second pass (Closeup).'",
+    "coordinates": {
+      "x": 468,
+      "y": 252,
+      "width": 148,
+      "height": 21
+    }
+  },
+  {
+    "id": 215,
+    "label": "Code Line: live_streamer.set_roi(center_x, center_y, zoom_factor=2.5)",
+    "description": "A line of Python code calling a method to set the region of interest (ROI) for a live streamer with specified coordinates and zoom factor.",
+    "coordinates": {
+      "x": 534,
+      "y": 540,
+      "width": 203,
+      "height": 16
+    }
+  },
+  {
+    "id": 216,
+    "label": "Walkthrough Sub-section Title: Query in magnified view",
+    "description": "A sub-section title within the walkthrough, indicating a query operation performed in a magnified view.",
+    "coordinates": {
+      "x": 534,
+      "y": 618,
+      "width": 191,
+      "height": 18
+    }
+  },
+  {
+    "id": 217,
+    "label": "Option: Always run",
+    "description": "An option labeled 'Always run' associated with a task or process, indicating it should run automatically.",
+    "coordinates": {
+      "x": 1033,
+      "y": 99,
+      "width": 252,
+      "height": 14
+    }
+  },
+  {
+    "id": 218,
+    "label": "Explorer Folder: test_vector_workspace",
+    "description": "A folder named 'test_vector_workspace' in the file explorer sidebar, likely containing test files for a vector workspace.",
+    "coordinates": {
+      "x": 169,
+      "y": 329,
+      "width": 171,
+      "height": 21
+    }
+  },
+  {
+    "id": 219,
+    "label": "Windows Taskbar Icon: VS Code",
+    "description": "An icon on the Windows taskbar representing the Visual Studio Code application, indicating it is open or pinned.",
+    "coordinates": {
+      "x": 924,
+      "y": 725,
+      "width": 89,
+      "height": 41
+    }
+  },
+  {
+    "id": 220,
+    "label": "Explorer Folder: agent_memory",
+    "description": "A folder named 'agent_memory' in the file explorer sidebar, likely storing data related to agent memory.",
+    "coordinates": {
+      "x": 169,
+      "y": 175,
+      "width": 87,
+      "height": 43
+    }
+  },
+  {
+    "id": 221,
+    "label": "Menu Item: File",
+    "description": "A menu item in the application's top bar, typically containing options like New File, Open, Save, Exit.",
+    "coordinates": {
+      "x": 457,
+      "y": 51,
+      "width": 143,
+      "height": 27
+    }
+  },
+  {
+    "id": 222,
+    "label": "Code Line: height = bbox[2] - bbox[0]",
+    "description": "A line of Python code calculating the height using elements from the 'bbox' variable.",
+    "coordinates": {
+      "x": 508,
+      "y": 520,
+      "width": 209,
+      "height": 19
+    }
+  },
+  {
+    "id": 223,
+    "label": "Walkthrough Title: Walkthrough",
+    "description": "The main title of the current walkthrough document or guide.",
+    "coordinates": {
+      "x": 1043,
+      "y": 81,
+      "width": 232,
+      "height": 19
+    }
+  },
+  {
+    "id": 224,
+    "label": "Explorer Section: Timeline",
+    "description": "A section in the file explorer sidebar that typically shows the timeline of changes or events for the current project.",
+    "coordinates": {
+      "x": 209,
+      "y": 693,
+      "width": 245,
+      "height": 19
+    }
+  },
+  {
+    "id": 225,
+    "label": "Explorer Section: Outline",
+    "description": "A section in the file explorer sidebar that typically shows the outline or structure of the currently open file.",
+    "coordinates": {
+      "x": 203,
+      "y": 671,
+      "width": 251,
+      "height": 19
+    }
+  },
+  {
+    "id": 226,
+    "label": "Text Input Field: Ask anything, @ to mention, / for workflows",
+    "description": "An input field for typing queries, mentions, or commands for workflows, likely part of a chat or command palette.",
+    "coordinates": {
+      "x": 1033,
+      "y": 645,
+      "width": 259,
+      "height": 19
+    }
+  },
+  {
+    "id": 227,
+    "label": "Code Line: if \"bounding_box\" in prediction_result:",
+    "description": "A line of Python code checking for the existence of 'bounding_box' within a 'prediction_result' dictionary.",
+    "coordinates": {
+      "x": 482,
+      "y": 408,
+      "width": 261,
+      "height": 19
+    }
+  },
+  {
+    "id": 228,
+    "label": "Code Line: bbox = prediction_result[\"bounding_box\"]",
+    "description": "A line of Python code assigning the value of 'bounding_box' from 'prediction_result' to a variable named 'bbox'.",
+    "coordinates": {
+      "x": 507,
+      "y": 427,
+      "width": 270,
+      "height": 19
+    }
+  },
+  {
+    "id": 229,
+    "label": "Code Line: if (width < 60 or height < 60):",
+    "description": "A line of Python code representing a conditional statement that checks if either width or height is less than 60.",
+    "coordinates": {
+      "x": 507,
+      "y": 501,
+      "width": 290,
+      "height": 18
+    }
+  },
+  {
+    "id": 230,
+    "label": "Editor Tab: micro gravity - Copy - Antigravity - Walkthrough",
+    "description": "A tab displaying the title of the currently open file or walkthrough, indicating its path or context.",
+    "coordinates": {
+      "x": 543,
+      "y": 24,
+      "width": 264,
+      "height": 20
+    }
+  },
+  {
+    "id": 231,
+    "label": "Walkthrough Section Title: Live Implementation",
+    "description": "A section title within the walkthrough, detailing aspects of live implementation.",
+    "coordinates": {
+      "x": 469,
+      "y": 90,
+      "width": 254,
+      "height": 22
+    }
+  },
+  {
+    "id": 232,
+    "label": "Option: Always run",
+    "description": "An option labeled 'Always run' associated with a task or process, indicating it should run automatically.",
+    "coordinates": {
+      "x": 1062,
+      "y": 432,
+      "width": 204,
+      "height": 28
+    }
+  },
+  {
+    "id": 233,
+    "label": "Code Line: await live_streamer.send_prompt(closeup_prompt)",
+    "description": "A line of Python code asynchronously sending a 'closeup_prompt' via the 'live_streamer'.",
+    "coordinates": {
+      "x": 534,
+      "y": 637,
+      "width": 316,
+      "height": 19
+    }
+  },
+  {
+    "id": 234,
+    "label": "Explorer File: clean_remaining.py",
+    "description": "A Python script file named 'clean_remaining.py' in the file explorer sidebar.",
+    "coordinates": {
+      "x": 184,
+      "y": 592,
+      "width": 138,
+      "height": 44
+    }
+  },
+  {
+    "id": 235,
+    "label": "Windows Taskbar Search Box",
+    "description": "The search input field on the Windows taskbar, used to search for applications, files, or web content.",
+    "coordinates": {
+      "x": 390,
+      "y": 730,
+      "width": 215,
+      "height": 30
+    }
+  },
+  {
+    "id": 236,
+    "label": "Code Line: width = bbox[3] - bbox[1]",
+    "description": "A line of Python code calculating the width using elements from the 'bbox' variable.",
+    "coordinates": {
+      "x": 507,
+      "y": 447,
+      "width": 178,
+      "height": 38
+    }
+  },
+  {
+    "id": 237,
+    "label": "Explorer Folder: .microgravity",
+    "description": "A folder named '.microgravity' in the file explorer sidebar, likely containing project-specific files.",
+    "coordinates": {
+      "x": 155,
+      "y": 106,
+      "width": 301,
+      "height": 23
+    }
+  },
+  {
+    "id": 238,
+    "label": "Walkthrough Section Title: 1. The 2-Pass Logic (action_predictor.py)",
+    "description": "A section title within the walkthrough, explaining a two-pass logic implemented in 'action_predictor.py'.",
+    "coordinates": {
+      "x": 469,
+      "y": 174,
+      "width": 302,
+      "height": 24
+    }
+  },
+  {
+    "id": 239,
+    "label": "Window Control Button: Minimize",
+    "description": "A button to minimize the application window to the taskbar.",
+    "coordinates": {
+      "x": 1044,
+      "y": 19,
+      "width": 266,
+      "height": 29
+    }
+  },
+  {
+    "id": 240,
+    "label": "Window Control Button: Maximize/Restore Down",
+    "description": "A button to toggle the application window between maximized and a smaller, resizable state.",
+    "coordinates": {
+      "x": 1016,
+      "y": 51,
+      "width": 294,
+      "height": 27
+    }
+  },
+  {
+    "id": 241,
+    "label": "VS Code File Group",
+    "description": "A list of files and a folder (.gitignore) displayed in the VS Code Explorer, part of the project files.",
+    "coordinates": {
+      "x": 184,
+      "y": 526,
+      "width": 141,
+      "height": 66
+    }
+  },
+  {
+    "id": 242,
+    "label": "Windows Taskbar Search Box",
+    "description": "An input field on the Windows taskbar used to search for applications, files, and web content.",
+    "coordinates": {
+      "x": 345,
+      "y": 726,
+      "width": 270,
+      "height": 36
+    }
+  },
+  {
+    "id": 243,
+    "label": "VS Code Folder Group: ui_agent",
+    "description": "A group of folders related to UI agent development within the VS Code Explorer, including 'ui_agent_engine' and 'ui_agent_prototype'.",
+    "coordinates": {
+      "x": 169,
+      "y": 439,
+      "width": 160,
+      "height": 65
+    }
+  },
+  {
+    "id": 244,
+    "label": "Python Code Snippet (Pass 2)",
+    "description": "A block of Python code demonstrating the second pass, involving calculating a center and setting a region of interest with a zoom factor.",
+    "coordinates": {
+      "x": 533,
+      "y": 559,
+      "width": 389,
+      "height": 38
+    }
+  },
+  {
+    "id": 245,
+    "label": "Python Code Snippet (Pass 1)",
+    "description": "A block of Python code demonstrating the first pass of an interaction, involving sending a prompt and waiting for a response.",
+    "coordinates": {
+      "x": 481,
+      "y": 354,
+      "width": 388,
+      "height": 39
+    }
+  },
+  {
+    "id": 246,
+    "label": "VS Code Menu Item: File",
+    "description": "The 'File' menu in VS Code, providing options for file-related operations such as opening, saving, and creating new files.",
+    "coordinates": {
+      "x": 157,
+      "y": 51,
+      "width": 297,
+      "height": 54
+    }
+  },
+  {
+    "id": 247,
+    "label": "VS Code Explorer Sidebar",
+    "description": "The sidebar in Visual Studio Code displaying the file and folder structure of the open workspace.",
+    "coordinates": {
+      "x": 118,
+      "y": 245,
+      "width": 36,
+      "height": 466
+    }
+  },
+  {
+    "id": 248,
+    "label": "VS Code Chat/Input Field",
+    "description": "An input field within VS Code for interacting with an AI assistant or workflow system, allowing users to type queries or commands.",
+    "coordinates": {
+      "x": 1022,
+      "y": 630,
+      "width": 284,
+      "height": 76
+    }
+  },
+  {
+    "id": 249,
+    "label": "Walkthrough Text Description",
+    "description": "A descriptive text block explaining the '2-Pass Logic' and the functionality of the '_query_live_api' method in the context of a walkthrough.",
+    "coordinates": {
+      "x": 469,
+      "y": 206,
+      "width": 501,
+      "height": 45
+    }
+  },
+  {
+    "id": 250,
+    "label": "VS Code Menu Bar",
+    "description": "The main menu bar of Visual Studio Code, containing standard application menus like File, Edit, View, etc.",
+    "coordinates": {
+      "x": 118,
+      "y": 19,
+      "width": 908,
+      "height": 29
+    }
+  },
+  {
+    "id": 251,
+    "label": "VS Code Output Console Text",
+    "description": "Text displayed in an output console or log panel within VS Code, showing status messages and process initiation.",
+    "coordinates": {
+      "x": 1062,
+      "y": 281,
+      "width": 204,
+      "height": 148
+    }
+  },
+  {
+    "id": 252,
+    "label": "VS Code Window Title Bar",
+    "description": "The top bar of the VS Code window, displaying the current project/file name and other open tabs or views.",
+    "coordinates": {
+      "x": 456,
+      "y": 54,
+      "width": 558,
+      "height": 65
+    }
+  },
+  {
+    "id": 253,
+    "label": "VS Code Panel Header: Progress Updates",
+    "description": "A header for a panel in VS Code that displays progress updates, with an option to collapse all entries.",
+    "coordinates": {
+      "x": 1033,
+      "y": 116,
+      "width": 252,
+      "height": 400
+    }
+  },
+  {
+    "id": 254,
+    "label": "VS Code Folder: .microgravity",
+    "description": "A folder named '.microgravity' listed in the VS Code Explorer, part of the project structure.",
+    "coordinates": {
+      "x": 157,
+      "y": 131,
+      "width": 297,
+      "height": 537
+    }
+  },
+  {
+    "id": 255,
+    "label": "VS Code Walkthrough Tab Title",
+    "description": "The title of the active tab in the VS Code window, indicating the topic of the walkthrough as 'Fixing Live Stream Connection'.",
+    "coordinates": {
+      "x": 1016,
+      "y": 81,
+      "width": 294,
+      "height": 553
+    }
+  },
+  {
+    "id": 256,
+    "label": "Unknown/Unlabeled",
+    "description": "N/A",
+    "coordinates": {
+      "x": 471,
+      "y": 294,
+      "width": 513,
+      "height": 395
+    }
+  },
+  {
+    "id": 257,
+    "label": "Walkthrough Section Header: Live Implementation",
+    "description": "A header for a section within a walkthrough document, indicating 'Live Implementation' and a timestamp.",
+    "coordinates": {
+      "x": 456,
+      "y": 122,
+      "width": 558,
+      "height": 591
+    }
+  },
+  {
+    "id": 258,
+    "label": "Desktop Text Label: HP",
+    "description": "A text label on the desktop, likely indicating a folder or shortcut related to HP.",
+    "coordinates": {
+      "x": 0,
+      "y": 8,
+      "width": 1366,
+      "height": 715
+    }
+  }
+]

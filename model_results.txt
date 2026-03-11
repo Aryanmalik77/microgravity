@@ -1,0 +1,6 @@
+API Key present: True
+
+--- Testing with client: default ---
+  [FAIL] gemini-1.5-flash: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API vers
+  [FAIL] gemini-1.5-flash-latest: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-latest is not found for A
+  [FAIL] gemini-2.0-flash-exp: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API 
