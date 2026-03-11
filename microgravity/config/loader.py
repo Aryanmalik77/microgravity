@@ -8,9 +8,16 @@ from microgravity.config.schema import Config
 
 def get_config_path() -> Path:
     """Get the default configuration file path."""
+    # Priority 1: .microgravity/config.json in project root
+    local_dot_config = Path.cwd() / ".microgravity" / "config.json"
+    if local_dot_config.exists():
+        return local_dot_config
+        
+    # Priority 2: config.json in project root
     local_config = Path.cwd() / "config.json"
     if local_config.exists():
         return local_config
+        
     return Path.home() / ".microgravity" / "config.json"
 
 
