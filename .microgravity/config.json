@@ -18,7 +18,7 @@
     },
     "telegram": {
       "enabled": true,
-      "token": "8539380344:AAEslkL2Jp5OEnHjld9cNY7Ss3XZwc_3wes",
+      "token": "YOUR_TELEGRAM_TOKEN_HERE",
       "allowFrom": [],
       "proxy": null,
       "replyToMessage": false
@@ -164,7 +164,7 @@
       "extraHeaders": null
     },
     "gemini": {
-      "apiKey": "AIzaSyAE9jSyXxqMpQxCdZ3zJ8SJ9DXWw4wALaw",
+      "apiKey": "YOUR_GEMINI_API_KEY_HERE",
       "apiBase": null,
       "extraHeaders": null
     },
